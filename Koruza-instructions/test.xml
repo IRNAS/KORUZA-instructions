@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<name>KORUZA</name>
+	<module>
+		<name>Manufacturing</name>
+		<steps>
+			<step>
+				<text>Most of the costume made parts used in the KORUZA system are 3D printed, using affordable 3D printers. While those parts are already included in the DIY kit, one can print them out on its own as well. Note that most of the parts need additional treatment to achieve optimal fit and precision. DIY kit parts need additional treatment as well!</text>
+				<images>
+					<image>img/manufacturing1.jpg</image>
+				</images>	
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text> For each 3D printed part you can find enclosed stl file and appropriate printer settings, tested on open-source TrubleMaker printer. Shell thickness, bottom/top thickness and fill density settings are applicable for other 3D printers as well, while other may wary depending on the printer used. By default shell and bottom/top thickness are set to 2mm and fill density to 20% for all parts.</text>
+				<images>
+					<image>img/manufacturing2.jpg</image>
+					<image>img/manufacturing2a.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text> Some parts need additional treatment. Follow the instructions carefully to achieve optimal fit for later assembly. Parts included in DIY kit do not need any additional treatment.</text>
+				<images>
+					<image>img/manufacturing3.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>SFP module sleeve: Check if the small PCB - SFP extension plug (E-3), fits in the SFP module sleeve. Also check if the SFP module sleeve fits in the media converter. In the case it does not, check printer settings and reprint the part.</text>
+				<images>
+					<image>img/M-P1.jpg</image>
+					<image>img/M-P1-1.jpg</image>
+				</images>
+				<parts>
+					<part>SFP module sleeve (M-P1)</part>
+					<part>SFP extension plug (E-3)</part>
+					<part>Media converter (E-13)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>SFP mount: Re-drill four holes with 11mm drill or reamer. Check if the sliding bushing (M-O6) fits into the holes and that the metal rod (M-O2) slides trough each hole easily. </text>
+				<images>
+					<image>img/M-P2.jpg</image>
+					<image>img/M-P2-1.jpg</image>
+					<image>img/M-P2-2.jpg</image>
+				</images>
+				<parts>
+					<part>SFP mount (M-P2)</part>
+					<part>Stainless steel rod (M-O2)</part>
+					<part>Sliding bushing (M-O6)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>SFP mount: Re-drill two front small holes with 3mm drill. Do not re-drill other eight holes!</text>
+				<images>
+					<image>img/M-P2-a.jpg</image>
+					<image>img/M-P2-b.jpg</image>
+				</images>
+				<parts>
+					<part>SFP mount (M-P2)</part>
+					<part>Stainless steel rod (M-O2)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>SFP spring mount: Re-drill two holes with 8.1mm drill or reamer. Check that the metal rod (M-O2) slides trough each hole easily.</text>
+				<images>
+					<image>img/M-P3.jpg</image>
+					<image>img/M-P3-1.jpg</image>
+				</images>
+				<parts>
+					<part>SFP spring mount (M-P3)</part>
+					<part>Stainless steel rod (M-O2)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>SFP spring mount: Re-drill the middle hole with 4mm drill.</text>
+				<images>
+					<image>img/M-P3.jpg</image>
+					<image>img/M-P3-2.jpg</image>
+				</images>
+				<parts>
+					<part>SFP spring mount (M-P3)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Ring outer: Re-drill all nine holes with 3mm drill.</text>
+				<images>
+					<image>img/M-P4.jpg</image>
+					<image>img/M-P4-1.jpg</image>
+				</images>
+				<parts>
+					<part>Ring outer (M-P4)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Ring inner: Re-drill nine holes on the top with 3mm drill. Drill four side holes with 4mm drill.</text>
+				<images>
+					<image>img/M-P5.jpg</image>
+					<image>img/M-P5-1.jpg</image>
+					<image>img/M-P5-2.jpg</image>
+				</images>
+				<parts>
+					<part>Ring inner (M-P5)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Lens mount outer: Re-drill nine holes with 3mm drill. Re-drill four holes with 8.1mm drill, be careful not to drill them trough the part.</text>
+				<images>
+					<image>img/M-P6.jpg</image>
+					<image>img/M-P6-1.jpg</image>
+				</images>
+				<parts>
+					<part>Lens mount outer (M-P6)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Lens mount: Re-drill nine holes with 3mm drill. User a drill or a reamer for the 12mm hole. Re-drill four holes with 8.1mm drill.</text>
+				<images>
+					<image>img/M-P7.jpg</image>
+					<image>img/M-P7-1.jpg</image>
+				</images>
+				<parts>
+					<part>Lens mount (M-P7)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Lens mount: User a drill or a reamer for the 12mm hole. Check that the green laser (E-9) fits trough the hole.</text>
+				<images>
+					<image>img/M-P7.jpg</image>
+				</images>
+				<parts>
+					<part>Lens mount (M-P7)</part>
+					<part>Green laser (E-9)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Lens mount: Re-drill four holes with 8.1mm drill. Check that the metal rod (M-O2) slides trough each hole easily.</text>
+				<images>
+					<image>img/M-P7.jpg</image>
+				</images>
+				<parts>
+					<part>Lens mount (M-P7)</part>
+					<part>Metal rod (M-O2)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Laser mount: Re-drill nine holes on the bottom, two on the sides and two on the top with 3mm drill.</text>
+				<images>
+					<image>img/M-P8.jpg</image>
+					<image>img/M-P8-a.jpg</image>
+					<image>img/M-P8-1.jpg</image>
+				</images>
+				<parts>
+					<part>Laser mount (M-P8)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Laser mount: Re-drill four holes with 8.1mm drill or reamer. Check that the metal rod (M-O2) slides trough each hole easily.</text>
+				<images>
+					<image>img/M-P8.jpg</image>
+					<image>img/M-P8-2.jpg</image>
+					<image>img/M-P8-3.jpg</image>
+				</images>
+				<parts>
+					<part>Laser mount (M-P8)</part>
+					<part>Metal rod (M-O2)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Wedge left and right: Re-drill a hole in both parts with 3mm drill.</text>
+				<images>
+					<image>img/M-P9.jpg</image>
+					<image>img/M-P9-1.jpg</image>
+				</images>
+				<parts>
+					<part>Wedge left (M-P9)</part>
+					<part>Wedge right (M-P10)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>MC mount: Re-drill two holes with 8.1mm drill or reamer. Check that the metal rod (M-O2) slides trough both holes easily.</text>
+				<images>
+					<image>img/M-P12.jpg</image>
+					<image>img/M-P12-1.jpg</image>
+					<image>img/M-P12-2.jpg</image>
+				</images>
+				<parts>
+					<part>MC mount (M-P12)</part>
+					<part>Metal rod (M-O2)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Motor mount: Re-drill 4 holes with 8.1mm drill or reamer. Check that the metal rod (M-O2) slides trough each holes easily.</text>
+				<images>
+					<image>img/M-P13.jpg</image>
+					<image>img/M-P13-1.jpg</image>
+					<image>img/M-P13-2.jpg</image>
+				</images>
+				<parts>
+					<part>Motor mount (M-P13)</part>
+					<part>Metal rod (M-O2)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Inner SFP mount: Re-drill 8 holes with 3mm drill.</text>
+				<images>
+					<image>img/M-P14.jpg</image>
+				</images>
+				<parts>
+					<part>Inner SFP mount (M-P14)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Inner SFP mount: Check that the SFP module (E-8) fits into the provided slot.</text>
+				<images>
+					<image>img/M-P14.jpg</image>
+				</images>
+				<parts>
+					<part>Inner SFP mount (M-P14)</part>
+					<part>SFP module (E-8)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Lid: Re-drill two holes with 3mm drill.</text>
+				<images>
+					<image>img/M-P15.jpg</image>
+					<image>img/M-P15-a.jpg</image>
+				</images>
+				<parts>
+					<part>Lid (M-P15)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Bracket: Re-drill both holes in each bracket with 3mm drill.</text>
+				<images>
+					<image>img/M-P16.jpg</image>
+					<image>img/M-P16-1.jpg</image>
+				</images>
+				<parts>
+					<part>Bracket (M-P16)</part>
+				</parts>
+				<video>video/vid1.mp4</video>
+			</step>
+		</steps>
+	</module>
+	<module>
+		<name>Electronics</name>
+		<steps>
+			<step>
+				<text>Several electronic components implement the main functions of the system and monitor its performance. The electronics consist of five micro-controllers and a RaspberyPi unit. They control movements of the unit carried out by three motors, used to achieved optimal alignment, monitor power supply, performance of the SFP and media converter.</text>
+				<images>
+					<image>img/ES1.jpg</image>
+					<image>img/ES1-a.jpg</image>
+					<image>img/ES1-b.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>First we assemble the control electronics. You need to prepare the power module PCB (E-1), Raspberry pi shield (E-2) and the Raspberry Pi 2B microcomputer (E-6).</text>
+				<images>
+					<image>img/ES1.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Power module PCB (E-1)</part>
+					<part>Raspberry pi shield (E-2)</part>
+					<part>Raspberry Pi 2B microcomputer (E-6)</part>
+				</parts>
+			</step>
+		</steps>
+	</module>
+</project>

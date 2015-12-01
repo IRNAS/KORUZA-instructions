@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="page">
+
+	<div id="step">
+	
+		<div id="title">
+			<h1 id="title1"></h1>
+			<h2 id="title2"></h2>
+		</div>
+		
+		<div id="instPage">
+		
+			<div id="vidPage">
+		
+				<video id="stepVideo" width="500"controls></video>
+				
+				<div id="buttonPage">
+				
+
+					<img id="button1" onclick="loadXMLSecP()" src="prev_section.png">
+					<img id="button2" onclick="loadXMLTextP()" src="prev_step.png">
+					<img id="button4" onclick="loadXMLSecN()" src="next_section.png">
+					<img id="button3" onclick="loadXMLTextN()" src="next_step.png">
+					
+				</div>
+				
+				<p id="test1"></p>
+				<p id="test2"></p>
+			
+			</div>
+			
+			<div id="rPage">
+			
+				<div id="textPage">
+					<p id="inst"></p>
+
+					<p id="parts"></p>
+				</div>
+
+				<div id="imgPage">
+				
+					<div id="imgWrap">
+						<img id="stepImage">
+					</div>
+					
+					<div id="smImg">
+
+						<img id="stepImage1" onclick="changePhoto(this.id)">
+						<img id="stepImage2" onclick="changePhoto(this.id)">
+						<img id="stepImage3" onclick="changePhoto(this.id)">
+					
+					</div>
+
+				</div>
+			</div>
+
+			
+		
+		</div>
+
+	</div>
+	
+	<div id="menuPage">
+		<h3 id="menuTitle"></h3>
+		<div id="menuScrol">
+			<ul id="menu"></ul>
+		</div>
+	</div>
+
+</div>
+
+<script>
+
+
+
+var i = 0; //step variable
+var s = 0; //section variable
+var x, y, steplen, seclen, txt, j, k, l, m, secname;
+var sec = [];
+
+// Initial xml call
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+    myFunction(xhttp);
+    }
+};
+xhttp.open("GET", "test.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+	var txt, imtxt, imlen;
+    var xmlDoc = xml.responseXML;
+	//Title
+    document.getElementById("title1").innerHTML =
+    xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+	
+	//menu title
+	document.getElementById("menuTitle").innerHTML =
+    xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+	
+	//Instruction text
+	document.getElementById("inst").innerHTML =
+    xmlDoc.getElementsByTagName("step")[0].getElementsByTagName("text")[0].childNodes[0].nodeValue;
+	
+	//Number of steps
+	x = xmlDoc.getElementsByTagName("step");
+	steplen = x.length;
+	
+	//Number of sections
+	seclen = xmlDoc.getElementsByTagName("module").length;
+	
+	//Get number of steps in each section
+	sec[0] = 0;
+	for(j = 1; j < seclen; j++ ){
+		sec[j] = sec[j-1] + xmlDoc.getElementsByTagName("module")[j-1].getElementsByTagName("steps")[0].getElementsByTagName("step").length;
+		
+	}
+	
+	
+	//Step parts
+	if( xmlDoc.getElementsByTagName("step")[0].getElementsByTagName("parts")[0]){
+		txt = "";
+		y = xmlDoc.getElementsByTagName("parts")[0].getElementsByTagName("part");
+		for (j = 0; j < y.length; j++) { 
+			
+			txt += y[j].childNodes[0].nodeValue + "<br>";
+		}
+		document.getElementById("parts").innerHTML = txt;
+	}
+	else{
+	txt="";
+	document.getElementById("parts").innerHTML = txt;
+	}
+	
+	//Image
+	imtxt = "";
+	imtxt = xmlDoc.getElementsByTagName("step")[0].getElementsByTagName("images")[0].getElementsByTagName("image")[0].childNodes[0].nodeValue;
+	var image = document.getElementById('stepImage');
+	image.src = imtxt;
+	
+	//Small images
+	imlen = xmlDoc.getElementsByTagName("step")[0].getElementsByTagName("images")[0].getElementsByTagName("image").length;
+	for (j = 0; j < imlen; j++){
+		imtxt = "";
+		txt = 'stepImage';
+		txt += j+1;
+		
+			imtxt = xmlDoc.getElementsByTagName("step")[0].getElementsByTagName("images")[0].getElementsByTagName("image")[j].childNodes[0].nodeValue;
+			image = document.getElementById(txt);
+			image.src = imtxt;
+	}
+
+	//Video
+	imtxt = "";
+	imtxt = xmlDoc.getElementsByTagName("step")[0].getElementsByTagName("video")[0].childNodes[0].nodeValue;
+	var video = document.getElementById('stepVideo');
+	video.src = imtxt;
+	
+	//Menu
+	//Loop trough sections
+	for(k = 0; k < seclen; k++){
+		//Get the section name
+		secname = xmlDoc.getElementsByTagName("module")[k].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+		//Create new element in menu
+		var nodeli = document.createElement("li");
+		var textnode = document.createTextNode(secname);
+		nodeli.appendChild(textnode);
+		nodeli.id = k + "s";
+		// Add on click destination
+		
+		//Append to the menue
+		document.getElementById("menu").appendChild(nodeli);
+		
+		//For each section create sub-menue
+		var nodeul = document.createElement("ul");
+		
+		ids = "sec"+k;
+		nodeul.id = ids;
+		//Loop trough steps
+		for(l = 0; l < xmlDoc.getElementsByTagName("module")[k].getElementsByTagName("steps")[0].getElementsByTagName("step").length; l++ ){
+			j = sec[k] + l;
+			var node1 = document.createElement("li");
+			var textnode = document.createTextNode("Step" + " " + j);
+			node1.appendChild(textnode);
+			node1.id = j;
+			// Add on click destination
+			node1.onclick = function() {
+				
+				GoToStep(this.id);
+				
+			};
+			nodeul.appendChild(node1);
+		
+		}
+		document.getElementById("menu").appendChild(nodeul);
+		nodeul.style.display = "none";
+		
+		nodeli.onclick = function() {
+			ids = "sec"+this.id.charAt(0);
+			GoTo(this.id.charAt(0));
+			openList(ids);
+		};
+	
+	}
+	
+	function GoTo(k){
+		s = +k;
+		i = sec[k];
+		
+		
+		 //Select options in menu
+	var sel = document.getElementsByClassName('selected');
+				
+			if(sel.length != 0){
+				while(sel[0]){
+					sel[0].className = "";}
+					}
+	var nesel = document.getElementById(s + "s");
+	nesel.className = " selected";
+	
+	nesel = document.getElementById(i);
+	nesel.className = " selected";
+	DisplayText(xhttp, i, s);
+	}
+	
+	function GoToStep(j){
+		
+		i = +j;
+		
+		for (k=0; k<seclen-1; k++){
+			if (i < sec[k+1]){
+				s = k;
+			}
+			else{
+				s = seclen-1;
+			}
+		}
+		DisplayText(xhttp, i, s);
+		
+		 //Select options in menu
+	var sel = document.getElementsByClassName('selected');
+				
+			if(sel.length != 0){
+				while(sel[0]){
+					sel[0].className = "";}
+					}
+	var nesel = document.getElementById(s + "s");
+	nesel.className = " selected";
+	
+	nesel = document.getElementById(i);
+	nesel.className = " selected";
+		
+	}
+	
+	function openList(ids) {
+    var list = document.getElementById(ids);
+
+    if (list.style.display == "none"){
+        list.style.display = "block";
+    }else{
+        list.style.display = "none";
+    }
+}
+
+
+	
+}
+
+
+
+
+function loadXMLTextP() {
+  //Update step number
+  if (i > 0){
+	i = i-1;
+  };
+  //Update section number
+    if (i == sec[s]-1){
+	s = s-1;
+  }
+
+	
+  var txthttp = new XMLHttpRequest();
+  txthttp.onreadystatechange = function() {
+    if (txthttp.readyState == 4 && txthttp.status == 200) {
+      DisplayText(txthttp, i, s);
+    }
+  };
+  txthttp.open("GET", "test.xml", true);
+  txthttp.send();
+  
+  //Select options in menu
+  var sel = document.getElementsByClassName('selected');
+				
+			if(sel.length != 0){
+				while(sel[0]){
+					sel[0].className = "";}
+					}
+	var nesel = document.getElementById(s + "s");
+	nesel.className = " selected";
+	
+	nesel = document.getElementById(i);
+	nesel.className = " selected";
+}
+
+function loadXMLTextN() {
+  if (i < steplen-1){
+  i = i+1;
+  }
+    //Update section number
+  if (i == sec[s+1]){
+	s = s+1;
+  }
+  
+  var txthttp = new XMLHttpRequest();
+  txthttp.onreadystatechange = function() {
+    if (txthttp.readyState == 4 && txthttp.status == 200) {
+      DisplayText(txthttp, i, s);
+    }
+  };
+  txthttp.open("GET", "test.xml", true);
+  txthttp.send();
+  
+  //Select options in menu
+  var sel = document.getElementsByClassName('selected');
+				
+			if(sel.length != 0){
+				while(sel[0]){
+					sel[0].className = "";}
+					}
+	var nesel = document.getElementById(s + "s");
+	nesel.className = " selected";
+	
+	nesel = document.getElementById(i);
+	nesel.className = " selected";
+}
+
+function loadXMLSecP() {
+  //Update section number and step number
+  if (s > 0){
+	s = s-1;
+	i = sec[s];
+  };
+  var txthttp = new XMLHttpRequest();
+  txthttp.onreadystatechange = function() {
+    if (txthttp.readyState == 4 && txthttp.status == 200) {
+      DisplayText(txthttp, i, s);
+    }
+  };
+  txthttp.open("GET", "test.xml", true);
+  txthttp.send();
+  
+  //Select options in menu
+  var sel = document.getElementsByClassName('selected');
+				
+			if(sel.length != 0){
+				while(sel[0]){
+					sel[0].className = "";}
+					}
+	var nesel = document.getElementById(s + "s");
+	nesel.className = " selected";
+	
+	nesel = document.getElementById(i);
+	nesel.className = " selected";
+}
+
+function loadXMLSecN() {
+  //Update section number and step number
+  if (s < seclen-1){
+	s = s+1;
+	i = sec[s];
+  };
+  var txthttp = new XMLHttpRequest();
+  txthttp.onreadystatechange = function() {
+    if (txthttp.readyState == 4 && txthttp.status == 200) {
+      DisplayText(txthttp, i, s);
+    }
+  };
+  txthttp.open("GET", "test.xml", true);
+  txthttp.send();
+  
+  //Select options in menu
+  var sel = document.getElementsByClassName('selected');
+				
+			if(sel.length != 0){
+				while(sel[0]){
+					sel[0].className = "";}
+					}
+	var nesel = document.getElementById(s + "s");
+	nesel.className = " selected";
+	
+	nesel = document.getElementById(i);
+	nesel.className = " selected";
+}
+
+function DisplayText(xml, i, s) {
+  var xmlDoc, txt;
+  xmlDoc = xml.responseXML;
+  
+  //Title
+	secname = xmlDoc.getElementsByTagName("module")[s].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+    document.getElementById("title1").innerHTML =
+    xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue + ":" +" ";
+	document.getElementById("title2").innerHTML =
+    secname + ": Step" + " " + i;
+	
+
+  //Update instructions
+  document.getElementById("inst").innerHTML =
+  xmlDoc.getElementsByTagName("step")[i].getElementsByTagName("text")[0].childNodes[0].nodeValue;
+  
+  //Step parts
+  if( xmlDoc.getElementsByTagName("step")[i].getElementsByTagName("parts")[0]){
+		txt = "";
+
+		y = xmlDoc.getElementsByTagName("step")[i].getElementsByTagName("parts")[0].getElementsByTagName("part");
+		for (j = 0; j < y.length; j++) { 
+			
+			txt += "- " + y[j].childNodes[0].nodeValue + "<br>";
+		}
+		document.getElementById("parts").innerHTML = txt;
+	}
+	else{
+		txt = "";
+		document.getElementById("parts").innerHTML = txt;
+	}
+	
+	//Image
+	if(xmlDoc.getElementsByTagName("step")[i].getElementsByTagName("images")[0]){
+		if(xmlDoc.getElementsByTagName("step")[i].getElementsByTagName("images")[0].getElementsByTagName("image")[0]){
+			imtxt = "";
+			imtxt = xmlDoc.getElementsByTagName("step")[i].getElementsByTagName("images")[0].getElementsByTagName("image")[0].childNodes[0].nodeValue;
+			image = document.getElementById('stepImage');
+			image.src = imtxt;
+		
+		
+			//Small images
+			imlen = xmlDoc.getElementsByTagName("step")[i].getElementsByTagName("images")[0].getElementsByTagName("image").length;
+			for (j = 0; j < imlen; j++){
+				imtxt = "";
+				txt = 'stepImage';
+				txt += j+1;
+				
+				
+					imtxt = xmlDoc.getElementsByTagName("step")[i].getElementsByTagName("images")[0].getElementsByTagName("image")[j].childNodes[0].nodeValue;
+					image = document.getElementById(txt);
+					image.src = imtxt;
+					image.style.display='inline';
+			}
+			for (j = imlen; j < 3; j++){
+				imtxt = "";
+				txt = 'stepImage';
+				txt += j+1;
+				
+					image = document.getElementById(txt);
+					image.style.display='none';
+					
+			}
+		}
+		
+		//In case there is no photo
+		else{
+			imtxt = "img/empty.png";
+			image = document.getElementById('stepImage');
+			image.src = imtxt;
+			
+			for (j = 0; j < 3; j++){
+				imtxt = "";
+				txt = 'stepImage';
+				txt += j+1;
+				
+					image = document.getElementById(txt);
+					image.style.display='none';
+					
+			}
+			
+		}
+		
+	}
+	else{
+		imtxt = "img/empty.png";
+		image = document.getElementById('stepImage');
+		image.src = imtxt;
+		
+		for (j = 0; j < 3; j++){
+				imtxt = "";
+				txt = 'stepImage';
+				txt += j+1;
+				
+					image = document.getElementById(txt);
+					image.style.display='none';
+					
+			}
+	}
+	//Video
+	imtxt = "";
+	imtxt = xmlDoc.getElementsByTagName("step")[i].getElementsByTagName("video")[0].childNodes[0].nodeValue;
+	var video = document.getElementById('stepVideo');
+	video.src = imtxt;
+}
+
+//Change main displayed photo
+function changePhoto(this_id){
+	var src2;
+	var image1 = document.getElementById('stepImage');
+	
+	src2 = "";
+	var image2 = document.getElementById(this_id);
+	src2 = image2.src;
+	
+	image1.src = src2;
+
+	
+	
+
+
+}
+
+</script>
+
+</body>
+</html>
