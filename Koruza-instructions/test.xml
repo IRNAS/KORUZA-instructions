@@ -287,6 +287,538 @@
 					<part>Raspberry Pi 2B microcomputer (E-6)</part>
 				</parts>
 			</step>
+			<step>
+				<text>Take the power module PCB (E-1), two M3 male-female spacers (M-O9) and two M3 nuts (M-F11).</text>
+				<images>
+					<image>img/ES2.jpg</image>
+					<image>img/M-O9.jpg</image>
+					<image>img/M-F11.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Power module PCB (E-1)</part>
+					<part>2 M3 male-female spacers (M-O9)</part>
+					<part>2 M3 nuts (M-F11)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert spacers trough side holes on the PCB and fasten them with nuts. Keep in mind the male side must be pointing up.</text>
+				<images>
+					<image>img/ES3.jpg</image>
+					<image>img/ES3a.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Power module PCB (E-1)</part>
+					<part>2 M3 male-female spacers (M-O9)</part>
+					<part>2 M3 nuts (M-F11)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take the Raspberry Pi PCB shield (E-2). Prepare two more spacers (M-O9), two M3 nuts (M-F11) and two M3 washers (M-F14).</text>
+				<images>
+					<image>img/ES4.jpg</image>
+					<image>img/M-F14.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Raspberry Pi PCB shield (E-2)</part>
+					<part>2 M3 male-female spacers (M-O9)</part>
+					<part>2 M3 nuts (M-F11)</part>
+					<part>2 M3 washers (M-F14)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put a washer on each spacer and attach them to the side of the shield PCB with connectors. Fasten them with nuts.</text>
+				<images>
+					<image>img/ES5.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Raspberry Pi PCB shield (E-2)</part>
+					<part>2 M3 male-female spacers (M-O9)</part>
+					<part>2 M3 nuts (M-F11)</part>
+					<part>2 M3 washers (M-F14)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert the power cable (E-18) into the screw terminal (the one located in the middle of the side with connectors), mind the polarity.</text>
+				<images>
+					<image>img/ES6.jpg</image>
+					<image>img/ES6a.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Power cable (E-18)</part>
+	
+				</parts>
+			</step>
+			<step>
+				<text>Attach the micromatch cable (E-17) on the connector, next to the power cable.</text>
+				<images>
+					<image>img/ES7.jpg</image>
+					<image>img/ES7a.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Micromatch cable (E-17)</part>
+	
+				</parts>
+			</step>
+			<step>
+				<text>Attach the two PCB boards, such that the power module is located on top of the  Raspberry Pi shield, as shown in the photo.</text>
+				<images>
+					<image>img/ES8.jpg</image>
+					<image>img/ES8a.jpg</image>
+					<image>img/ES8b.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Take two spacers (M-O9).</text>
+				<images>
+					<image>img/ES9.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>2 M3 male-female spacers (M-O9)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Attach spacers on the bottom side of the Raspberry Pi shield, so that they connect with the spacers already attached on the Power module PCB.</text>
+				<images>
+					<image>img/ES10.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>2 M3 male-female spacers (M-O9)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take the Raspberry Pi PCB (E-6).</text>
+				<images>
+					<image>img/ES11.jpg</image>
+					<image>img/E-6.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Raspberry Pi 2B microcomputer (E-6)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Put the assembled PCB shield on top of the Raspberry Pi as shown on the photo.</text>
+				<images>
+					<image>img/ES12.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Raspberry Pi 2B microcomputer (E-6)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take four more spacers (M-O9).</text>
+				<images>
+					<image>img/ES13.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>4 M3 male-female spacers (M-O9)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Attach them to the Raspberry Pi PCB. The control electronic is now assembled.</text>
+				<images>
+					<image>img/ES14.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>4 M3 male-female spacers (M-O9)</part>
+				</parts>
+			</step>
+			<step>
+				<text>To assemble the SFP plug prepare the SFP extension plug PCB (E-3), 3D printed SFP module sleeve (M-P1), short IDC cable (E-15) and SATA cable (E-16).</text>
+				<images>
+					<image>img/E-3.jpg</image>
+					<image>img/M-P1.jpg</image>
+					<image>img/E-16.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>SFP extension plug PCB (E-3)</part>
+					<part>SFP module sleeve (M-P1)</part>
+					<part>Short IDC cable (E-15)</part>
+					<part>SATA cable (E-16)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert the SFP plug into the 3D printed sleeve, such that the connectors are pointing to the back side of the sleeve.</text>
+				<images>
+					<image>img/ES15.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>SFP extension plug PCB (E-3)</part>
+					<part>SFP module sleeve (M-P1)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Attach IDC and SATA cables to the provided connectors.</text>
+				<images>
+					<image>img/ES16.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Short IDC cable (E-15)</part>
+					<part>SATA cable (E-16)</part>
+				</parts>
+			</step>
+		</steps>
+	</module>
+	<module>
+		<name>Mechanical</name>
+		<steps>
+			<step>
+				<text>Mechanical part of the system provides the enclosure and frame for mounting electronic components, as well as allowing later adjustments in pointing direction, focus and laser alignment. Fully modular design, connected with stainless steel rods, allows for straightforward adjustments and modifications of any module, without affecting the whole design.</text>
+				<images>
+					<image>img/K1.jpg</image>
+					<image>img/K2.jpg</image>
+					<image>img/K3.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>We begin by assembling the mounting sub-module. </text>
+				<images>
+					<image>img/m1.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Take the 3D printed inner ring (M-P5).</text>
+				<images>
+					<image>img/M-P5.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Inner ring (M-P5)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert four M4 square nuts (M-F12) into the provided slots.</text>
+				<images>
+					<image>img/M2.jpg</image>
+					<image>img/M-F12.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Inner ring (M-P5)</part>
+					<part>4 M4 square nuts (M-F12)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Help yourself with pliers to insert the nuts.</text>
+				<images>
+					<image>img/M3.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Push  nuts all the way in with the screwdriver.</text>
+				<images>
+					<image>img/M4.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Insert four HEX socket M4x12 screws (M-F7) with M4 washers (M-F15) on them . Do not tighten them fully.</text>
+				<images>
+					<image>img/M5.jpg</image>
+					<image>img/M-F7.jpg</image>
+					<image>img/M-F15.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>4 screws HEX socket M4x12 (M-F7)</part>
+					<part>4 M4 washers (M-F15)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take the 3D printed outer ring (M-P4) and nine HEX socket M3x35 screws (M-F4). The outer ring needs to  be positioned in such a way, that smooth side is pointing upwards.</text>
+				<images>
+					<image>img/M6.jpg</image>
+					<image>img/M-P4.jpg</image>
+					<image>img/M-F4.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Outer ring (M-P4)</part>
+					<part>9 screws HEX socket M3x35</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert M3 screws trough the provided holes, such that screw heads are located on the smooth surface.</text>
+				<images>
+					<image>img/M7.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Outer ring (M-P4)</part>
+					<part>9 screws HEX socket M3x35</part>
+				</parts>
+			</step>
+			<step>
+				<text>Turn the outer ring around and push screws the whole way trough. Take the rubber (M-O1) and put it on the screws. Keep in mind that holes are not symmetrical to preserve the correct orientation.</text>
+				<images>
+					<image>img/M8.jpg</image>
+					<image>img/M-O1.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Rubber (M-O1)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Prepare the inner ring (M-P5).</text>
+				<images>
+					<image>img/M9.jpg</image>
+					<image>img/M5.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Inner ring (M-P5)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Place the inner ring on top of the assembled structure. Keep in mind the orientation, such that screws are nicely aligned.</text>
+				<images>
+					<image>img/M10.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Tighten screws with M3 nuts (M-F11), such that they firmly hold the rubber, but do not tighten them fully.</text>
+				<images>
+					<image>img/M11.jpg</image>
+					<image>img/M-F11.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>9 M3 nuts (M-F11)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take the laser mount part (M-P8) and 13 M3 square nuts (M-F11).</text>
+				<images>
+					<image>img/M12.jpg</image>
+					<image>img/M-P8.jpg</image>
+					<image>img/M-F11.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Laser mount (M-P8)</part>
+					<part>13 M3 nuts (M-F11)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert M3 square nuts into the laser mount part. Use pliers.</text>
+				<images>
+					<image>img/M13.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Laser mount (M-P8)</part>
+					<part>13 M3 nuts (M-F11)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert two M4 nuts (M-F12).</text>
+				<images>
+					<image>img/M14.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>2 M4 nuts (M-F12)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert the two HEX socket M4x12 screws (M-F7) into the holes but do not tighten them.</text>
+				<images>
+					<image>img/M15.jpg</image>
+					<image>img/M-F7.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>2 screws HEX socket M4x12 (M-F7)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert two TORX M3x10 screws (M-F6) into the side holes, do not tighten them fully.</text>
+				<images>
+					<image>img/M16.jpg</image>
+					<image>img/M-F6.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>2 screws TORX M3x10 (M-F6)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Prepare the lens outer ring (M-P6) and insert nine HEX socket M3x35 screws (M-F4) trough the lens outer ring, from the side which does not have 8mm holes.</text>
+				<images>
+					<image>img/M17.jpg</image>
+					<image>img/M-P6.jpg</image>
+					<image>img/M-F4.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Lens outer ring (M-P6)</part>
+					<part>9 screws HEX socket M3x35 (M-F4)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take the assembled outer part...</text>
+				<images>
+					<image>img/M18.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>... and place the outer ring trough the rubber.</text>
+				<images>
+					<image>img/M19.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Keep in mind that the screws must be located on the same side as the ones on the outer ring.</text>
+				<images>
+					<image>img/M20.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Take the lens mount part (M-P7) and clean the inner edge if needed.</text>
+				<images>
+					<image>img/M21.jpg</image>
+					<image>img/M-P7.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Lens mount (M-P7)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert the lens (M-O3) with the curve part pointing downwards.</text>
+				<images>
+					<image>img/M22.jpg</image>
+					<image>img/M-O3.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Lens (M-O3)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert the lens mounting ring on the screws from the inside, ...</text>
+				<images>
+					<image>img/M23.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>...such that the retaining edge is pointing to the rubber.</text>
+				<images>
+					<image>img/M24.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Insert the laser pointer (E-9) such that it sits nicely in the rubber.</text>
+				<images>
+					<image>img/M25.jpg</image>
+					<image>img/E-9.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Green laser 5mV (E-9)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Tread the wires of the laser trough the hole in the laser mount.</text>
+				<images>
+					<image>img/M26.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Screw the laser mount part trough the inner ring.</text>
+				<images>
+					<image>img/M27.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Take two wedges (M-P9 and M-P10). Fit the two M3 square nuts (M-F11) inside the provided slots. They need to fit the whole way in. Optional: use pliers.</text>
+				<images>
+					<image>img/M28.jpg</image>
+					<image>img/M29.jpg</image>
+					<image>img/M-P9.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>Wedge left (M-P9)</part>
+					<part>Wedge right (M-P10)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert both wedges into the laser mount.</text>
+				<images>
+					<image>img/M30.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Take the two HEX socket M3x25 screws (M-F3) and fit them trough the wedge.</text>
+				<images>
+					<image>img/M31.jpg</image>
+					<image>img/M-F3.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>2 screws HEX socket M3x25 (M-F3)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Tighten them.</text>
+				<images>
+					<image>img/M32.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+			</step>
+			<step>
+				<text>Fit the M3 square nut (M-F11) inside the provided slot. Take the spring (M-O4) and fit it between the aiming laser and the provided hole with the nut inside.</text>
+				<images>
+					<image>img/M33.jpg</image>
+					<image>img/M-O4.jpg</image>
+					<image>img/M-F11.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>M3 square nut (M-F11)</part>
+					<part>Spring (M-O4)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert the set screw HEX socket M3x16 (M-F1) trough the hole, nut and spring. Do not screw it the whole way trough!</text>
+				<images>
+					<image>img/M34.jpg</image>
+					<image>img/M-F1.jpg</image>
+				</images>
+				<video>video/vid1.mp4</video>
+				<parts>
+					<part>screw HEX socket M3x16 (M-F1)</part>
+				</parts>
+			</step>
 		</steps>
 	</module>
 </project>
