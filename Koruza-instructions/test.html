@@ -17,49 +17,40 @@
 		</div>
 		
 		<div id="instPage">
-		
-			<div id="vidPage">
-		
-				<video id="stepVideo" width="500"controls></video>
-				
-				<div id="buttonPage">
-				
-
-					<img id="button1" onclick="loadXMLSecP()" src="prev_section.png">
-					<img id="button2" onclick="loadXMLTextP()" src="prev_step.png">
-					<img id="button4" onclick="loadXMLSecN()" src="next_section.png">
-					<img id="button3" onclick="loadXMLTextN()" src="next_step.png">
-					
+			
+			
+			<div id="imgPage">
+			
+				<div id="imgWrap" tabindex=1>	
+					<img id="stepImage">
 				</div>
 				
-				<p id="test1"></p>
-				<p id="test2"></p>
+				<div id="smImg">
+
+					<img id="stepImage1" onclick="changePhoto(this.id)">
+					<img id="stepImage2" onclick="changePhoto(this.id)">
+					<img id="stepImage3" onclick="changePhoto(this.id)">
+						
+				</div>
+				
 			
 			</div>
 			
 			<div id="rPage">
 			
+				<div id="vidPage">				
+					
+					<video id="stepVideo" width="500"controls></video>
+
+				</div>
+				
 				<div id="textPage">
 					<p id="inst"></p>
 
 					<p id="parts"></p>
 				</div>
 
-				<div id="imgPage">
 				
-					<div id="imgWrap" tabindex=1>
-						<img id="stepImage">
-					</div>
-					
-					<div id="smImg">
-
-						<img id="stepImage1" onclick="changePhoto(this.id)">
-						<img id="stepImage2" onclick="changePhoto(this.id)">
-						<img id="stepImage3" onclick="changePhoto(this.id)">
-					
-					</div>
-
-				</div>
 			</div>
 
 			
@@ -72,6 +63,15 @@
 		<h3 id="menuTitle"></h3>
 		<div id="menuScrol">
 			<ul id="menu"></ul>
+		</div>
+		<div id="buttonPage">
+				
+
+					<img id="button1" onclick="loadXMLSecP()" src="prev_section.png">
+					<img id="button2" onclick="loadXMLTextP()" src="prev_step.png">
+					<img id="button4" onclick="loadXMLSecN()" src="next_section.png">
+					<img id="button3" onclick="loadXMLTextN()" src="next_step.png">
+					
 		</div>
 	</div>
 
@@ -123,9 +123,7 @@ function myFunction(xml) {
 	sec[0] = 0;
 	for(j = 1; j < seclen; j++ ){
 		sec[j] = sec[j-1] + xmlDoc.getElementsByTagName("module")[j-1].getElementsByTagName("steps")[0].getElementsByTagName("step").length;
-		
 	}
-	
 	
 	//Step parts
 	if( xmlDoc.getElementsByTagName("step")[0].getElementsByTagName("parts")[0]){
@@ -207,7 +205,7 @@ function myFunction(xml) {
 		
 		nodeli.onclick = function() {
 			ids = "sec"+this.id.charAt(0);
-			GoTo(this.id.charAt(0));
+			//GoTo(this.id.charAt(0));
 			openList(ids);
 		};
 	
@@ -237,13 +235,11 @@ function myFunction(xml) {
 		
 		i = +j;
 		
-		for (k=0; k<seclen-1; k++){
-			if (i < sec[k+1]){
+		for (k=0; k<seclen; k++){
+			if (i > sec[k]){
 				s = k;
 			}
-			else{
-				s = seclen-1;
-			}
+			
 		}
 		DisplayText(xhttp, i, s);
 		
@@ -406,6 +402,7 @@ function loadXMLSecN() {
 function DisplayText(xml, i, s) {
   var xmlDoc, txt;
   xmlDoc = xml.responseXML;
+
   
   //Title
 	secname = xmlDoc.getElementsByTagName("module")[s].getElementsByTagName("name")[0].childNodes[0].nodeValue;

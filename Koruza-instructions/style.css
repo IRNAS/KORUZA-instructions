@@ -5,18 +5,18 @@ html,body {
 #page{
 
 font-family: "Verdana";
-color: #666666;
+color: #4d4d4d;
 background-color: #f9f9f9;
 border-style: solid;
 border-color: #e6e6e6;
 border-width: 10px;
 
-margin-left:2vw;
+margin-left:1vw;
 margin-right:5vw;
-margin-top:2vw;
+margin-top:2vh;
 
 min-height: 41vw;
-width: 90vw;
+width: 93vw;
 
 position:absolute;
 padding-left:1%;
@@ -24,33 +24,31 @@ padding-right:1%;
 padding-top:1%;
 padding-bottom:1%;
 float:left;
-height: 82vh;
+height: 88vh;
 
 
 }
 
 #step{
-width: 79%;
+width: 82%;
 float:left;
 height:98%;
-
+padding-bottom:1%;
 }
 
 #menuPage{
-width: 18%;
+width: 15%;
 padding-left:1%;
 padding-right:1%;
-padding-top:1%;
 padding-bottom:1%;
 float:right;
-padding-top:0%;
 background-color: #e6e6e6;
 height: 98%
 }
 
 #title{
 width: 96%;
-height: 10%;
+height: 6%;
 background-color: #e6e6e6;
 
 padding-left:2%;
@@ -60,46 +58,66 @@ padding-bottom:1%;
 
 float:left;
 
-margin-bottom:1.5vh;
+margin-bottom:1%;
 
 }
 
 #instPage{
 width: 100%;
 float:left;
-height: 85%
+height: 90%
 }
 
-#vidPage{
+#imgPage{
 width: 58%;
 background-color: #e6e6e6;
 padding-left:1%;
 padding-right:1%;
 padding-top:1%;
 float:left;
-
-height: auto !important;
-min-height: 100%;
-height: 100%;
+height: 99%;
 
 }
 
-#stepVideo{
+#imgWrap{
+width:100%;
+margin-bottom:2vh;
+float: left;
+}
+
+#imgWrap:focus{
+-webkit-transform: scale(1.5); -moz-transform: scale(1.5);
+-webkit-transform: translate(25vw,4vh) scale(1.5); -moz-transform: translate(25vw,4vh) scale(1.5);
+-webkit-box-shadow:0px 0px 50px 5px #b3b3b3; -moz-box-shadow: 0px 0px 50px 5px #b3b3b3; box-shadow:0px 0px 80px 10px black;
+z-index: 9999;
+
+}
+
+#stepImage{
 width: 100%;
 float:left;
-margin-bottom:2vh;
 }
+
+#smImg{
+width:96%;
+float: left;
+}
+
+#stepImage1, #stepImage2, #stepImage3{
+width:25%;
+}
+
 
 #buttonPage{
 width: 100%;
 float:left;
-margin-bottom:1.5vh;
+margin-top:1.5vh;
 padding-bottom:1vh;
 padding-top:1vh;
 }
 
 #button1{
-width: 7%;
+width: 10%;
 float:left;
 margin-left:20%;
 -webkit-transition: width 0.5s;
@@ -108,12 +126,12 @@ transition: width 0.5s;
 }
 
 #button1:hover {
-    width: 8%;
+    width: 12%;
 }
 
 
 #button2{
-width:5%;
+width:8%;
 float:left;
 margin-left:5%;
 -webkit-transition: width 0.5s;
@@ -123,11 +141,11 @@ transition: width 0.5s;
 }
 
 #button2:hover {
-    width: 6%;
+    width: 10%;
 }
 
 #button3{
-width:5%;
+width:8%;
 float:right;
 margin-right:5%;
 -webkit-transition: width 0.5s;
@@ -137,11 +155,11 @@ transition: width 0.5s;
 }
 
 #button3:hover {
-    width: 6%;
+    width: 10%;
 }
 
 #button4{
-width: 7%;
+width: 10%;
 float:right;
 margin-right:20%;
 -webkit-transition: width 0.5s;
@@ -150,7 +168,7 @@ transition: width 0.5s;
 }
 
 #button4:hover {
-    width: 8%;
+    width: 12%;
 }
 
 #rPage{
@@ -161,28 +179,10 @@ padding-right:0;
 padding-bottom:0;
 float:left;
 top:0;
-height:100%
+height: 100%;
 }
 
-#textPage{
-width:96%;
-height:23%;
-background-color: #e6e6e6;
-margin-top:0;
-padding-top: 1vh;
-padding-left: 2%;
-padding-right:2%;
-margin-bottom:1vh;
-float: left;
-overflow-y: scroll;
-}
-
-#imgPage{
-width:100%;
-float:left;
-}
-
-#imgWrap{
+#vidPage{
 width:96%;
 background-color: #e6e6e6;
 margin-top:0;
@@ -190,35 +190,30 @@ padding-top: 2%;
 padding-left: 2%;
 padding-right:2%;
 padding-bottom:2%;
-margin-bottom:1vh;
+margin-bottom:2%;
 float: left;
 }
 
-#stepImage{
+#stepVideo{
 width: 100%;
 float:left;
 }
 
-#imgWrap:focus{
--webkit-transform: scale(2); -moz-transform: scale(2);
--webkit-box-shadow:0px 0px 50px 5px #b3b3b3; -moz-box-shadow: 0px 0px 50px 5px #b3b3b3; box-shadow:0px 0px 80px 10px black;
-z-index: 9999;
 
-}
-
-#smImg{
+#textPage{
 width:96%;
+height: -webkit-calc(95% - 15.7vw);
+height: -moz-calc(95% - 15.7vw);
 background-color: #e6e6e6;
-padding-top: 2%;
+margin-top:0;
+padding-top: 1%;
 padding-left: 2%;
 padding-right:2%;
-padding-bottom:2%;
+margin-bottom:1%;
 float: left;
+overflow-y: scroll;
 }
 
-#stepImage1, #stepImage2, #stepImage3{
-width:32%;
-}
 
 #menuTitle{
 }
@@ -228,11 +223,12 @@ overflow-y: scroll;
 width:97%
 padding-left:1%;
 padding-right:2%;
-max-height: 88%
+height: 85%;
+max-height: 85%;
 }
 
 h1{
-font-size:6vh;
+font-size:4.5vh;
 padding-top:0%;
 padding-bottom:0%;
  font-weight: normal;
@@ -246,7 +242,7 @@ bottom:0;
 }
 
 h2{
-font-size:6vh;
+font-size:4.5vh;
 padding-top:0%;
 padding-bottom:0%;
  font-weight: normal;
@@ -259,16 +255,19 @@ bottom:0;
 }
 
 h3{
-font-size:4vh;
+font-size:3vh;
 font-weight:normal;
 margin-top: 1.5vh;
 margin-bottom: 1.5vh;
 }
+
 p{
-padding-top:0%;
-padding-bottom:0%;
+padding-top:1vh;
+padding-right:1vh;
+padding-left:1vh;
+padding-bottom:1vh;
 margin-top: 0;
-font-size:1.5vh;
+font-size:2vh;
 }
 
 ul li{
