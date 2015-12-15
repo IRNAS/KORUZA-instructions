@@ -79,7 +79,17 @@
 
 <script>
 
-
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    switch (evt.keyCode) {
+        case 37:
+            loadXMLTextP();
+            break;
+        case 39:
+            loadXMLTextN();
+            break;
+    }
+};
 
 var i = 0; //step variable
 var s = 0; //section variable
