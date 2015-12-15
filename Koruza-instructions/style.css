@@ -96,15 +96,32 @@ z-index: 9999;
 #stepImage{
 width: 100%;
 float:left;
+cursor:pointer;
 }
 
 #smImg{
 width:96%;
 float: left;
+
 }
+
+
 
 #stepImage1, #stepImage2, #stepImage3{
 width:25%;
+cursor:pointer;
+}
+
+#stepImage1:hover {
+width: 27%;
+}
+
+#stepImage2:hover {
+width: 27%;
+}
+
+#stepImage3:hover {
+width: 27%;
 }
 
 
@@ -123,6 +140,7 @@ margin-left:20%;
 -webkit-transition: width 0.5s;
 -moz-transition: width 0.5s;
 transition: width 0.5s;
+cursor:pointer;
 }
 
 #button1:hover {
@@ -137,6 +155,7 @@ margin-left:5%;
 -webkit-transition: width 0.5s;
 -moz-transition: width 0.5s;
 transition: width 0.5s;
+cursor:pointer;
 
 }
 
@@ -151,7 +170,7 @@ margin-right:5%;
 -webkit-transition: width 0.5s;
 -moz-transition: width 0.5s;
 transition: width 0.5s;
-
+cursor:pointer;
 }
 
 #button3:hover {
@@ -165,6 +184,7 @@ margin-right:20%;
 -webkit-transition: width 0.5s;
 -moz-transition: width 0.5s;
 transition: width 0.5s;
+cursor:pointer;
 }
 
 #button4:hover {
@@ -280,6 +300,7 @@ font-size:1.5vh;
 -moz-transition: background-color 0.5s ease;
 -webkit-transition: background-color 0.5s ease;
 transition: background-color 0.5s ease;
+cursor:pointer;
 }
 
 ul:hover li:hover{
