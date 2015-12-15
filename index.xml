@@ -2,6 +2,19 @@
 <project>
 	<name>KORUZA</name>
 	<module>
+	<name>Intro</name>
+	<steps>
+		<step>
+			<text>Follow this step-by-step assembly instructions (organised into 9 sections) to build your KORUZA units. 
+			Perform each step following assembly step description with photo demonstration. Video tutorials for each step will be included shortly. We highly recommend you follow the assembling steps in the suggested order.</text>
+			<images>
+				<image>img/Intro/intro-1.png</image>				
+				</images>
+			<video>video/vid1.mp4</video>
+		</step>
+	</steps>
+	</module>
+	<module>
 		<name>Manufacturing</name>
 		<steps>
 			<step>
