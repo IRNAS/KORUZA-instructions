@@ -48,6 +48,7 @@
 					<p id="inst"></p>
 
 					<p id="parts"></p>
+					
 				</div>
 
 				
@@ -79,6 +80,7 @@
 
 <script>
 
+// Allow movement with keyboard
 document.onkeydown = function(evt) {
     evt = evt || window.event;
     switch (evt.keyCode) {
@@ -186,10 +188,10 @@ function myFunction(xml) {
 		nodeli.id = k + "s";
 		// Add on click destination
 		
-		//Append to the menue
+		//Append to the menu
 		document.getElementById("menu").appendChild(nodeli);
 		
-		//For each section create sub-menue
+		//For each section create sub-menu
 		var nodeul = document.createElement("ul");
 		
 		ids = "sec"+k;
@@ -246,12 +248,12 @@ function myFunction(xml) {
 		i = +j;
 		
 		for (k=0; k<seclen; k++){
-			if (i > sec[k]){
+			if (i >= sec[k]){
 				s = k;
 			}
 			
 		}
-		DisplayText(xhttp, i, s);
+		
 		
 		 //Select options in menu
 	var sel = document.getElementsByClassName('selected');
@@ -265,6 +267,8 @@ function myFunction(xml) {
 	
 	nesel = document.getElementById(i);
 	nesel.className = " selected";
+	
+	DisplayText(xhttp, i, s);
 		
 	}
 	
