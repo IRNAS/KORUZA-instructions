@@ -10,7 +10,7 @@
 			<images>
 				<image>img/Intro/intro-1.png</image>				
 				</images>
-			<video>video/vid1.mp4</video>
+			<video>video/vid-dummy.mp4</video>
 		</step>
 	</steps>
 	</module>
@@ -23,7 +23,7 @@
 					<image>img/Parts/parts1.jpg</image>
 					<image>img/Manufacturing/manufacturing3.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> For each 3D printed part you can find enclosed stl file and appropriate printer settings, tested on open-source TrubleMaker printer. Shell thickness, bottom/top thickness and fill density settings are applicable for other 3D printers as well, while other may wary depending on the printer used. By default shell and bottom/top thickness are set to 2mm and fill density to 20% for all parts.</text>
@@ -31,14 +31,14 @@
 					<image>img/Manufacturing/manufacturing2.jpg</image>
 					<image>img/Manufacturing/manufacturing2a.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Some parts need additional treatment. Follow the instructions carefully to achieve optimal fit for later assembly. Parts included in DIY kit do not need any additional treatment.</text>
 				<images>
 					<image>img/Manufacturing/manufacturing1.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>SFP module sleeve: Check if the small PCB - SFP extension plug (E-3), fits in the SFP module sleeve. Also check if the SFP module sleeve fits in the media converter. In the case it does not, check printer settings and reprint the part.</text>
@@ -56,7 +56,7 @@
 					<part>SFP extension plug (E-3)</part>
 					<part>Media converter (E-13)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>SFP mount: Re-drill four holes with 11mm drill or reamer. Check if the sliding bushing (M-O6) fits into the holes and that the metal rod (M-O2) slides trough each hole easily. </text>
@@ -79,7 +79,7 @@
 					<part>Stainless steel rod (M-O2)</part>
 					<part>Sliding bushing (M-O6)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>SFP mount: Re-drill two front small holes and one at the side with 4mm drill and other eight with 3mm drill.</text>
@@ -93,7 +93,7 @@
 				<parts>
 					<part>SFP mount (M-P2)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Ring outer: Re-drill all nine holes with 3mm drill.</text>
@@ -106,7 +106,7 @@
 				<parts>
 					<part>Ring outer (M-P4)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Ring inner: Re-drill nine holes on the top with 3mm drill. Drill four side holes with 4mm drill.</text>
@@ -119,7 +119,7 @@
 				<parts>
 					<part>Ring inner (M-P5)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Lens mount outer: Re-drill nine holes with 3mm drill. Re-drill four holes with 8.1mm drill, be careful not to drill them trough the part.</text>
@@ -133,7 +133,7 @@
 				<parts>
 					<part>Lens mount outer (M-P6)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Lens mount: Re-drill nine holes with 3mm drill.</text>
@@ -147,7 +147,7 @@
 				<parts>
 					<part>Lens mount (M-P7)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Lens mount: User a drill or a reamer for the 12mm hole. Check that the green laser (E-9) fits trough the hole.</text>
@@ -161,7 +161,7 @@
 					<part>Lens mount (M-P7)</part>
 					<part>Green laser (E-9)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Lens mount: Re-drill four holes with 8.1mm drill. Check that the metal rod (M-O2) slides trough each hole easily.</text>
@@ -173,7 +173,7 @@
 					<part>Lens mount (M-P7)</part>
 					<part>Metal rod (M-O2)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Laser mount: Re-drill nine holes on the bottom, five on the sides and six on the top with 3mm drill.</text>
@@ -193,7 +193,7 @@
 				<parts>
 					<part>Laser mount (M-P8)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Laser mount: Re-drill four holes with 8.1mm drill or reamer. Check that the metal rod (M-O2) slides trough each hole easily.</text>
@@ -206,7 +206,7 @@
 					<part>Laser mount (M-P8)</part>
 					<part>Metal rod (M-O2)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Wedge left and right: Re-drill a hole in both parts with 3mm drill.</text>
@@ -218,7 +218,7 @@
 					<part>Wedge left (M-P9)</part>
 					<part>Wedge right (M-P10)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>MC mount: Re-drill two holes on the side with 3mm drill. Re-drill two holes with 8.1mm drill or reamer. Check that the metal rod (M-O2) slides trough both holes easily.</text>
@@ -230,7 +230,7 @@
 					<part>MC mount (M-P12)</part>
 					<part>Metal rod (M-O2)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Motor mount: Re-drill 4 holes with 8.1mm drill or reamer. Check that the metal rod (M-O2) slides trough each holes easily.</text>
@@ -245,7 +245,7 @@
 					<part>Motor mount (M-P13)</part>
 					<part>Metal rod (M-O2)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Motor mount: Re-drill all 10 M4 holes with 4mm drill and remaining 3 M3 with 3mm drill.</text>
@@ -261,7 +261,7 @@
 				<parts>
 					<part>Motor mount (M-P13)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Inner SFP mount: Re-drill 9 holes with 3mm drill.</text>
@@ -273,7 +273,7 @@
 				<parts>
 					<part>Inner SFP mount (M-P14)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Inner SFP mount: Check that the SFP module (E-8) fits into the provided slot.</text>
@@ -287,7 +287,7 @@
 					<part>Inner SFP mount (M-P14)</part>
 					<part>SFP module (E-8)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Lid: Re-drill two holes with 3mm drill.</text>
@@ -300,7 +300,7 @@
 				<parts>
 					<part>Lid (M-P15)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Bracket: Re-drill both holes in each bracket with 3mm drill.</text>
@@ -312,7 +312,7 @@
 				<parts>
 					<part>Bracket (M-P16)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Half-bracket: Re-drill hole with 3mm drill.</text>
@@ -323,7 +323,7 @@
 				<parts>
 					<part>Half-bracket (M-P17)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Pin with hole: Re-drill the hole in each pin with 3mm drill.</text>
@@ -335,7 +335,7 @@
 				<parts>
 					<part>2 Pin with hole (M-P18)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Triangle: Re-drill the hole with 3mm drill.</text>
@@ -346,7 +346,7 @@
 				<parts>
 					<part>Triangle (M-P19)</part>
 				</parts>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 		</steps>
 	</module>
@@ -359,7 +359,7 @@
 					<image>img/Electronics/DSC_5903.jpg</image>
 					<image>img/Electronics/DSC_5904.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>First we assemble the control electronics. You need to prepare the power module PCB (E-1), Raspberry pi shield (E-2) and the Raspberry Pi 2B microcomputer (E-6).</text>
@@ -369,7 +369,7 @@
 					<image>img/Parts/E-2.jpg</image>
 					<image>img/Parts/E-6.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Power module PCB (E-1)</part>
 					<part>Raspberry pi shield (E-2)</part>
@@ -383,7 +383,7 @@
 					<image>img/Electronics/DSC_5907.jpg</image>
 					<image>img/Electronics/DSC_5908.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Power module PCB (E-1)</part>
 					<part>Raspberry pi shield (E-2)</part>
@@ -395,7 +395,7 @@
 				<images>
 					<image>img/Electronics/DSC_5911.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Micro SD card, 8GB  (E-20)</part>
 				</parts>
@@ -405,7 +405,7 @@
 				<images>
 					<image>img/Electronics/DSC_5912.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Micro SD card, 8GB  (E-20)</part>
 					<part> Raspberry Pi 2B microcomputer (E-6)</part>
@@ -422,7 +422,7 @@
 					<image>img/Electronics/DSC_5917.jpg</image>
 					<image>img/Electronics/DSC_5918.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Power module PCB (E-1)</part>
 					<part>2 M3 male-female spacers (M-O9)</part>
@@ -441,7 +441,7 @@
 					<image>img/Electronics/DSC_5922.jpg</image>
 					<image>img/Electronics/DSC_5923.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Raspberry Pi PCB shield (E-2)</part>
 					<part>2 M3 male-female spacers (M-O9)</part>
@@ -455,7 +455,7 @@
 					<image>img/Electronics/DSC_5924.jpg</image>
 					<image>img/Electronics/DSC_5925.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Power cable (E-18)</part>
 
@@ -468,7 +468,7 @@
 					<image>img/Electronics/DSC_5926.jpg</image>
 					<image>img/Electronics/DSC_5927.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Micromatch cable (E-17)</part>
 
@@ -482,7 +482,7 @@
 					<image>img/Electronics/DSC_5930.jpg</image>
 					<image>img/Electronics/DSC_5931.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take two spacers (M-O9) and attach them on the bottom side of the Raspberry Pi shield, so that they connect with the spacers already attached on the Power module PCB.</text>
@@ -492,7 +492,7 @@
 					<image>img/Electronics/DSC_5933.jpg</image>
 					<image>img/Electronics/DSC_5934.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 M3 male-female spacers (M-O9)</part>
 				</parts>
@@ -503,7 +503,7 @@
 					<image>img/Parts/E-6a.jpg</image>
 					<image>img/Electronics/DSC_5936.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Raspberry Pi 2B microcomputer (E-6)</part>
 				</parts>
@@ -515,7 +515,7 @@
 					<image>img/Electronics/DSC_5938.jpg</image>
 					<image>img/Electronics/DSC_5940.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Raspberry Pi 2B microcomputer (E-6)</part>
 				</parts>
@@ -529,7 +529,7 @@
 					<image>img/Electronics/DSC_5943.jpg</image>
 					<image>img/Electronics/DSC_5944.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>4 M3 male-female spacers (M-O9)</part>
 				</parts>
@@ -539,7 +539,7 @@
 				<images>
 					<image>img/Electronics/DSC_5945.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>To assemble the SFP plug prepare the SFP extension plug PCB (E-3), 3D printed SFP module sleeve (M-P1), short IDC cable (E-15) and SATA cable (E-16).</text>
@@ -550,7 +550,7 @@
 					<image>img/Parts/E-16.jpg</image>
 					<image>img/Electronics/DSC_5947.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>SFP extension plug PCB (E-3)</part>
 					<part>SFP module sleeve (M-P1)</part>
@@ -564,7 +564,7 @@
 					<image>img/Electronics/DSC_5948.jpg</image>
 					<image>img/Electronics/DSC_5950.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>SFP extension plug PCB (E-3)</part>
 					<part>SFP module sleeve (M-P1)</part>
@@ -576,7 +576,7 @@
 						<image>img/Electronics/DSC_5954.jpg</image>
 						<image>img/Electronics/DSC_5956.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Short IDC cable (E-15)</part>
 					<part>SATA cable (E-16)</part>
@@ -592,7 +592,7 @@
 				<images>
 						<image>img/Electronics-test/DSC_5990.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the assembled SFP extension plug and prepare SFP extension socket (E-4). Attach SATA cable and IDC cable to SFP extension socket board. </text>
@@ -602,7 +602,7 @@
 						<image>img/Electronics-test/DSC_5958.jpg</image>
 						<image>img/Electronics-test/DSC_5959.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>SFP extension socket (E-4)</part>
 				</parts>
@@ -614,7 +614,7 @@
 						<image>img/Electronics-test/DSC_5961.jpg</image>
 						<image>img/Electronics-test/DSC_5962.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>SFP module (E-8)</part>
 				</parts>
@@ -625,7 +625,7 @@
 						<image>img/Parts/E-1415.jpg</image>
 						<image>img/Electronics-test/DSC_5960.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Cable IDC long (E-14)</part>
 				</parts>
@@ -638,7 +638,7 @@
 						<image>img/Electronics-test/DSC_5966.jpg</image>
 						<image>img/Electronics-test/DSC_5967.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>TP-Link media converter (E-13)</part>
 				</parts>
@@ -651,7 +651,7 @@
 						<image>img/Electronics-test/DSC_5969.jpg</image>
 						<image>img/Mechanical/DSC_6331.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>power cable with jack (E-19)</part>
 				</parts>
@@ -661,7 +661,7 @@
 				<images>
 						<image>img/Parts/E-5.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>universal unipolar stepper driver (E-5)</part>
 				</parts>
@@ -673,7 +673,7 @@
 						<image>img/Electronics-test/DSC_5971.jpg</image>
 						<image>img/Electronics-test/DSC_5972.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Insert the other power cable - without jack - (E-18) into the other screw terminal.</text>
@@ -683,7 +683,7 @@
 						<image>img/Electronics-test/DSC_5974.jpg</image>
 						<image>img/Electronics-test/DSC_5975.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Power cable (E-18)</part>
 				</parts>
@@ -696,7 +696,7 @@
 						<image>img/Electronics-test/DSC_5977.jpg</image>
 						<image>img/Electronics-test/DSC_5978.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take three motors (E-10) and attach them to the stepper PCB.</text>
@@ -705,7 +705,7 @@
 						<image>img/Electronics-test/DSC_5979.jpg</image>
 						<image>img/Electronics-test/DSC_5980.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>3 motors (E-10)</part>
 				</parts>
@@ -717,7 +717,7 @@
 						<image>img/Electronics-test/DSC_5981.jpg</image>
 						<image>img/Electronics-test/DSC_5982.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Green laser (E-9)</part>
 				</parts>
@@ -728,7 +728,7 @@
 						<image>img/Parts/E-1415.jpg</image>
 						<image>img/Electronics-test/DSC_5983.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Cable IDC long (E-14)</part>
 				</parts>
@@ -742,7 +742,7 @@
 						<image>img/Electronics-test/DSC_5986.jpg</image>
 						<image>img/Electronics-test/DSC_5987.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Waterproof eth + pwr (E-12)</part>
 				</parts>
@@ -752,7 +752,7 @@
 				<images>
 						<image>img/Parts/E-7.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>PoE injector 24V (E-7)</part>
 				</parts>
@@ -762,14 +762,14 @@
 				<images>
 						<image>img/Electronics-test/DSC_5988.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Once you complete the test disassemble the electronics. Follow the steps in this section backwards.</text>
 				<images>
 						<image>img/Electronics-test/DSC_5990.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 		</steps>
 	</module>
@@ -783,7 +783,7 @@
 					<image>img/Mounting/DSC_6436.jpg</image>
 					<image>img/Mounting/DSC_6437.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>We begin by assembling the mounting sub-module. </text>
@@ -791,14 +791,14 @@
 					<image>img/Mounting/DSC_6441.jpg</image>
 					<image>img/Mounting/DSC_6147.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the 3D printed inner ring (M-P5).</text>
 				<images>
 					<image>img/Parts/M-P5.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Inner ring (M-P5)</part>
 				</parts>
@@ -810,7 +810,7 @@
 					<image>img/Mounting/DSC_6040.jpg</image>
 					<image>img/Parts/M-F12.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Inner ring (M-P5)</part>
 					<part>4 M4 square nuts (M-F12)</part>
@@ -821,14 +821,14 @@
 				<images>
 					<image>img/M3.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Push nuts all the way in with the screwdriver.</text>
 				<images>
 					<image>img/M4.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Insert four HEX socket M4x12 screws (M-F7) with M4 washers (M-F15) on them. Screws must grab the nut.</text>
@@ -838,7 +838,7 @@
 					<image>img/Parts/M-F15.jpg</image>
 					<image>img/Mounting/DSC_6047.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>4 screws HEX socket M4x12 (M-F7)</part>
 					<part>4 M4 washers (M-F15)</part>
@@ -851,7 +851,7 @@
 					<image>img/Mounting/DSC_6048.jpg</image>
 					<image>img/Mounting/DSC_6050.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the 3D printed outer ring (M-P4) and nine HEX socket M3x35 screws (M-F4). The outer ring needs to  be positioned in such a way, that smooth side is pointing upwards.</text>
@@ -860,7 +860,7 @@
 					<image>img/Mounting/DSC_6052.jpg</image>
 					<image>img/Mounting/DSC_6053.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Outer ring (M-P4)</part>
 					<part>9 screws HEX socket M3x35 (M-F4)</part>
@@ -871,7 +871,7 @@
 				<images>
 					<image>img/Mounting/DSC_6056.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Outer ring (M-P4)</part>
 					<part>9 screws HEX socket M3x35 (M-F4)</part>
@@ -886,7 +886,7 @@
 					<image>img/Mounting/DSC_6061.jpg</image>
 					<image>img/Mounting/DSC_6063.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Rubber (M-O1)</part>
 				</parts>
@@ -897,7 +897,7 @@
 					<image>img/Parts/M-P5.jpg</image>
 					<image>img/Mounting/DSC_6064.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Inner ring (M-P5)</part>
 				</parts>
@@ -907,7 +907,7 @@
 				<images>
 					<image>img/Mounting/DSC_6065.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Tighten screws with M3 nuts (M-F11), such that they firmly hold the rubber, but do not tighten them fully.</text>
@@ -918,7 +918,7 @@
 					<image>img/Mounting/DSC_6069.jpg</image>
 					<image>img/Mounting/DSC_6070.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>9 M3 nuts (M-F11)</part>
 				</parts>
@@ -933,7 +933,7 @@
 					<image>img/Mounting/DSC_6075.jpg</image>
 					<image>img/Mounting/DSC_6077.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Laser mount (M-P8)</part>
 					<part>9 M3 nuts (M-F11)</part>
@@ -948,7 +948,7 @@
 					<image>img/Mounting/DSC_6081.jpg</image>
 					<image>img/Mounting/DSC_6084.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>9 screws HEX socket M3x35 (M-F4)</part>
 				</parts>
@@ -960,7 +960,7 @@
 					<image>img/Mounting/DSC_6087.jpg</image>
 					<image>img/Mounting/DSC_6088.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>9 screws HEX socket M3x35 (M-F4)</part>
 				</parts>
@@ -971,7 +971,7 @@
 					<image>img/Parts/M-F11.jpg</image>
 					<image>img/Mounting/DSC_6090.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 M3 nuts (M-F11)</part>
 				</parts>
@@ -985,7 +985,7 @@
 					<image>img/Mounting/DSC_6093.jpg</image>
 					<image>img/Mounting/DSC_6094.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 screws TORX M3x10 (M-F6)</part>
 					<part>2 M3 washer (M-F14)</part>
@@ -998,7 +998,7 @@
 					<image>img/Mounting/DSC_6095.jpg</image>
 					<image>img/Mounting/DSC_6096.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 M4 nuts (M-F12)</part>
 				</parts>
@@ -1009,7 +1009,7 @@
 					<image>img/Parts/M-F7.jpg</image>
 					<image>img/Mounting/DSC_6099.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 M4x12 HEX socket screws (M-F7)</part>
 				</parts>
@@ -1020,7 +1020,7 @@
 					<image>img/Parts/M-F11.jpg</image>
 					<image>img/Mounting/DSC_6100.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>9 M3 nuts (M-F11)</part>
 				</parts>
@@ -1033,7 +1033,7 @@
 					<image>img/Mounting/DSC_6102.jpg</image>
 					<image>img/Mounting/DSC_6103.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 screws TORX M3x10 (M-F6)</part>
 				</parts>
@@ -1047,7 +1047,7 @@
 					<image>img/Mounting/DSC_6107.jpg</image>
 					<image>img/Mounting/DSC_6108.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Lens outer ring (M-P6)</part>
 					<part>9 screws HEX socket M3x35 (M-F4)</part>
@@ -1058,7 +1058,7 @@
 				<images>
 					<image>img/Mounting/DSC_6109.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>... and place the outer ring trough the rubber.</text>
@@ -1066,14 +1066,14 @@
 					<image>img/Mounting/DSC_6111.jpg</image>
 					<image>img/Mounting/DSC_6112.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Keep in mind that the screws must be located on the same side as the ones on the outer ring.</text>
 				<images>
 					<image>img/Mounting/DSC_6115.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the lens mount part (M-P7) and clean the inner edge if needed.</text>
@@ -1081,7 +1081,7 @@
 					<image>img/Parts/M-P7.jpg</image>
 					<image>img/Mounting/DSC_6116.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Lens mount (M-P7)</part>
 				</parts>
@@ -1091,14 +1091,14 @@
 				<images>
 					<image>img/Mounting/DSC_6117.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>...such that the retaining edge is pointing to the rubber.</text>
 				<images>
 					<image>img/Mounting/DSC_6118.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Insert the lens (M-O3) with the curve part pointing downwards.</text>
@@ -1107,7 +1107,7 @@
 					<image>img/Mounting/DSC_6119.jpg</image>
 					<image>img/Mounting/DSC_6120.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Lens (M-O3)</part>
 				</parts>
@@ -1123,7 +1123,7 @@
 					<image>img/Mounting/DSC_6127.jpg</image>
 					<image>img/Mounting/DSC_6129.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Green laser 5mV (E-9)</part>
 				</parts>
@@ -1135,7 +1135,7 @@
 					<image>img/M29.jpg</image>
 					<image>img/M-P9.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Wedge left (M-P9)</part>
 					<part>Wedge right (M-P10)</part>
@@ -1147,7 +1147,7 @@
 					<image>img/Mounting/DSC_6135.jpg</image>
 					<image>img/Mounting/DSC_6136.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the two HEX socket M3x25 screws (M-F3) and fit them trough the wedge.</text>
@@ -1156,7 +1156,7 @@
 					<image>img/Mounting/DSC_6137.jpg</image>
 					<image>img/Mounting/DSC_6138.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 screws HEX socket M3x25 (M-F3)</part>
 				</parts>
@@ -1167,7 +1167,7 @@
 					<image>img/Mounting/DSC_6139.jpg</image>
 					<image>img/Mounting/DSC_6140.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Fit the M3 square nut (M-F11) inside the provided slot. Take the spring (M-O4) and fit it between the aiming laser and the provided hole with the nut inside.</text>
@@ -1180,7 +1180,7 @@
 					<image>img/Mounting/DSC_6144.jpg</image>
 					<image>img/Mounting/DSC_6147.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>M3 square nut (M-F11)</part>
 					<part>Spring (M-O4)</part>
@@ -1192,7 +1192,7 @@
 					<image>img/Parts/M-F1.jpg</image>
 					<image>img/Mounting/DSC_6148.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>screw HEX socket M3x16 (M-F1)</part>
 				</parts>
@@ -1210,7 +1210,7 @@
 					<image>img/Parts/M-P14.jpg</image>
 					<image>img/Parts/E-8.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>SFP mount (M-P2)</part>
 					<part>Inner SFP mount (M-P14)</part>
@@ -1225,7 +1225,7 @@
 					<image>img/Parts/M-P2c.jpg</image>
 					<image>img/Parts/M-P2d.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>SFP mount (M-P2)</part>
 				</parts>
@@ -1236,7 +1236,7 @@
 					<image>img/Parts/M-O6.jpg</image>
 					<image>img/SFP Mount/DSC_6152.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>4 sliding bushings (M-O6)</part>
 				</parts>
@@ -1247,7 +1247,7 @@
 					<image>img/Parts/M-O6.jpg</image>
 					<image>img/SFP Mount/DSC_6150.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 sliding bushings (M-O6)</part>
 				</parts>
@@ -1259,7 +1259,7 @@
 					<image>img/SFP Mount/DSC_6155.jpg</image>
 					<image>img/Parts/M-F12.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 M4 square nuts (M-F12)</part>
 				</parts>
@@ -1274,7 +1274,7 @@
 					<image>img/Parts/M-F12.jpg</image>
 					<image>img/Parts/M-F7.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>1 M4 square nut (M-F12)</part>
 					<part>1 screw HEX socket M4x12 (M-F7)</part>
@@ -1289,7 +1289,7 @@
 					<image>img/SFP Mount/DSC_6164.jpg</image>
 					<image>img/Parts/M-F13.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>1 M5 HEX long nut (M-F13)</part>
 				</parts>
@@ -1304,7 +1304,7 @@
 					<image>img/Parts/M-P14.jpg</image>
 					<image>img/Parts/M-F3.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>inner SFP mount (M-P14)</part>
 					<part>7 screws HEX socket M3x25 (M-F3)</part>
@@ -1319,7 +1319,7 @@
 					<image>img/SFP Mount/DSC_6179.jpg</image>
 					<image>img/Parts/M-F11.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>7 M3 square nuts (M-F11)</part>
 				</parts>
@@ -1331,7 +1331,7 @@
 					<image>img/Parts/M-P14.jpg</image>
 					<image>img/Parts/M-F11.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>inner SFP mount (M-P14)</part>
 					<part>1 M3 square nut (M-F11)</part>
@@ -1344,7 +1344,7 @@
 					<image>img/SFP Mount/DSC_6184.jpg</image>
 					<image>img/Parts/M-F6.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>1 screw M3x10 TORX (M-F6)</part>
 				</parts>
@@ -1356,7 +1356,7 @@
 					<image>img/SFP Mount/DSC_6186.jpg</image>
 					<image>img/Parts/E-8.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>SFP module (E-8)</part>
 				</parts>
@@ -1369,7 +1369,7 @@
 					<image>img/SFP Mount/DSC_6190.jpg</image>
 					<image>img/Parts/E-4.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>SFP extension socket PCB (E-4)</part>
 				</parts>
@@ -1384,7 +1384,7 @@
 					<image>img/Parts/M-F14.jpg</image>
 					<image>img/Parts/M-F11.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>TORX M3x10 screw (M-F6)</part>
 					<part>M3 washer (M-F14)</part>
@@ -1398,7 +1398,7 @@
 					<image>img/Parts/M-O11.jpg</image>
 					<image>img/SFP Mount/DSC_6194.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>screw HEX M5x80 (M-F9)</part>
 					<part>Bearing (M-O11)</part>
@@ -1411,7 +1411,7 @@
 					<image>img/SFP Mount/DSC_6196.jpg</image>
 					<image>img/Parts/M-F22.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Nut HEX M5 (M-F22)</part>
 				</parts>
@@ -1421,7 +1421,7 @@
 				<images>
 					<image>img/SFP Mount/DSC_6197.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Insert the screw into the SFP mount trough the long M5 nut from bottom side. On the top side, 20mm of the screw must be pointing out.</text>
@@ -1430,7 +1430,7 @@
 					<image>img/SFP Mount/DSC_6199.jpg</image>
 					<image>img/SFP Mount/DSC_6200.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the coupler M4 (M-P11) and attach it to the motor (E-10). Tighten both set screws.</text>
@@ -1442,7 +1442,7 @@
 					<image>img/Parts/M-P11.jpg</image>
 					<image>img/Parts/E-10.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>coupler M4 (M-P11)</part>
 					<part>Motor (E-10)</part>
@@ -1455,7 +1455,7 @@
 					<image>img/SFP Mount/DSC_6207.jpg</image>
 					<image>img/SFP Mount/DSC_6208.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>
@@ -1463,7 +1463,7 @@
 				<images>
 					<image>img/SFP Mount/DSC_6209.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Mount motors with two HEX socket M4x70 screws (M-F8) trough the mount. Heads must be aligned with the motor. </text>
@@ -1474,7 +1474,7 @@
 					<image>img/SFP Mount/DSC_6214.jpg</image>
 					<image>img/Parts/M-F8.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 screws HEX socket M4x70 (M-F8)</part>
 				</parts>
@@ -1486,7 +1486,7 @@
 					<image>img/Parts/E-13.jpg</image>
 					<image>img/Parts/M-P16.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>TP-Link media converter (E-13)</part>
 					<part>4 brackets (M-P16)</part>
@@ -1499,7 +1499,7 @@
 					<image>img/SFP Mount/DSC_6217.jpg</image>
 					<image>img/SFP Mount/DSC_6218.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>TP-Link media converter (E-13)</part>
 				</parts>
@@ -1515,7 +1515,7 @@
 					<image>img/Parts/M-P16.jpg</image>
 					<image>img/Parts/M-F6.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>4 brackets (M-P16)</part>
 					<part>4 screws TORX M3x10 (M-F6)</part>
@@ -1527,7 +1527,7 @@
 					<image>img/SFP Mount/DSC_6226.jpg</image>
 					<image>img/Parts/M-P12.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Media converter mount (M-P12)</part>
 					<part>2 M3 square nuts (M-F11)</part>
@@ -1540,7 +1540,7 @@
 					<image>img/SFP Mount/DSC_6227.jpg</image>
 					<image>img/Parts/M-F11.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 M3 square nuts (M-F11)</part>
 				</parts>
@@ -1551,7 +1551,7 @@
 					<image>img/SFP Mount/DSC_6228.jpg</image>
 					<image>img/Parts/M-F6.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 TORX M3x10 screws (M-F6)</part>
 				</parts>
@@ -1566,7 +1566,7 @@
 				<images>
 					<image>img/Motor Mount/DSC_6268.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Prepare the 3D printed motor mount (M-P13).</text>
@@ -1576,7 +1576,7 @@
 					<image>img/Parts/M-P13c.jpg</image>
 					<image>img/Parts/M-P13d.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Motor mount (M-P13)</part>
 				</parts>
@@ -1589,7 +1589,7 @@
 					<image>img/Parts/M-F12.jpg</image>
 					<image>img/Parts/M-F11.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>4 M4 square nuts (M-F12)</part>
 					<part>1 M3 square nut (M-F11)</part>
@@ -1602,7 +1602,7 @@
 					<image>img/Motor Mount/DSC_6233.jpg</image>
 					<image>img/Parts/M-F7.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 screws HEX socket M4x12 (M-F7)</part>
 				</parts>
@@ -1614,7 +1614,7 @@
 					<image>img/Parts/M-P17.jpg</image>
 					<image>img/Parts/M-F6.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Half-bracket (M-P17)</part>
 					<part>1 TORX M3x10 (M-F6)</part>
@@ -1631,7 +1631,7 @@
 					<image>img/Motor Mount/DSC_6243.jpg</image>
 					<image>img/Parts/M-F12.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>6 M4 square nuts (M-F12)</part>
 				</parts>
@@ -1646,7 +1646,7 @@
 					<image>img/Parts/M-P1819.jpg</image>
 					<image>img/Parts/M-F6.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>1 M3 square nut (M-F11)</part>
 					<part>Pin with hole (M-P18)</part>
@@ -1660,7 +1660,7 @@
 					<image>img/Motor Mount/DSC_6250.jpg</image>
 					<image>img/Parts/M-F7.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 screws HEX socket M4x12 (M-F7)</part>
 				</parts>
@@ -1674,7 +1674,7 @@
 					<image>img/Parts/M-F13.jpg</image>
 					<image>img/Parts/M-P11.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 motors (E-10)</part>
 					<part>2 screw M5x65 (M-F10)</part>
@@ -1689,7 +1689,7 @@
 					<image>img/Parts/M-F10.jpg</image>
 					<image>img/Parts/M-F13.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>1 screw M5x65 (M-F10)</part>
 					<part>1 long nuts M5 (M-F13)</part>
@@ -1702,7 +1702,7 @@
 					<image>img/Parts/E-10.jpg</image>
 					<image>img/Parts/M-P11.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>1 M5 couplers (M-P11)</part>
 					<part>1 motor (E-10)</part>
@@ -1714,7 +1714,7 @@
 					<image>img/Motor Mount/DSC_6255.jpg</image>
 					<image>img/Motor Mount/DSC_6257.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Put M5 screw trough the hole in motor mount in such a way that the hole on the nut points into the direction of previously inserted HEX socket M4x10 screw.</text>
@@ -1723,7 +1723,7 @@
 					<image>img/Motor Mount/DSC_6259.jpg</image>
 					<image>img/Motor Mount/DSC_6260.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Repeat for the other motor.</text>
@@ -1732,7 +1732,7 @@
 					<image>img/Motor Mount/DSC_6262.jpg</image>
 					<image>img/Motor Mount/DSC_6263.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Tighten both M4x10 set screws.</text>
@@ -1740,7 +1740,7 @@
 					<image>img/Motor Mount/DSC_6264.jpg</image>
 					<image>img/Motor Mount/DSC_6265.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take two HEX socket M4x45 screws (M-F5). Insert  screws into provided holes trough the motor. Tighten screws all the way to the motor mounting tab. Repeat for the other motor.</text>
@@ -1753,7 +1753,7 @@
 					<image>img/Motor Mount/DSC_6273.jpg</image>
 					<image>img/Parts/M-F5.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 screws HEX socket M4x45 (M-F5)</part>
 				</parts>
@@ -1767,7 +1767,7 @@
 					<image>img/Parts/E-5.jpg</image>
 					<image>img/Parts/M-F6.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Universal unipolar stepper driver (E-5)</part>
 					<part>2 screws TORX M3x10 (M-F6)</part>
@@ -1783,7 +1783,7 @@
 				<images>
 					<image>img/Lid/DSC_6280.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Prepare the 3D printed lid (M-P15). </text>
@@ -1791,7 +1791,7 @@
 					<image>img/Parts/M-P15a.jpg</image>
 					<image>img/Parts/M-P15b.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Lid (M-P15)</part>
 				</parts>
@@ -1801,21 +1801,21 @@
 				<images>
 					<image>img/M110.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Place it into the lid, so that the Power module PCB is facing the holes.  Make sure the SD card is inserted into the RaspberyPi PCB.</text>
 				<images>
 					<image>img/M111.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Fasten the electronics in place with two M3x10 TORX screws (M-F6).</text>
 				<images>
 					<image>img/M112.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 screws (M3x10 TORX M-F6)</part>
 				</parts>
@@ -1826,7 +1826,7 @@
 					<image>img/M113.jpg</image>
 					<image>img/E-12.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Waterproof eth + power cable (E-12)</part>
 				</parts>
@@ -1836,7 +1836,7 @@
 				<images>
 					<image>img/M114.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Insert the waterproof eth cable (E-11) into the second provided hole. </text>
@@ -1844,7 +1844,7 @@
 					<image>img/M115.jpg</image>
 					<image>img/E-11.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Waterproof eth cable (E-11)</part>
 				</parts>
@@ -1860,7 +1860,7 @@
 					<image>img/Mechanical/DSC_6303.jpg</image>
 					<image>img/Parts/M-O2.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>4 steel rods (M-O2)</part>
 				</parts>
@@ -1873,7 +1873,7 @@
 					<image>img/Mechanical/DSC_6306.jpg</image>
 					<image>img/Parts/M-O2.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>4 steel rods (M-O2)</part>
 				</parts>
@@ -1884,14 +1884,14 @@
 					<image>img/Mechanical/DSC_6307.jpg</image>
 					<image>img/Mechanical/DSC_6308.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Take the assembled SFP mount part. </text>
 				<images>
 					<image>img/Mechanical/DSC_6309.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Insert the whole assembly on rails.</text>
@@ -1899,7 +1899,7 @@
 					<image>img/Mechanical/DSC_6310.jpg</image>
 					<image>img/Mechanical/DSC_6311.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Put bearing edge under the two washers and tighten M3 TORX screws.</text>
@@ -1907,14 +1907,14 @@
 					<image>img/Mechanical/DSC_6312.jpg</image>
 					<image>img/Mechanical/DSC_6314.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the assembled SFP extension plug.</text>
 				<images>
 					<image>img/Mechanical/DSC_6325.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Attach SATA cable to SFP extension socket board and plug the IDC cable to the left slot on the PCB board.</text>
@@ -1923,7 +1923,7 @@
 					<image>img/Mechanical/DSC_6327.jpg</image>
 					<image>img/Mechanical/DSC_6328.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the long IDC cable (E-14) and plug it into the right slot on the SFP extension socket board. </text>
@@ -1931,7 +1931,7 @@
 					<image>img/Mechanical/DSC_6329.jpg</image>
 					<image>img/E-14.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>IDC cable long (E-14)</part>
 				</parts>
@@ -1942,7 +1942,7 @@
 					<image>img/Mechanical/DSC_6323.jpg</image>
 					<image>img/Mechanical/DSC_6324.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Prepare the Philips media converter. Take the power supply cable with the connector (E-19) and plug it in the power socket. </text>
@@ -1950,7 +1950,7 @@
 					<image>img/Mechanical/DSC_6330.jpg</image>
 					<image>img/Mechanical/DSC_6331.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Power supply cable with the connector (E-19)</part>
 				</parts>
@@ -1962,7 +1962,7 @@
 					<image>img/Mechanical/DSC_6334.jpg</image>
 					<image>img/Mechanical/DSC_6336.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Place the media converter next to the rails. Turn it so that the UTP and SFP ports are pointing upwards and and TP-link title towards the KORUZA assembly. Plug in the PCB socket. </text>
@@ -1971,7 +1971,7 @@
 					<image>img/Mechanical/DSC_6343.jpg</image>
 					<image>img/Mechanical/DSC_6344.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Use four TORX M3x10 screws, already inserted in holes, to attach brackets to the laser mount and media converter mount. </text>
@@ -1982,7 +1982,7 @@
 					<image>img/Mechanical/DSC_6347.jpg</image>
 					<image>img/Mechanical/DSC_6348.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the assembled motor mount. Insert it on the rods. Tighten the set screws. </text>
@@ -1993,7 +1993,7 @@
 					<image>img/Mechanical/DSC_6352.jpg</image>
 					<image>img/Mechanical/DSC_6353.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Connect motors to the PCB on top. Connect the z-motor (located next to the SFP module) to the first connector, the y-motor (facing the media converter) to the second and x-motor to the last connector. </text>
@@ -2002,14 +2002,14 @@
 					<image>img/Mechanical/DSC_6355.jpg</image>
 					<image>img/Mechanical/DSC_6356.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Insert the power cable (E-18) into the screw terminal (closest to the corner of the board) on the top PCB, mind the polarity. </text>
 				<images>
 					<image>img/Mechanical/DSC_6357.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>Power supply cable (E-18)</part>
 				</parts>
@@ -2019,14 +2019,14 @@
 				<images>
 					<image>img/Mechanical/DSC_6359.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Take the 3D printed half-bracket and attach it to the motor mount with the TORX M3 screw, already inserted in the part. Thread the wires behind it. </text>
 				<images>
 					<image>img/Mechanical/DSC_6360.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Power 2 Lid</text>
@@ -2034,7 +2034,7 @@
 					<image>img/Mechanical/DSC_6361.jpg</image>
 					<image>img/Mechanical/DSC_6362.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Vezice</text>
@@ -2045,7 +2045,7 @@
 					<image>img/Mechanical/DSC_6369.jpg</image>
 					<image>img/Mechanical/DSC_6370.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 		</steps>
 	</module>
@@ -2057,7 +2057,7 @@
 				<images>
 					<image>img/Connecting Lid/DSC_6372.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Connect the power cable from the lid to the second screw terminal on the top PCB, mind the polarity. </text>
@@ -2066,7 +2066,7 @@
 					<image>img/Connecting Lid/DSC_6374.jpg</image>
 					<image>img/Connecting Lid/DSC_6375.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Connect the long IDC cable, attached to the SFP extension socket board, to the PCB on the lid. Connector is located next to the power cable. </text>
@@ -2074,7 +2074,7 @@
 					<image>img/Connecting Lid/DSC_6378.jpg</image>
 					<image>img/Connecting Lid/DSC_6379.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Connect the the micromatch cable, attached to the lid, to the top PCB board. Connector is located next to the screw terminals.  </text>
@@ -2082,7 +2082,7 @@
 					<image>img/Connecting Lid/DSC_6376.jpg</image>
 					<image>img/Connecting Lid/DSC_6377.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Insert UTP plug into the media converter. </text>
@@ -2091,7 +2091,7 @@
 					<image>img/Connecting Lid/DSC_6381.jpg</image>
 					<image>img/Connecting Lid/DSC_6383.jpg</image>
 				</images>
-				<video>video/vid1.mp4</video>
+				<video>video/vid-dummy.mp4</video>
 			</step>
 		</steps>
 	</module>
