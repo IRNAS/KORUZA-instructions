@@ -30,6 +30,9 @@
 					<img id="stepImage1" onclick="changePhoto(this.id)">
 					<img id="stepImage2" onclick="changePhoto(this.id)">
 					<img id="stepImage3" onclick="changePhoto(this.id)">
+                    <img id="stepImage4" onclick="changePhoto(this.id)">
+					<img id="stepImage5" onclick="changePhoto(this.id)">
+					<img id="stepImage6" onclick="changePhoto(this.id)">
 						
 				</div>
 				
@@ -468,7 +471,7 @@ function DisplayText(xml, i, s) {
 					image.src = imtxt;
 					image.style.display='inline';
 			}
-			for (j = imlen; j < 3; j++){
+			for (j = imlen; j < 6; j++){
 				imtxt = "";
 				txt = 'stepImage';
 				txt += j+1;
@@ -485,7 +488,7 @@ function DisplayText(xml, i, s) {
 			image = document.getElementById('stepImage');
 			image.src = imtxt;
 			
-			for (j = 0; j < 3; j++){
+			for (j = 0; j < 6; j++){
 				imtxt = "";
 				txt = 'stepImage';
 				txt += j+1;
