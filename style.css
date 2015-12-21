@@ -9,78 +9,75 @@ color: #4d4d4d;
 background-color: #f9f9f9;
 border-style: solid;
 border-color: #e6e6e6;
-border-width: 10px;
+border-width: 0.5vw;
 
 margin-left:1vw;
-margin-right:5vw;
 margin-top:2vh;
-
-min-height: 41vw;
-width: 93vw;
-
 position:absolute;
-padding-left:1%;
-padding-right:1%;
-padding-top:1%;
-padding-bottom:1%;
-float:left;
-height: 88vh;
 
+float:left;
+width: 93vw;
+height: 90vh;
+
+padding-left:1vw;
+padding-right:1vw;
+padding-top:1vh;
+padding-bottom:1vh;
 
 }
 
 #step{
-width: 82%;
+width: 76vw;
 float:left;
-height:98%;
-padding-bottom:1%;
+height: 90vh;
+
 }
 
 #menuPage{
-width: 15%;
-padding-left:1%;
-padding-right:1%;
-padding-bottom:1%;
+width: 14vw;
+padding-left:1vw;
+padding-right:1vw;
+padding-bottom:1vh;
 float:right;
 background-color: #e6e6e6;
-height: 98%
+height: 89vh;
 }
 
 #title{
-width: 96%;
-height: 6%;
+width: 74vw;
+height: 5vh;
 background-color: #e6e6e6;
 
-padding-left:2%;
-padding-right:2%;
-padding-top:1%;
-padding-bottom:1%;
+padding-left:1vw;
+padding-right:1vw;
+padding-top:1vh;
+padding-bottom:1vh;
 
 float:left;
 
-margin-bottom:1%;
+margin-bottom:1vh;
 
 }
 
 #instPage{
-width: 100%;
+width: 76vw;
 float:left;
-height: 90%
+height: 82vh;
 }
 
 #imgPage{
-width: 58%;
+width: 44vw;
 background-color: #e6e6e6;
-padding-left:1%;
-padding-right:1%;
-padding-top:1%;
+padding-left:0.75vw;
+padding-right:0.75vw;
+padding-top:1vh;
 float:left;
-height: 99%;
+height: 81vh;
 
 }
 
 #imgWrap{
-width:100%;
+width:44vw;
 margin-bottom:2vh;
 float: left;
 }
@@ -100,7 +97,7 @@ cursor:pointer;
 }
 
 #smImg{
-width:96%;
+width:44vw;
 float: left;
 
 }
@@ -108,20 +105,22 @@ float: left;
 
 
 #stepImage1, #stepImage2, #stepImage3{
-width:25%;
+width:11vw;
+max-height: -webkit-calc(79vh-29vw);
+max-height: -moz-calc(79vh-29vw);
 cursor:pointer;
 }
 
 #stepImage1:hover {
-width: 27%;
+width: 12vw;
 }
 
 #stepImage2:hover {
-width: 27%;
+width: 12vw;
 }
 
 #stepImage3:hover {
-width: 27%;
+width: 12vw;
 }
 
 
@@ -192,25 +191,25 @@ cursor:pointer;
 }
 
 #rPage{
-width: 39%;
-padding-left:1%;
-padding-top:0%;
+width: 29.75vw;
+padding-left:0.75vw;
+padding-top:0;
 padding-right:0;
 padding-bottom:0;
 float:left;
 top:0;
-height: 100%;
+height: 82vh;
 }
 
 #vidPage{
-width:96%;
+width:28.25vw;
 background-color: #e6e6e6;
 margin-top:0;
-padding-top: 2%;
-padding-left: 2%;
-padding-right:2%;
-padding-bottom:2%;
-margin-bottom:2%;
+padding-top: 1vh;
+padding-left: 0.75vw;
+padding-right:0.75vw;
+padding-bottom:1vh;
+margin-bottom:1vh;
 float: left;
 }
 
@@ -221,15 +220,15 @@ float:left;
 
 
 #textPage{
-width:96%;
-height: -webkit-calc(95% - 15.7vw);
-height: -moz-calc(95% - 15.7vw);
+width:28.25vw;
+height: -webkit-calc(78vh - 28.25vw*(9/16));
+height: -moz-calc(78vh - 28.25vw*(9/16));
 background-color: #e6e6e6;
 margin-top:0;
-padding-top: 1%;
-padding-left: 2%;
-padding-right:2%;
-margin-bottom:1%;
+padding-top: 1vh;
+padding-left: 0.75vw;
+padding-right:0.75vw;
+margin-bottom:1vh;
 float: left;
 overflow-y: scroll;
 }
@@ -240,11 +239,11 @@ overflow-y: scroll;
 
 #menuScrol{
 overflow-y: scroll;
-width:97%
-padding-left:1%;
-padding-right:2%;
-height: 85%;
-max-height: 85%;
+width:13vw;
+padding-left:0.5vw;
+padding-right:0.5vw;
+height: 75vh;
+max-height: 75vh;
 }
 
 h1{
