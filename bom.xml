@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom>
+    <module>
+        <module-name>Electronics</module-name>
+        <part>
+            <name>Power module</name>
+            <id>E-1</id>
+            <q>1</q>
+            <text>Circuit board from 24V in to 5V and 9V out.</text>
+            <img>img/Parts/E-1.jpg</img>
+        </part>
+        <part>
+            <name>Raspberry pi shield</name>
+            <id>E-2</id>
+            <q>1</q>
+            <text>Shield for interfacing Rpi with KORUZA electronics.</text>
+            <img>img/Parts/E-2.jpg</img>
+        </part>
+        <part>
+            <name>Sfp extension plug</name>
+            <id>E-3</id>
+            <q>1</q>
+            <text>Module for interfacing Media converter.</text>
+            <img>img/Parts/E-3.jpg</img>
+        </part>
+        <part>
+            <name>Sfp extension socket</name>
+            <id>E-4</id>
+            <q>1</q>
+            <text>Module for interfacing SFP module.</text>
+            <img>img/Parts/E-4.jpg</img>
+        </part>
+        <part>
+            <name>Universal unipolar stepper driver</name>
+            <id>E-5</id>
+            <q>1</q>
+            <text>Module for controlling stepper motors and green laser.</text>
+            <img>img/Parts/E-5.jpg</img>
+        </part>
+        <part>
+            <name>Raspberry Pi 2B microcomputer</name>
+            <id>E-6</id>
+            <q>1</q>
+            <text>Brains of the system.</text>
+            <img>img/Parts/E-6.jpg</img>
+        </part>
+        <part>
+            <name>PoE injector 24V</name>
+            <id>E-7</id>
+            <q>1</q>
+            <text>Passive PoE injector.</text>
+            <img>img/Parts/E-7.jpg</img>
+        </part>
+        <part>
+            <name>SFP module 40km+ BiDi SC with DDM</name>
+            <id>E-8</id>
+            <q>1</q>
+            <text>Electro-optical transceiver.</text>
+            <img>img/Parts/E-8.jpg</img>
+        </part>
+        <part>
+            <name>Green laser 5mV, 3.3V</name>
+            <id>E-9</id>
+            <q>1</q>
+            <img>img/Parts/E-9.jpg</img>
+        </part>
+        <part>
+            <name>Motor 24BYJ48</name>
+            <id>E-10</id>
+            <q>3</q>
+            
+            <img>img/Parts/E-10.jpg</img>
+        </part>
+        <part>
+            <name>Waterproof eth connector</name>
+            <id>E-11</id>
+            <q>1</q>
+            
+            <img>img/Parts/E-11.jpg</img>
+        </part>
+        <part>
+            <name>Waterproof eth + pwr connectors</name>
+            <id>E-12</id>
+            <q>1</q>
+            
+            <img>img/Parts/E-12.jpg</img>
+        </part>
+        <part>
+            <name>TP-Link MC220L media converter</name>
+            <id>E-13</id>
+            <q>1</q>
+            
+            <img>img/Parts/E-13.jpg</img>
+        </part>
+        <part>
+            <name>Cable IDC long</name>
+            <id>E-14</id>
+            <q>1</q>
+            <text>IDC10 35cm</text>
+            <img>img/Parts/E-1415.jpg</img>
+        </part>
+        <part>
+            <name>Cable IDC short</name>
+            <id>E-15</id>
+            <q>1</q>
+            <text>IDC10 5cm</text>
+            <img>img/Parts/E-1415.jpg</img>
+        </part>
+        <part>
+            <name>SATA cable</name>
+            <id>E-16</id>
+            <q>1</q>
+            <text>10cm long, straight straing</text>
+            <img>img/Parts/E-16.jpg</img>
+        </part>
+        <part>
+            <name>Micromatch cable </name>
+            <id>E-17</id>
+            <q>1</q>
+            <text>25cm</text>
+            <img>img/Parts/E-17.jpg</img>
+        </part>
+        <part>
+            <name>Cable power 0.75mm^2 red-black</name>
+            <id>E-18</id>
+            <q>1</q>
+            <text>25cm</text>
+            <img>img/Parts/E-18.jpg</img>
+        </part>
+        <part>
+            <name>Cable power jack 2.1mm</name>
+            <id>E-19</id>
+            <q>1</q>
+            <text>25cm</text>
+            <img>img/Parts/E-19.jpg</img>
+        </part>
+        <part>
+            <name>Micro SD card, 8GB</name>
+            <id>E-20</id>
+            <q>1</q>
+            
+            <img>img/Parts/E-20.jpg</img>
+        </part>
+    </module>
+    <module>
+        <module-name>Fasteners</module-name>
+        <part>
+            <name>Set screw HEX socket DIN913 M3x16 </name>
+            <id>M-F1</id>
+            <q>1</q>
+            <img>img/Parts/M-F1.jpg</img>
+        </part>
+        <part>
+            <name>Screw     HEX socket       DIN912 M3x25</name>
+            <id>M-F3</id>
+            <q>9</q>
+     
+            <img>img/Parts/M-F3.jpg</img>
+        </part>
+        <part>
+            <name>Screw HEX socket DIN912 M3x35</name>
+            <id>M-F4</id>
+            <q>18</q>
+            <img>img/Parts/M-F4.jpg</img>
+        </part>
+        <part>
+            <name>Screw HEX socket DIN912 M4x45</name>
+            <id>M-F5</id>
+            <q>4</q>
+     
+            <img>img/Parts/M-F5.jpg</img>
+        </part>
+        <part>
+            <name>Screw TORX BN6404 M3x10</name>
+            <id>M-F6</id>
+            <q>17</q>
+            <img>img/Parts/M-F6.jpg</img>
+        </part>
+        <part>
+            <name>Screw HEX socket DIN912 M4x12</name>
+            <id>M-F7</id>
+            <q>12</q>
+     
+            <img>img/Parts/M-F7.jpg</img>
+        </part>
+        <part>
+            <name>Screw HEX DIN912 M4x70</name>
+            <id>M-F8</id>
+            <q>2</q>
+            <img>img/Parts/M-F8.jpg</img>
+        </part>
+        <part>
+            <name>Screw HEX DIN933 M5x80</name>
+            <id>M-F9</id>
+            <q>1</q>
+     
+            <img>img/Parts/M-F9.jpg</img>
+        </part>
+        <part>
+            <name>Threaded rod M5x65  </name>
+            <id>M-F10</id>
+            <q>2</q>
+            <img>img/Parts/M-F10.jpg</img>
+        </part>
+        <part>
+            <name>Nut, square DIN562 M3</name>
+            <id>M-F11</id>
+            <q>42</q>
+     
+            <img>img/Parts/M-F11.jpg</img>
+        </part>
+        <part>
+            <name>Nut, square DIN562 M4</name>
+            <id>M-F12</id>
+            <q>22</q>
+            <img>img/Parts/M-F12.jpg</img>
+        </part>
+        <part>
+            <name>Long nut, HEX DIN6334 M5 </name>
+            <id>M-F13</id>
+            <q>3</q>
+     
+            <img>img/Parts/M-F13.jpg</img>
+        </part>
+        <part>
+            <name>Washer M3 DIN921</name>
+            <id>M-F14</id>
+            <q>3</q>
+            <img>img/Parts/M-F14.jpg</img>
+        </part>
+        <part>
+            <name>Washer M4 DIN921</name>
+            <id>M-F15</id>
+            <q>7</q>
+     
+            <img>img/Parts/M-F15.jpg</img>
+        </part>
+        <part>
+            <name>Thin nut ISO4035 M10</name>
+            <id>M-F16</id>
+            <q>10</q>
+            <img>img/Parts/M-F16.jpg</img>
+        </part>
+        <part>
+            <name>Eye bolt Screw DIN444A M10x40</name>
+            <id>M-F17</id>
+            <q>1</q>
+     
+            <img>img/Parts/M-F17.jpg</img>
+        </part>
+        <part>
+            <name>Screw round head square neck bolt DIN603 M10x75 </name>
+            <id>M-F18</id>
+            <q>1</q>
+            <img>img/Parts/M-F18.jpg</img>
+        </part>
+        <part>
+            <name>Screw HEX bolt DIN933 M10x160</name>
+            <id>M-F19</id>
+            <q>1</q>
+     
+            <img>img/Parts/M-F19.jpg</img>
+        </part>
+        <part>
+            <name>Washer M10</name>
+            <id>M-F20</id>
+            <q>4</q>
+     
+            <img>img/Parts/M-F20.jpg</img>
+        </part>
+        <part>
+            <name>Spring lock washer DIN127 M10</name>
+            <id>M-F21</id>
+            <q>3</q>
+     
+            <img>img/Parts/M-F21.jpg</img>
+        </part>
+        <part>
+            <name>Nut, HEX, M5 DIN934 M5</name>
+            <id>M-F22</id>
+            <q>1</q>
+     
+            <img>img/Parts/M-F22.jpg</img>
+        </part>
+    
+    
+    </module>
+    <module>
+        <module-name>3D Printed</module-name>
+        <part>
+            <name>SFP module sleeve</name>
+            <id>M-P1</id>
+            <q>1</q>
+            <img>img/Parts/M-P1a.jpg</img>
+        </part>
+        <part>
+            <name>SFP mount</name>
+            <id>M-P2</id>
+            <q>1</q>
+            <img>img/Parts/M-P2a.jpg</img>
+        </part>
+        <part>
+            <name>Ring outer</name>
+            <id>M-P4</id>
+            <q>1</q>
+            <img>img/Parts/M-P4.jpg</img>
+        </part>
+         <part>
+            <name>Ring inner</name>
+            <id>M-P5</id>
+            <q>1</q>
+            <img>img/Parts/M-P5.jpg</img>
+        </part>
+        <part>
+            <name>Lens mount outer</name>
+            <id>M-P6</id>
+            <q>1</q>
+            <img>img/Parts/M-P6.jpg</img>
+        </part>
+        <part>
+            <name>Lens mount</name>
+            <id>M-P7</id>
+            <q>1</q>
+            <img>img/Parts/M-P7.jpg</img>
+        </part>
+        <part>
+            <name>Laser mount</name>
+            <id>M-P8</id>
+            <q>1</q>
+            <img>img/Parts/M-P8a.jpg</img>
+        </part>
+        <part>
+            <name>Wedge left</name>
+            <id>M-P9</id>
+            <q>1</q>
+            <img>img/Parts/M-P910.jpg</img>
+        </part>
+        <part>
+            <name>Wedge right</name>
+            <id>M-P10</id>
+            <q>1</q>
+            <img>img/Parts/M-P910.jpg</img>
+        </part>
+         <part>
+            <name>MC mount</name>
+            <id>M-P12</id>
+            <q>1</q>
+            <img>img/Parts/M-P12.jpg</img>
+        </part>
+        <part>
+            <name>Motor mount</name>
+            <id>M-P13</id>
+            <q>1</q>
+            <img>img/Parts/M-P13a.jpg</img>
+        </part>
+        <part>
+            <name>Inner SFP mount</name>
+            <id>M-P14</id>
+            <q>1</q>
+            <img>img/Parts/M-P14.jpg</img>
+        </part>
+                <part>
+            <name>Lid</name>
+            <id>M-P15</id>
+            <q>1</q>
+            <img>img/Parts/M-P15a.jpg</img>
+        </part>
+        <part>
+            <name>Bracket</name>
+            <id>M-P16</id>
+            <q>4</q>
+            <img>img/Parts/M-P16.jpg</img>
+        </part>
+         <part>
+            <name>Half-bracket</name>
+            <id>M-P17</id>
+            <q>1</q>
+            <img>img/Parts/M-P17.jpg</img>
+        </part>
+        <part>
+            <name>Pin with hole</name>
+            <id>M-P18</id>
+            <q>2</q>
+            <img>img/Parts/M-P1819.jpg</img>
+        </part>
+        <part>
+            <name>Triangle</name>
+            <id>M-P19</id>
+            <q>1</q>
+            <img>img/Parts/M-P1819.jpg</img>
+        </part>
+    </module>
+     <module>
+        <module-name>Other</module-name>
+        <part>
+            <name>Rubber</name>
+            <id>M-O1</id>
+            <q>1</q>
+            <text>10x10cm 5mm not reinforced.</text>
+            <img>img/Parts/M-O1.jpg</img>
+        </part>
+        <part>
+            <name>8mm stainless steel rod – 200mm </name>
+            <id>M-O2</id>
+            <q>4</q>
+            <img>img/Parts/M-O4.jpg</img>
+        </part>
+        <part>
+            <name>Lens</name>
+            <id>M-O3</id>
+            <q>1</q>
+            <text>Plano convex 50mm FL=100mm.</text>
+            <img>img/Parts/M-O3a.jpg</img>
+        </part>
+        <part>
+            <name>Spring 10x20x0.7mm </name>
+            <id>M-O4</id>
+            <q>2</q>
+            <img>img/Parts/M-O2.jpg</img>
+        </part>
+        <part>
+            <name>Sliding bushing </name>
+            <id>M-O6</id>
+            <q>6</q>
+            
+            <img>img/Parts/M-O6.jpg</img>
+        </part>
+        <part>
+            <name>Cable ties 200x3.6mm</name>
+            <id>M-O7</id>
+            <q>2</q>
+            <img>img/Parts/M-O7.jpg</img>
+        </part>
+        <part>
+            <name>Coupler M5</name>
+            <id>M-O8</id>
+            <q>3</q>
+            
+            <img>img/Parts/M-O8.jpg</img>
+        </part>
+        <part>
+            <name>M3 male-female spacer 10mm long</name>
+            <id>M-O9</id>
+            <q>10</q>
+            <img>img/Parts/M-O9.jpg</img>
+        </part>
+        <part>
+            <name>Spring 49/35/4</name>
+            <id>M-O10</id>
+            <q>1</q>
+            
+            <img>img/Parts/M-O10.jpg</img>
+        </part>
+        <part>
+            <name>Bearing F624ZZ</name>
+            <id>M-O11</id>
+            <q>1</q>
+            <img>img/Parts/M-O11.jpg</img>
+        </part>
+     </module>
+      <module>
+        <module-name>Enclosure</module-name>
+        <part>
+            <name>Square profile</name>
+            <id>M-E1</id>
+            <q>1</q>
+            <img>img/Parts/M-E1.jpg</img>
+        </part>
+         <part>
+            <name>U-profile</name>
+            <id>M-E2</id>
+            <q>1</q>
+            <img>img/Parts/M-E2.jpg</img>
+        </part>
+          <part>
+            <name>L-profile</name>
+            <id>M-E3</id>
+            <q>1</q>
+            <img>img/Parts/M-E3.jpg</img>
+        </part>
+         <part>
+            <name>Mounting bracket set</name>
+            <id>M-E4</id>
+            <q>1</q>
+            <img>img/Parts/M-E4.jpg</img>
+        </part>
+     </module>
+</bom>

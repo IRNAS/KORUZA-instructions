@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style-bom.css">
+</head>
+
+<body>
+
+<table id="myTable">
+      <tr>
+            <th>Image</th>
+            <th>Module</th>
+            <th>Part</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>ID</th>
+    </tr>
+</table>
+
+
+
+
+
+
+
+<script>
+//document.location.hash="test";
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+    myFunction(xhttp);
+    }
+};
+xhttp.open("GET", "bom.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+
+    var xmlDoc = xml.responseXML;
+    var modlen, i, modname;
+    var table = document.getElementById("myTable");
+    
+    //Number of modules
+    x = xmlDoc.getElementsByTagName("module");
+    modlen = x.length;
+    
+    
+    //Loop over modules
+    for(i=0; i<modlen; i++){
+    
+        //Get name of the module
+        modname = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("module-name")[0].childNodes[0].nodeValue;
+        //Get number of parts
+        var partlen, j;
+
+        partlen = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part").length;
+        var row = table.insertRow(-1);
+        var cell0 = row.insertCell(0);
+        //var cell1 = row.insertCell(1);
+        //var cell2 = row.insertCell(2);
+        //var cell3 = row.insertCell(3);
+        //var cell4 = row.insertCell(4);
+        //var cell5 = row.insertCell(5);
+        
+        row.className = "line";
+        cell0.className = "line";
+        cell0.colSpan = "6";
+        cell0.innerHTML = modname;
+        
+        //Loop over steps
+        for(j = 0; j < partlen; j++){
+        
+            
+            var row = table.insertRow(-1);
+            var cell0 = row.insertCell(0);
+            var cell1 = row.insertCell(1);
+            var cell2 = row.insertCell(2);
+            var cell3 = row.insertCell(3);
+            var cell4 = row.insertCell(4);
+            var cell5 = row.insertCell(5);
+            
+            
+            var img = document.createElement('img');
+            img.src = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("img")[0].childNodes[0].nodeValue;
+            cell0.appendChild(img);
+            cell0.className = "cell_img";
+            img.tabIndex = 1;
+            
+            cell1.innerHTML = modname;
+            cell1.className = "module";
+            cell2.innerHTML = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+            cell2.className = "name";
+            if (xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("text")[0]){
+                cell3.innerHTML = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("text")[0].childNodes[0].nodeValue;
+                cell3.className = "text";
+            }
+            cell4.innerHTML = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("q")[0].childNodes[0].nodeValue;
+            cell4.className = "qn";
+            cell5.innerHTML = xmlDoc.getElementsByTagName("module")[i].getElementsByTagName("part")[j].getElementsByTagName("id")[0].childNodes[0].nodeValue;
+            cell5.className = "id";
+
+        };
+    
+    
+    
+    }
+
+
+
+};
+
+</script>
+
+</body>
+</html>

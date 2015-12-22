@@ -230,19 +230,7 @@ function myFunction(xml) {
 		s = +k;
 		i = sec[k];
 		
-		
-		 //Select options in menu
-	var sel = document.getElementsByClassName('selected');
-				
-			if(sel.length != 0){
-				while(sel[0]){
-					sel[0].className = "";}
-					}
-	var nesel = document.getElementById(s + "s");
-	nesel.className = " selected";
-	
-	nesel = document.getElementById(i);
-	nesel.className = " selected";
+
 	DisplayText(xhttp, i, s);
 	}
 	
@@ -256,20 +244,7 @@ function myFunction(xml) {
 			}
 			
 		}
-		
-		
-		 //Select options in menu
-	var sel = document.getElementsByClassName('selected');
-				
-			if(sel.length != 0){
-				while(sel[0]){
-					sel[0].className = "";}
-					}
-	var nesel = document.getElementById(s + "s");
-	nesel.className = " selected";
-	
-	nesel = document.getElementById(i);
-	nesel.className = " selected";
+
 	
 	DisplayText(xhttp, i, s);
 		
@@ -283,8 +258,24 @@ function myFunction(xml) {
     }else{
         list.style.display = "none";
     }
-}
+    
+    }
 
+    //Check if there is hash
+    if(document.location.hash!='')
+    {
+        var str = document.location.hash;
+        i = +str.slice(1);
+        for (k=0; k<seclen; k++){
+			if (i >= sec[k]){
+				s = k;
+			}
+			
+		}
+        
+        DisplayText(xhttp, i, s);
+        
+    }
 
 	
 }
@@ -417,8 +408,29 @@ function loadXMLSecN() {
 }
 
 function DisplayText(xml, i, s) {
+  
+  document.location.hash=i;
+  
   var xmlDoc, txt;
   xmlDoc = xml.responseXML;
+  
+  //select on the menu
+  	var sel = document.getElementsByClassName('selected');
+				
+			if(sel.length != 0){
+				while(sel[0]){
+					sel[0].className = "";}
+					}
+	var nesel = document.getElementById(s + "s");
+	nesel.className = " selected";
+    
+    var ids = document.getElementById("sec" + s);
+	if (ids.style.display == "none"){
+        ids.style.display = "block";
+    }
+    
+	nesel = document.getElementById(i);
+	nesel.className = " selected";
 
   
   //Title
