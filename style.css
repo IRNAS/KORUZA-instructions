@@ -59,6 +59,20 @@ margin-bottom:1vh;
 
 }
 
+#bom{
+float:right;
+margin-top: 0.25vh;
+margin-right: 0;
+padding-left:1vw;
+padding-right:1vw;
+padding-top:1vh;
+padding-bottom:1vh;
+font-size:2vh;
+font-weight:normal;
+color: #4d4d4d;
+cursor:pointer;
+}
+
 #instPage{
 width: 76vw;
 float:left;
