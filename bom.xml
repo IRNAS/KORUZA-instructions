@@ -56,7 +56,7 @@
             <id>E-8</id>
             <q>1</q>
             <text>Electro-optical transceiver.</text>
-            <img>img/Parts/E-8.jpg</img>
+            <img>img/Parts/E-8.JPG</img>
         </part>
         <part>
             <name>Green laser 5mV, 3.3V</name>
@@ -68,28 +68,28 @@
             <name>Motor 24BYJ48</name>
             <id>E-10</id>
             <q>3</q>
-            
+
             <img>img/Parts/E-10.jpg</img>
         </part>
         <part>
             <name>Waterproof eth connector</name>
             <id>E-11</id>
             <q>1</q>
-            
+
             <img>img/Parts/E-11.jpg</img>
         </part>
         <part>
             <name>Waterproof eth + pwr connectors</name>
             <id>E-12</id>
             <q>1</q>
-            
+
             <img>img/Parts/E-12.jpg</img>
         </part>
         <part>
             <name>TP-Link MC220L media converter</name>
             <id>E-13</id>
             <q>1</q>
-            
+
             <img>img/Parts/E-13.jpg</img>
         </part>
         <part>
@@ -138,7 +138,7 @@
             <name>Micro SD card, 8GB</name>
             <id>E-20</id>
             <q>1</q>
-            
+
             <img>img/Parts/E-20.jpg</img>
         </part>
     </module>
@@ -154,7 +154,7 @@
             <name>Screw     HEX socket       DIN912 M3x25</name>
             <id>M-F3</id>
             <q>9</q>
-     
+
             <img>img/Parts/M-F3.jpg</img>
         </part>
         <part>
@@ -167,7 +167,7 @@
             <name>Screw HEX socket DIN912 M4x45</name>
             <id>M-F5</id>
             <q>4</q>
-     
+
             <img>img/Parts/M-F5.jpg</img>
         </part>
         <part>
@@ -180,7 +180,7 @@
             <name>Screw HEX socket DIN912 M4x12</name>
             <id>M-F7</id>
             <q>12</q>
-     
+
             <img>img/Parts/M-F7.jpg</img>
         </part>
         <part>
@@ -193,7 +193,7 @@
             <name>Screw HEX DIN933 M5x80</name>
             <id>M-F9</id>
             <q>1</q>
-     
+
             <img>img/Parts/M-F9.jpg</img>
         </part>
         <part>
@@ -206,7 +206,7 @@
             <name>Nut, square DIN562 M3</name>
             <id>M-F11</id>
             <q>42</q>
-     
+
             <img>img/Parts/M-F11.jpg</img>
         </part>
         <part>
@@ -219,7 +219,7 @@
             <name>Long nut, HEX DIN6334 M5 </name>
             <id>M-F13</id>
             <q>3</q>
-     
+
             <img>img/Parts/M-F13.jpg</img>
         </part>
         <part>
@@ -232,7 +232,7 @@
             <name>Washer M4 DIN921</name>
             <id>M-F15</id>
             <q>7</q>
-     
+
             <img>img/Parts/M-F15.jpg</img>
         </part>
         <part>
@@ -245,7 +245,7 @@
             <name>Eye bolt Screw DIN444A M10x40</name>
             <id>M-F17</id>
             <q>1</q>
-     
+
             <img>img/Parts/M-F17.jpg</img>
         </part>
         <part>
@@ -258,32 +258,32 @@
             <name>Screw HEX bolt DIN933 M10x160</name>
             <id>M-F19</id>
             <q>1</q>
-     
+
             <img>img/Parts/M-F19.jpg</img>
         </part>
         <part>
             <name>Washer M10</name>
             <id>M-F20</id>
             <q>4</q>
-     
+
             <img>img/Parts/M-F20.jpg</img>
         </part>
         <part>
             <name>Spring lock washer DIN127 M10</name>
             <id>M-F21</id>
             <q>3</q>
-     
+
             <img>img/Parts/M-F21.jpg</img>
         </part>
         <part>
             <name>Nut, HEX, M5 DIN934 M5</name>
             <id>M-F22</id>
             <q>1</q>
-     
+
             <img>img/Parts/M-F22.jpg</img>
         </part>
-    
-    
+
+
     </module>
     <module>
         <module-name>3D Printed</module-name>
@@ -422,7 +422,7 @@
             <name>Sliding bushing </name>
             <id>M-O6</id>
             <q>6</q>
-            
+
             <img>img/Parts/M-O6.jpg</img>
         </part>
         <part>
@@ -435,7 +435,7 @@
             <name>Coupler M5</name>
             <id>M-O8</id>
             <q>3</q>
-            
+
             <img>img/Parts/M-O8.jpg</img>
         </part>
         <part>
@@ -448,7 +448,7 @@
             <name>Spring 49/35/4</name>
             <id>M-O10</id>
             <q>1</q>
-            
+
             <img>img/Parts/M-O10.jpg</img>
         </part>
         <part>

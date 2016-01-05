@@ -5,10 +5,10 @@
 	<name>Intro</name>
 	<steps>
 		<step>
-			<text>Follow this step-by-step assembly instructions (organised into 9 sections) to build your KORUZA units. 
+			<text>Follow this step-by-step assembly instructions (organised into 9 sections) to build your KORUZA units.
 			Perform each step following assembly step description with photo demonstration. Video tutorials for each step will be included shortly. We highly recommend you follow the assembling steps in the suggested order.</text>
 			<images>
-				<image>img/Intro/intro-1.png</image>				
+				<image>img/Intro/intro-1.png</image>
 				</images>
 			<video>video/vid-dummy.mp4</video>
 		</step>
@@ -854,125 +854,15 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Take the 3D printed outer ring (M-P4) and nine HEX socket M3x35 screws (M-F4). The outer ring needs to  be positioned in such a way, that smooth side is pointing upwards.</text>
-				<images>
-					<image>img/Parts/M-P4.jpg</image>
-					<image>img/Mounting/DSC_6052.jpg</image>
-					<image>img/Mounting/DSC_6053.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>Outer ring (M-P4)</part>
-					<part>9 screws HEX socket M3x35 (M-F4)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Insert M3 screws trough the provided holes, such that screw heads are located on the smooth surface.</text>
-				<images>
-					<image>img/Mounting/DSC_6056.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>Outer ring (M-P4)</part>
-					<part>9 screws HEX socket M3x35 (M-F4)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Turn the outer ring around and push screws the whole way trough. Take the rubber (M-O1) and put it on the screws. Keep in mind that holes are not symmetrical to preserve the correct orientation.</text>
-				<images>
-					<image>img/Parts/M-O1.jpg</image>
-					<image>img/Mounting/DSC_6058.jpg</image>
-					<image>img/Mounting/DSC_6060.jpg</image>
-					<image>img/Mounting/DSC_6061.jpg</image>
-					<image>img/Mounting/DSC_6063.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>Rubber (M-O1)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Prepare the inner ring (M-P5).</text>
-				<images>
-					<image>img/Parts/M-P5.jpg</image>
-					<image>img/Mounting/DSC_6064.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>Inner ring (M-P5)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Place the inner ring on top of the assembled structure. Keep in mind the orientation, such that screws are nicely aligned.</text>
-				<images>
-					<image>img/Mounting/DSC_6065.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
-				<text>Tighten screws with M3 nuts (M-F11), such that they firmly hold the rubber, but do not tighten them fully.</text>
-				<images>
-					<image>img/Parts/M-F11.jpg</image>
-					<image>img/Mounting/DSC_6067.jpg</image>
-					<image>img/Mounting/DSC_6068.jpg</image>
-					<image>img/Mounting/DSC_6069.jpg</image>
-					<image>img/Mounting/DSC_6070.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>9 M3 nuts (M-F11)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Take the laser mount part (M-P8) and insert nine M3 square nuts (M-F11) to the slots located on the sides.</text>
+				<text>Take the laser mount part (M-P8) and insert two more M3 square nuts (M-F11) into the front holes.</text>
 				<images>
 					<image>img/Parts/M-P8a.jpg</image>
-					<image>img/Parts/M-F11.jpg</image>
-					<image>img/Mounting/DSC_6072.jpg</image>
-					<image>img/Mounting/DSC_6073.jpg</image>
-					<image>img/Mounting/DSC_6075.jpg</image>
-					<image>img/Mounting/DSC_6077.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>Laser mount (M-P8)</part>
-					<part>9 M3 nuts (M-F11)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Turn the part around and insert, but not tighten nine HEX socket M3x35 screws (M-F4).</text>
-				<images>
-					<image>img/Parts/M-F4.jpg</image>
-					<image>img/Mounting/DSC_6079.jpg</image>
-					<image>img/Mounting/DSC_6080.jpg</image>
-					<image>img/Mounting/DSC_6081.jpg</image>
-					<image>img/Mounting/DSC_6084.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>9 screws HEX socket M3x35 (M-F4)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Take the hot glue and glue all nine nuts into the part. Do not use super-glue! Take the M3x35 screws out.</text>
-				<images>
-					<image>img/Mounting/DSC_6086.jpg</image>
-					<image>img/Mounting/DSC_6087.jpg</image>
-					<image>img/Mounting/DSC_6088.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>9 screws HEX socket M3x35 (M-F4)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Insert two more M3 square nuts (M-F11) into the front holes.</text>
-				<images>
 					<image>img/Parts/M-F11.jpg</image>
 					<image>img/Mounting/DSC_6090.jpg</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 				<parts>
+					<part>Laser mount (M-P8)</part>
 					<part>2 M3 nuts (M-F11)</part>
 				</parts>
 			</step>
@@ -1054,32 +944,23 @@
 				</parts>
 			</step>
 			<step>
-				<text>Take the assembled outer part...</text>
+				<text>Turn the lens outer ring around and push screws the whole way through. Take the rubber (M-O1) and put it on the screws. Keep in mind that holes are not symetrical to preserve the correct orientation.</text>
 				<images>
-					<image>img/Mounting/DSC_6109.jpg</image>
+					<image>img/Parts/M-O1.jpg</image>
+					<image>img/Mounting/DSC_6516.jpg</image>
+					<image>img/Mounting/DSC_6518.jpg</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
-				<text>... and place the outer ring trough the rubber.</text>
-				<images>
-					<image>img/Mounting/DSC_6111.jpg</image>
-					<image>img/Mounting/DSC_6112.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
-				<text>Keep in mind that the screws must be located on the same side as the ones on the outer ring.</text>
-				<images>
-					<image>img/Mounting/DSC_6115.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
+				<parts>
+					<part>Rubber (M-O1)</part>
+				</parts>
 			</step>
 			<step>
 				<text>Take the lens mount part (M-P7) and clean the inner edge if needed.</text>
 				<images>
 					<image>img/Parts/M-P7.jpg</image>
 					<image>img/Mounting/DSC_6116.jpg</image>
+					<image>img/Mounting/DSC_6519.jpg</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 				<parts>
@@ -1087,25 +968,11 @@
 				</parts>
 			</step>
 			<step>
-				<text>Insert the lens mounting ring on the screws from the inside, ...</text>
-				<images>
-					<image>img/Mounting/DSC_6117.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
-				<text>...such that the retaining edge is pointing to the rubber.</text>
-				<images>
-					<image>img/Mounting/DSC_6118.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
 				<text>Insert the lens (M-O3) with the curve part pointing downwards.</text>
 				<images>
 					<image>img/Parts/M-O3a.jpg</image>
-					<image>img/Mounting/DSC_6119.jpg</image>
-					<image>img/Mounting/DSC_6120.jpg</image>
+					<image>img/Mounting/DSC_6520.jpg</image>
+					<image>img/Mounting/DSC_6521.jpg</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 				<parts>
@@ -1113,19 +980,105 @@
 				</parts>
 			</step>
 			<step>
-				<text>Insert the laser pointer (E-9) trough the hole in the laser mount. Tighten the screws.</text>
+				<text>Place the lens mount with lens on the part with rubber such that the retaining edge is pointing to the rubber.</text>
 				<images>
-					<image>img/Parts/E-9.jpg</image>
-					<image>img/Mounting/DSC_6122.jpg</image>
-					<image>img/Mounting/DSC_6124.jpg</image>
-					<image>img/Mounting/DSC_6125.jpg</image>
-					<image>img/Mounting/DSC_6126.jpg</image>
-					<image>img/Mounting/DSC_6127.jpg</image>
-					<image>img/Mounting/DSC_6129.jpg</image>
+					<image>img/Mounting/DSC_6522.jpg</image>
+					<image>img/Mounting/DSC_6524.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Take the finished laser mount part (M-P8) and place it over inner parts with rubber.</text>
+				<images>
+					<image>img/Mounting/DSC_6525.jpg</image>
+					<image>img/Mounting/DSC_6527.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Pull or unscrew all nine screws HEX socket M3x35 (M-F4) for about half a centimeter.</text>
+				<images>
+					<image>img/Mounting/DSC_6528.jpg</image>
+					<image>img/Mounting/DSC_6530.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>One by one insert M3 nuts (M-F11) and tighten HEX socket M3x35 (M-F4) screws.</text>
+				<images>
+					<image>img/Parts/M-F11.jpg</image>
+					<image>img/Mounting/DSC_6531.jpg</image>
+					<image>img/Mounting/DSC_6532.jpg</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 				<parts>
-					<part>Green laser 5mV (E-9)</part>
+					<part>9 M3 nuts M-F11</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take the 3D printed outer ring (M-P4).</text>
+				<images>
+					<image>img/Parts/M-P4.jpg</image>
+					<image>img/Mounting/DSC_6533.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+				<parts>
+					<part>Outer ring(M-P4)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take four screws HEX socket M3x35 (M-F4) and insert them one on each side.</text>
+				<images>
+					<image>img/Parts/M-F4.jpg</image>
+					<image>img/Mounting/DSC_6534.jpg</image>
+					<image>img/Mounting/DSC_6536.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+				<parts>
+					<part>4 screws HEX socket M3x35 (M-F4)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Take the assembled lens mount/lasermount/rubber part and place it over the outer ring, preserve the orientation. Don't push 4 screws all the way through.</text>
+				<images>
+					<image>img/Mounting/DSC_6537.jpg</image>
+					<image>img/Mounting/DSC_6538.jpg</image>
+					<image>img/Mounting/DSC_6540.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step><step>
+				<text>Take the 3D printed inner ring (M-P5) and push 4 screws all the way through.</text>
+				<images>
+					<image>img/Parts/M-P5.jpg</image>
+					<image>img/Mounting/DSC_6541.jpg</image>
+					<image>img/Mounting/DSC_6544.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Now take five screws HEX socket M3x35 (M-F4) and insert them in free holes.</text>
+				<images>
+					<image>img/Parts/M-F4.jpg</image>
+					<image>img/Mounting/DSC_6545.jpg</image>
+					<image>img/Mounting/DSC_6546.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+				<parts>
+					<part>5 screws HEX socket M3x35 (M-F4)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Tighten screws with M3 nuts (M-F11), such that they firmly hold the rubber, but do not tighten them fully.</text>
+				<images>
+					<image>img/Parts/M-F11.jpg</image>
+					<image>img/Mounting/DSC_6547.jpg</image>
+					<image>img/Mounting/DSC_6548.jpg</image>
+					<image>img/Mounting/DSC_6549.jpg</image>
+					<image>img/Mounting/DSC_6550.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+				<parts>
+					<part>9 M3 nuts (M-F11)</part>
 				</parts>
 			</step>
 			<step>
@@ -1142,12 +1095,16 @@
 				</parts>
 			</step>
 			<step>
-				<text>Insert both wedges into the laser mount.</text>
+				<text>Insert the laser pointer (E-9) trough the hole in the laser mount. Insert both wedges into the laser mount.</text>
 				<images>
+					<image>img/Parts/E-9.jpg</image>
 					<image>img/Mounting/DSC_6135.jpg</image>
 					<image>img/Mounting/DSC_6136.jpg</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
+				<parts>
+					<part>Green laser 5mV (E-9)</part>
+				</parts>
 			</step>
 			<step>
 				<text>Take the two HEX socket M3x25 screws (M-F3) and fit them trough the wedge.</text>
@@ -2030,7 +1987,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Power 2 Lid</text>
+				<text>Insert the power cable into the other screw terminal, mind the polarity.</text>
 				<images>
 					<image>img/Mechanical/DSC_6361.jpg</image>
 					<image>img/Mechanical/DSC_6362.jpg</image>
@@ -2038,7 +1995,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Vezice</text>
+				<text>Use cable ties to prevent cables from moving around.</text>
 				<images>
 					<image>img/Mechanical/DSC_6365.jpg</image>
 					<image>img/Mechanical/DSC_6366.jpg</image>
