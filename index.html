@@ -220,7 +220,7 @@ function myFunction(xml) {
 		nodeul.style.display = "none";
 		
 		nodeli.onclick = function() {
-			ids = "sec"+this.id.charAt(0);
+			ids = "sec"+this.id.slice(0, -1);
 			//GoTo(this.id.charAt(0));
 			openList(ids);
 		};

@@ -2053,4 +2053,232 @@
 			</step>
 		</steps>
 	</module>
+	<module>
+		<name>Enclosure</name>
+		<steps>
+			<step>
+				<text>Take the square profile (M-E1). </text>
+				<images>
+					<image>img/Enclosure/M-O-1.jpg</image>
+				</images>
+				<parts>
+					<part>Square profile (M-E1)</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>We assemble the square profile to the U-profile (M-E2) using two HEX socket M4x12 screws (M-F7) and M4 nuts (M-F12). </text>
+				<images>
+					<image>img/Enclosure/M-O-2.jpg</image>
+					<image>img/Parts/M-E2.jpg</image>
+					<image>img/Parts/M-F7.jpg</image>
+					<image>img/Parts/M-F12.jpg</image>
+				</images>
+				<parts>
+					<part>U-profile (M-E2)</part>
+					<part>2 screws HEX socket M4x12 (M-F7) </part>
+					<part>2 M4 nuts (M-F12) </part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Pull the screw trough both holes, such that the head is located inside the square profile. Put on the M4 nut.</text>
+				<images>
+					<image>img/Enclosure/M-O-3.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Repeat on the other side.  </text>
+				<images>
+					<image>img/Enclosure/M-O-4.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Take the eye-bolt screw (M-F17), the L-profile (M-E3), two M10 nuts (M-F16) and a spring washer (M-F21). </text>
+				<images>
+					<image>img/Enclosure/M-O-5.jpg</image>
+					<image>img/Enclosure/M-O-5a.jpg</image>
+					<image>img/Parts/M-F17.jpg</image>
+					<image>img/Parts/M-E3.jpg</image>
+					<image>img/Parts/M-F16.jpg</image>
+					<image>img/Parts/M-F21.jpg</image>
+				</images>
+				<parts>
+					<part>Eye-bolt screw (M-F17)</part>
+					<part>L-profile (M-E3) </part>
+					<part>2 M10 nuts (M-F16) </part>
+					<part>Spring washer (M-F21) </part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Put a nut and a spring washer on the screw, then insert it into the hole located in the bottom corner of the L-profile. </text>
+				<images>
+					<image>img/Enclosure/M-O-6.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Put on another nut (M-F16). </text>
+				<images>
+					<image>img/Enclosure/M-O-7.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Prepare the antenna holder set (M-E4), containing the mounting piece, small U-profile, three shorter M8 screws, nuts and washers, two longer M10 screws and nuts and six M8 washers. </text>
+				<images>
+					<image>img/Enclosure/M-O-8.jpg</image>
+					<image>img/Enclosure/M-O-8a.jpg</image>
+				</images>
+				<parts>
+					<part>Antenna holder set (M-E4)</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Prepare the large mounting piece. Insert two M10 screws troug the hole on each side, such that heads are located on the flat side of the mounting piece.  </text>
+				<images>
+					<image>img/Enclosure/M-O-9.jpg</image>
+					<image>img/Enclosure/M-O-9a.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Slide the small U-prifile on M10 nuts, such that the flat side is pointing away from the mounting piece.  </text>
+				<images>
+					<image>img/Enclosure/M-O-10.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Insert an M10 washer and nut on each screw. </text>
+				<images>
+					<image>img/Enclosure/M-O-11.jpg</image>
+					<image>img/Enclosure/M-O-11a.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>  Place the antenna holder to the side of the L-profile. Take three M8 screws from the package and pul them through the holder and the middle opening on the side of the L-profile. </text>
+				<images>
+					<image>img/Enclosure/M-O-12.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Put M8 washer and nut on each screw. Fast nuts in desirable position for mounting. </text>
+				<images>
+					<image>img/Enclosure/M-O-13.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Take the M10x75 screw (M-F18) and pull it through the hole located on the bottom of the square profile. Keep in mind that the screw head should be located on the inside of the square tube. Put the spring washer (M-F21) and two nuts (M-F16) on it. </text>
+				<images>
+					<image>img/Enclosure/M-O-14.jpg</image>
+					<image>img/Parts/M-F18.jpg</image>
+				</images>
+				<parts>
+					<part>M10x75 screw (M-F18)</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Tighten the first nut such that washer sits tight in place. The function of the other nut is to secure position in the oval opening of the L-profile. Put a washer (M-F20) on it.  </text>
+				<images>
+					<image>img/Enclosure/M-O-15.jpg</image>
+					<image>img/Parts/M-F20.jpg</image>
+				</images>
+				<parts>
+					<part>M10 washer (M-F20)</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Take the square profile and place the L-profile on top, so that the M10x75 screw fits trough the second oval opening of the L-profile. </text>
+				<images>
+					<image>img/Enclosure/M-O-16.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+						<step>
+				<text>  Prepare the M10x160 screw (M-F19) and pull it through the side-left hole on the L-profile. </text>
+				<images>
+					<image>img/Enclosure/M-O-17.jpg</image>
+					<image>img/Parts/M-F19.jpg</image>
+				</images>
+				<parts>
+					<part>M10x160 screw (M-F19)</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>  Put on the spring washer (M-F21), two nuts (M-F16) and another M10 washer (M-F20).  </text>
+				<images>
+					<image>img/Enclosure/M-O-18.jpg</image>
+				</images>
+				<parts>
+					<part>Spring washer (M-F21)</part>
+					<part>2 M10 nuts (M-F16)</part>
+					<part>M10 washer (M-F20)</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>  M10x160 must fit trough the side opening of the U-Profile. Put on two more M10 (M-F16) nuts before pulling it trough the ring-bolt.  </text>
+				<images>
+					<image>img/Enclosure/M-O-19.jpg</image>
+				</images>
+				<parts>
+					<part>2 M10 nuts (M-F16)</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Insert another two M10 nuts (M-F16) to make the assembly symmetrical. Pull the screw all the way trough the U-profile.  </text>
+				<images>
+					<image>img/Enclosure/M-O-20.jpg</image>
+				</images>
+				<parts>
+					<part>2 M10 nuts (M-F16)</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>  Insert the washer (M-F20) and M10 nut (M-F16).   </text>
+				<images>
+					<image>img/Enclosure/M-O-21.jpg</image>
+				</images>
+				<parts>
+					<part> M10 nut (M-F16)</part>
+					<part>M10 washer (M-F20)</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Center the square profile and L-profile and fasten all the nuts, beginning with the one closest to the L-profile. </text>
+				<images>
+					<image>img/Enclosure/M-O-22.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>  Lastly, add a nut on the M10x75 screw to fix the L-profile in place.   </text>
+				<images>
+					<image>img/Enclosure/M-O-23.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> The outdoor enclosure is now complete. Keep in mind, that usually you want to assamble the enclosure for another unit in the miror-like fashion to enable easier mounting. </text>
+				<images>
+					<image>img/Enclosure/M-O-24.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+		</steps>
+	</module>
 </project>

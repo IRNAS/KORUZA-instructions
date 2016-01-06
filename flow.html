@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="style-flow.css">
+</head>
+
+<body>
+<h1 id="test"></h1>
+
+<div id="page">
+	
+	
+
+
+</div>
+
+</body>
+
+<script>
+var i = 0; //step variable
+var s = 0; //section variable
+var x, y, steplen, seclen, txt, j, k, l, m, secname;
+var sec = [];
+
+// Initial xml call
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+    myFunction(xhttp);
+    }
+};
+xhttp.open("GET", "index.xml", true);
+xhttp.send();
+
+
+function myFunction(xml) {
+	var txt, imtxt, imlen;
+    var xmlDoc = xml.responseXML;
+	
+	//Number of steps
+	x = xmlDoc.getElementsByTagName("step");
+	steplen = x.length;
+	
+	//Number of sections
+	seclen = xmlDoc.getElementsByTagName("module").length;
+	
+	//Get number of steps in each section
+	sec[0] = 0;
+	for(j = 1; j < seclen; j++ ){
+		sec[j] = sec[j-1] + xmlDoc.getElementsByTagName("module")[j-1].getElementsByTagName("steps")[0].getElementsByTagName("step").length;
+	}
+	
+	//Create instructions
+	for (s = 0; s < seclen; s++)
+	{
+		//Create section title
+		var titleDiv = document.createElement('div');
+		titleDiv.className = 'title';
+		document.getElementById('page').appendChild(titleDiv);
+		//Append text
+		secname = xmlDoc.getElementsByTagName("module")[s].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+		var node = document.createTextNode(secname);
+		titleDiv.appendChild(node);
+		
+		//Create steps
+		//Loop over steps in the section
+		for (i = 0; i < xmlDoc.getElementsByTagName("module")[s].getElementsByTagName("steps")[0].getElementsByTagName("step").length; i++)
+		{
+			//Create step window
+			var stepDiv = document.createElement('div');
+			stepDiv.className = 'step';
+			document.getElementById('page').appendChild(stepDiv);
+			
+			//Append step title
+			var titleDiv = document.createElement('div');
+			titleDiv.className = 'title1';
+			stepDiv.appendChild(titleDiv);
+			//Append text
+			j = sec[s] + i; //Step number
+			secname = xmlDoc.getElementsByTagName("module")[s].getElementsByTagName("name")[0].childNodes[0].nodeValue + ": " + "Step " + j;
+			var node = document.createTextNode(secname);
+			titleDiv.appendChild(node);
+			//Append button
+			var btn =  document.createElement('input');
+			btn.type  = 'button';
+			btn.value = "Bill Of Materials";
+			btn.onClick= function() {
+				window.open('http://instructions.koruza.net/bom');
+			}
+			btn.className = "bom";
+			titleDiv.appendChild(btn);
+			
+			
+			//Create image page
+			var imgDiv = document.createElement('div');
+			imgDiv.className = 'imgPage';
+			stepDiv.appendChild(imgDiv);
+			//Append main image wrap
+			var imgWrapDiv = document.createElement('div');
+			imgWrapDiv.className = 'imgWrap';
+			imgDiv.appendChild(imgWrapDiv);
+			//Append large image
+			var im = document.createElement("img");
+			imtxt = "";
+			imtxt = xmlDoc.getElementsByTagName("step")[j].getElementsByTagName("images")[0].getElementsByTagName("image")[0].childNodes[0].nodeValue;
+			im.setAttribute("src", imtxt);
+			im.className = 'stepImage';
+			im.id = j;
+			imgWrapDiv.appendChild(im);
+			//Append container for small images
+			var sImgDiv = document.createElement('div');
+			sImgDiv.className = 'smImg';
+			imgDiv.appendChild(sImgDiv);
+			//Small images
+			//Get number
+			imlen = xmlDoc.getElementsByTagName("step")[j].getElementsByTagName("images")[0].getElementsByTagName("image").length;
+			for (k = 0; k < imlen; k++){
+				imtxt1 = "";
+				imtxt1 = xmlDoc.getElementsByTagName("step")[j].getElementsByTagName("images")[0].getElementsByTagName("image")[k].childNodes[0].nodeValue;
+				var im = document.createElement("img");
+				im.setAttribute("src", imtxt1);
+				im.className = 'stepImageSmall';
+				im.id = j + "p" + k;
+				sImgDiv.appendChild(im);
+				
+				//Change images on click
+				im.onclick = function() {
+				
+					changePhoto(this.id);
+				
+				};
+				
+			}
+			
+			//Create video page
+			var videoDiv = document.createElement('div');
+			videoDiv.className = 'vidPage';
+			stepDiv.appendChild(videoDiv);
+			//Append video
+			var video = document.createElement('video');
+			imtxt = "";
+			imtxt = xmlDoc.getElementsByTagName("step")[j].getElementsByTagName("video")[0].childNodes[0].nodeValue;
+			video.setAttribute("src", imtxt);
+			video.className = 'stepVideo';
+			videoDiv.appendChild(video);
+			
+			//Create text page
+			var textDiv = document.createElement('div');
+			textDiv.className = 'textPage';
+			stepDiv.appendChild(textDiv);
+			//Append instructions
+			var txt = xmlDoc.getElementsByTagName("step")[j].getElementsByTagName("text")[0].childNodes[0].nodeValue;
+			var node1 = document.createTextNode(txt);
+			node1.className = 'inst';
+			textDiv.appendChild(node1);
+			//Append parts
+			//Step parts
+			var nodeul = document.createElement("ul");
+			if( xmlDoc.getElementsByTagName("step")[j].getElementsByTagName("parts")[0]){
+				txt = "";
+				y = xmlDoc.getElementsByTagName("step")[j].getElementsByTagName("parts")[0].getElementsByTagName("part");
+				for (k = 0; k < y.length; k++) { 
+					
+					txt = y[k].childNodes[0].nodeValue;
+					var nodeli = document.createElement("li");
+					var textnode = document.createTextNode(txt);
+					nodeli.appendChild(textnode);
+					nodeul.appendChild(nodeli);
+					
+				}
+				textDiv.appendChild(nodeul);
+			}
+			
+			
+			
+			
+		}
+	}
+	
+	function changePhoto(id){
+
+	var image1 = document.getElementById(id.charAt(0));
+	
+	var src2 = "";
+	var image2 = document.getElementById(id);
+	src2 = image2.src;
+	
+	image1.src = src2;
+
+	
+	
+
+
+}
+	
+	
+}
+
+
+</script>
+
