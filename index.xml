@@ -1381,7 +1381,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Insert the screw into the SFP mount trough the long M5 nut from bottom side. On the top side, 20mm of the screw must be pointing out.</text>
+				<text>Insert the screw into the SFP mount trough the long M5 nut from bottom side. On the top side, 8mm of the screw must be pointing out.</text>
 				<images>
 					<image>img/SFP Mount/DSC_6198.jpg</image>
 					<image>img/SFP Mount/DSC_6199.jpg</image>
@@ -1406,7 +1406,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Insert the coupler and motor onto the screw. Tighten both set screws again.</text>
+				<text>Insert the coupler and motor onto the screw, such that the coupler sits on the plastic part or the nut. Tighten both set screws again.</text>
 				<images>
 					<image>img/SFP Mount/DSC_6206.jpg</image>
 					<image>img/SFP Mount/DSC_6207.jpg</image>
@@ -1416,7 +1416,7 @@
 			</step>
 			<step>
 				<text>
-				Insert the whole thing onto the mounting part.</text>
+				Jump to the next step.</text>
 				<images>
 					<image>img/SFP Mount/DSC_6209.jpg</image>
 				</images>
@@ -2049,6 +2049,97 @@
 					<image>img/Connecting Lid/DSC_6381.jpg</image>
 					<image>img/Connecting Lid/DSC_6383.jpg</image>
 				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+		</steps>
+	</module>
+    <module>
+		<name>Unit testing</name>
+		<steps>
+			<step>
+				<text>Unit testing aims to validate correct operation of the KORUZA unit and prepare it for the calibration of  KORUZA link. The following steps are crucial before installing the unit into the enclosure as they verify correct rotation of motors, electrical connections and mechanical positioning. </text>
+				<images>
+					<image>img/UnitTest/M-O-1.jpg</image>
+				</images>
+				<parts>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Firstly power up the unit and establish the management connection required to perform further steps. A router is required to which we can establish a wired connection and have a computer connected to it. We take the PoE injector, connect the LAN port of it to the router with a network cable. A second network cable is used to connect the PoE port with KORUZA connector for management, the one with network and power cables on the inside connected to RaspberryPi. We make sure that once we power it on, some lights turn on in a few seconds on the unit. Otherwise there may be a short circuit and unit should be powered off and connections verified. </text>
+				<images>
+					<image>img/UnitTest/M-O-1.jpg</image>
+				</images>
+				<parts>
+					<part>PoE injector</part>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Waiting a few seconds for the system to power up, one can see orange and green LED turned on on the RaspberryPi ethernet port and one light blinking through the 3D printed lid. Now the unit is ready to be interfaced from the computer. </text>
+				<images>
+					<image>img/UnitTest/M-O-1.jpg</image>
+				</images>
+				<parts>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Make sure to be connected to the same router/network as the KORUZA unit. Open a browser and navigate to http://koruza.local alternatively you can visit your router interface and find koruza under DHCP client list. You will be presented with a web interface like this and can log in with username pi and password raspberry. </text>
+				<images>
+					<image>img/UnitTest/M-O-1.jpg</image>
+				</images>
+				<parts>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Web interface walkthrough. Upon visiting the web interface you see Unit information, with details about the unit required for connecting it to the monitoring system later on and the IP address of the unit in your local network, as well as the name. SFP status shows the optical communication characteristics and will show received optical power once a link between two units is established. Optimal link is within 6dB range of the transmitted power. Motor status shows the status and enables control of motors once you log in. You can enable the motor control and green laser with the switch. Motors are controlled with keys wasd for up left down and right respectively.Move the slider fully to the right for initial testing, with its position you define the resolution of movement, fully to the right is coarse. </text>
+				<images>
+					<image>img/UnitTest/M-O-1.jpg</image>
+				</images>
+				<parts>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Testing the X and Y motors. In the motor control section have motor control enabled and slider fully to the right. Press and hold the key d for movement to the right, the counter will keep increasing as you keep the key pressed. Release the key and observe the X motor rotating. Make sure the screw is sticking out of the plastic mounting block as the motor rotates is. Now press the Home X button, motor will start rotating the screw such it retracts until the switch above it is pressed. Press the switch with you hand once the screw is about 5mm out of the plastic block. The motor will stop. Now tighten the screws holding the motor, such that they touch the mounting tabs of the motor. Repeat the process for Y axis, but using the key w to move the motor.  
+                </text>
+				<images>
+					<image>img/UnitTest/M-O-1.jpg</image>
+				</images>
+				<parts>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Testing the F motor. Under the tab Settings verify/set the Motor max F is 70000. Return to the main tab and enable motor control, set the slider fully to the right and press the key f until the counter is set to 70000. The motor will start moving and the coupler will compress against the plastic part, this is expected.
+                </text>
+				<images>
+					<image>img/UnitTest/M-O-1.jpg</image>
+				</images>
+				<parts>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Measure the distance between the laser mount and the bottom of the sfp mount as shown on the photo. This distance should be in the 42-48mm range, typically 45mm. Use the key v to control the motor such that the distance is set to 39mm or the figure provided with the SFP module if any.
+                </text>
+				<images>
+					<image>img/UnitTest/M-O-1.jpg</image>
+				</images>
+				<parts>
+				</parts>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>The unit is now tested and ready to be installed in the enclosure. Wait 5 minutes after last movement of motors before powering off for the variables to be correctly stored in the controller.
+                </text>
+				<images>
+					<image>img/UnitTest/M-O-1.jpg</image>
+				</images>
+				<parts>
+				</parts>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 		</steps>
