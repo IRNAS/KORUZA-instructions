@@ -2067,9 +2067,10 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>We assemble the square profile to the U-profile (M-E2) using two HEX socket M4x12 screws (M-F7) and M4 nuts (M-F12). </text>
+				<text>We assemble the square profile to the U-profile (M-E2) using two HEX socket M4x12 screws (M-F7) and M4 nuts (M-F12). Put the U-profile on top of the square tub and pull the screw trough both holes, such that the head is located inside the square profile. Put on the M4 nut.</text>
 				<images>
 					<image>img/Enclosure/M-O-2.jpg</image>
+					<image>img/Enclosure/M-O-3.jpg</image>
 					<image>img/Parts/M-E2.jpg</image>
 					<image>img/Parts/M-F7.jpg</image>
 					<image>img/Parts/M-F12.jpg</image>
@@ -2082,13 +2083,6 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text> Pull the screw trough both holes, such that the head is located inside the square profile. Put on the M4 nut.</text>
-				<images>
-					<image>img/Enclosure/M-O-3.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
 				<text> Repeat on the other side.  </text>
 				<images>
 					<image>img/Enclosure/M-O-4.jpg</image>
@@ -2096,10 +2090,11 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Take the eye-bolt screw (M-F17), the L-profile (M-E3), two M10 nuts (M-F16) and a spring washer (M-F21). </text>
+				<text>Take the eye-bolt screw (M-F17), the L-profile (M-E3), two M10 nuts (M-F16) and a spring washer (M-F21). Put a nut and a spring washer on the screw, then insert it into the hole located in the bottom corner of the L-profile.  </text>
 				<images>
 					<image>img/Enclosure/M-O-5.jpg</image>
 					<image>img/Enclosure/M-O-5a.jpg</image>
+					<image>img/Enclosure/M-O-6.jpg</image>
 					<image>img/Parts/M-F17.jpg</image>
 					<image>img/Parts/M-E3.jpg</image>
 					<image>img/Parts/M-F16.jpg</image>
@@ -2114,13 +2109,6 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text> Put a nut and a spring washer on the screw, then insert it into the hole located in the bottom corner of the L-profile. </text>
-				<images>
-					<image>img/Enclosure/M-O-6.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
 				<text> Put on another nut (M-F16). </text>
 				<images>
 					<image>img/Enclosure/M-O-7.jpg</image>
@@ -2128,7 +2116,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Prepare the antenna holder set (M-E4), containing the mounting piece, small U-profile, three shorter M8 screws, nuts and washers, two longer M10 screws and nuts and six M8 washers. </text>
+				<text>Prepare the antenna holder set (M-E4), containing the mounting piece, small U-profile, three shorter M8 screws, nuts and washers, two longer M10 screws and nuts and two M8 washers. </text>
 				<images>
 					<image>img/Enclosure/M-O-8.jpg</image>
 					<image>img/Enclosure/M-O-8a.jpg</image>
@@ -2180,9 +2168,13 @@
 				<images>
 					<image>img/Enclosure/M-O-14.jpg</image>
 					<image>img/Parts/M-F18.jpg</image>
+					<image>img/Parts/M-F21.jpg</image>
+					<image>img/Parts/M-F16.jpg</image>
 				</images>
 				<parts>
 					<part>M10x75 screw (M-F18)</part>
+					<part>M10 spring washer (M-F21)</part>
+					<part>2 M10 nuts (M-F16)</part>
 				</parts>
 				<video>video/vid-dummy.mp4</video>
 			</step>
@@ -2221,7 +2213,7 @@
 					<image>img/Enclosure/M-O-18.jpg</image>
 				</images>
 				<parts>
-					<part>Spring washer (M-F21)</part>
+					<part>M10 spring washer (M-F21)</part>
 					<part>2 M10 nuts (M-F16)</part>
 					<part>M10 washer (M-F20)</part>
 				</parts>
@@ -2276,6 +2268,57 @@
 				<text> The outdoor enclosure is now complete. Keep in mind, that usually you want to assamble the enclosure for another unit in the miror-like fashion to enable easier mounting. </text>
 				<images>
 					<image>img/Enclosure/M-O-24.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+		</steps>
+	</module>
+	<module>
+		<name>Enclosure mounting</name>
+		<steps>
+			<step>
+				<text> Once KORUZA is inserted into the aluminium enclosure, the system can be mounted. Keep in mind the mounting pole can be oriented horizontally or vertically. You can adjust the position by loosening nuts and rotating the mount in the U slot on L-profile, depending on orientation of the pole.</text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-6.jpg</image>
+					<image>img/Enclosure-mounting/O-M-7.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Once the mount is in the desired position tighten the screws</text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-8.jpg</image>
+					<image>img/Enclosure-mounting/O-M-9.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Now unit can be mounted on a pole (minum diameter of pole 30mm, maximum 70mm). You might find useful to remove washer and nut from each screw first.</text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-10.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Put an M10 washer back on each screw. </text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-11.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>  Tighten the nuts.  </text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-12.jpg</image>
+					<image>img/Enclosure-mounting/O-M-13.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Similarly, you can mount the unit on a horizontal pole. </text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-14.jpg</image>
+					<image>img/Enclosure-mounting/O-M-15.jpg</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
