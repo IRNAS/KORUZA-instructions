@@ -59,27 +59,42 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>SFP mount: Re-drill four holes with 11mm drill or reamer. Check if the sliding bushing (M-O6) fits into the holes and that the metal rod (M-O2) slides trough each hole easily. </text>
+				<text>SFP mount: Re-drill four holes with 11mm drill or reamer.</text>
 				<images>
 					<image>img/Parts/M-P2a.jpg</image>
-					<image>img/Parts/M-O2.jpg</image>
-					<image>img/Parts/M-O6.jpg</image>
 					<image>img/Manufacturing/DSC_5785.jpg</image>
 					<image>img/Manufacturing/DSC_5787.jpg</image>
-					<image>img/Manufacturing/DSC_5791.jpg</image>
-					<image>img/Manufacturing/DSC_5796.jpg</image>
-					<image>img/Manufacturing/DSC_5798.jpg</image>
-					<image>img/Manufacturing/DSC_5799.jpg</image>
-					<image>img/Manufacturing/DSC_5802.jpg</image>
-					<image>img/Manufacturing/DSC_5806.jpg</image>
-					<image>img/Manufacturing/DSC_5807.jpg</image>
+					<image>img/Manufacturing/DSC_5791.jpg</image>					
 				</images>
 				<parts>
-					<part>SFP mount (M-P2)</part>
-					<part>Stainless steel rod (M-O2)</part>
-					<part>Sliding bushing (M-O6)</part>
+					<part>SFP mount (M-P2)</part>>
 				</parts>
 				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Push 4 sliding bushings (M-O6) in holes from the bottom...</text>
+				<images>
+					<image>img/Parts/M-O6.jpg</image>
+					<image>img/Manufacturing/DSC_5796.jpg</image>
+					<image>img/SFP Mount/DSC_6152.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+				<parts>
+					<part>4 sliding bushings (M-O6)</part>
+				</parts>
+			</step>
+			<step>
+				<text>... and two from the top. Check that the peace easily slides on the rods. If it does not slide nicely, take bushings out and ream holes again.</text>
+				<images>
+					<image>img/Manufacturing/DSC_5798.jpg</image>
+					<image>img/SFP Mount/DSC_6150.jpg</image>
+					<image>img/Manufacturing/DSC_5807.jpg</image>
+					<image>img/Parts/M-O2.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+				<parts>
+					<part>2 sliding bushings (M-O6)</part>
+				</parts>
 			</step>
 			<step>
 				<text>SFP mount: Re-drill two front small holes and one at the side with 4mm drill and other eight with 3mm drill.</text>
@@ -109,7 +124,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Ring inner: Re-drill nine holes on the top with 3mm drill. Drill four side holes with 4mm drill.</text>
+				<text>Ring inner: Re-drill nine holes on the top with 3mm drill. Drill four side holes with 4mm drill as deep as the original holes, do not drill to deep!</text>
 				<images>
 					<image>img/Parts/M-P5.jpg</image>
 					<image>img/Manufacturing/DSC_5824.jpg</image>
@@ -176,13 +191,11 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Laser mount: Re-drill nine holes on the bottom, five on the sides and six on the top with 3mm drill.</text>
+				<text>Laser mount: Re-drill nine holes on the bottom, five on the sides and six on the top with 3mm drill. Drill as deep as the original holes, do not drill to deep!</text>
 				<images>
 					<image>img/Parts/M-P8a.jpg</image>
-					<image>img/Parts/M-P8b.jpg</image>
 					<image>img/Manufacturing/DSC_5846.jpg</image>
 					<image>img/Manufacturing/DSC_5847.jpg</image>
-					<image>img/Manufacturing/DSC_5881.jpg</image>
 					<image>img/Manufacturing/DSC_5853.jpg</image>
 					<image>img/Manufacturing/DSC_5854.jpg</image>
 					<image>img/Manufacturing/DSC_5856.jpg</image>
@@ -248,7 +261,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Motor mount: Re-drill all 10 M4 holes with 4mm drill and remaining 3 M3 with 3mm drill.</text>
+				<text>Motor mount: Re-drill all 10 M4 holes with 4mm drill and remaining 3 M3 with 3mm drill. Re-drill the hole on the top with 2.5mm drill.</text>
 				<images>
 					<image>img/Manufacturing/DSC_5876.jpg</image>
 					<image>img/Manufacturing/DSC_5878.jpg</image>
@@ -264,7 +277,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Inner SFP mount: Re-drill 9 holes with 3mm drill.</text>
+				<text>Inner SFP mount: Re-drill 8 holes with 3mm drill.</text>
 				<images>
 					<image>img/Parts/M-P14.jpg</image>
 					<image>img/Manufacturing/DSC_5886.jpg</image>
@@ -276,7 +289,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Inner SFP mount: Check that the SFP module (E-8) fits into the provided slot.</text>
+				<text>Inner SFP mount: Check that the SFP module (E-8) fits into the provided slot. Note that some amount of force is required. </text>
 				<images>
 					<image>img/Manufacturing/DSC_5889.jpg</image>
 					<image>img/Manufacturing/DSC_5890.jpg</image>
@@ -326,7 +339,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Pin with hole: Re-drill the hole in each pin with 3mm drill.</text>
+				<text>Pin with hole: Re-drill the hole trough each pin with 3mm drill. Also re-drill opening hole on the top with 6mm drill, do not drill trough!</text>
 				<images>
 					<image>img/Parts/M-P1819.jpg</image>
 					<image>img/Manufacturing/DSC_5898.jpg</image>
@@ -377,7 +390,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Re-drill all M3 holes in PCB-s with 3mm drill. If you are using KORUZA DIY kit, you can skip this step.</text>
+				<text>Re-drill all M3 holes on PCB-s (four on each PCB) with 3mm drill. If you are using KORUZA DIY kit, you can skip this step.</text>
 				<images>
 					<image>img/Electronics/DSC_5905.jpg</image>
 					<image>img/Electronics/DSC_5907.jpg</image>
@@ -485,7 +498,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Take two spacers (M-O9) and attach them on the bottom side of the Raspberry Pi shield, so that they connect with the spacers already attached on the Power module PCB.</text>
+				<text>Take two spacers (M-O9) and attach them on the bottom side of the Raspberry Pi shield, so that they connect with the spacers already attached on the Power module PCB. Apply reasonable amount of force.</text>
 				<images>
 					<image>img/Parts/M-O9.jpg</image>
 					<image>img/Electronics/DSC_5932.jpg</image>
@@ -521,7 +534,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Take four more spacers (M-O9). Attach them to the Raspberry Pi PCB.</text>
+				<text>Take four more spacers (M-O9). Attach them to the Raspberry Pi PCB. Apply reasonable amount of force. </text>
 				<images>
 					<image>img/Parts/M-O9.jpg</image>
 					<image>img/Electronics/DSC_5941.jpg</image>
@@ -736,7 +749,7 @@
 			<step>
 				<text>Take the Waterproof eth + pwr cable (E-12). Insert the power plug into the PCB board. </text>
 				<images>
-						<image>img/Parts/E-1112.jpg</image>
+						<image>img/Parts/E-12.jpg</image>
 						<image>img/Electronics-test/DSC_5984.jpg</image>
 						<image>img/Electronics-test/DSC_5985.jpg</image>
 						<image>img/Electronics-test/DSC_5986.jpg</image>
@@ -912,7 +925,7 @@
 				</images>
 				<video>video/vid-dummy.mp4</video>
 				<parts>
-					<part>9 M3 nuts (M-F11)</part>
+					<part>2 M3 nuts (M-F11)</part>
 				</parts>
 			</step>
 			<step>
@@ -1047,7 +1060,7 @@
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step><step>
-				<text>Take the 3D printed inner ring (M-P5) and push 4 screws all the way through.</text>
+				<text>Take the 3D printed inner ring (M-P5) and push 4 screws all the way through. Keep in mind the orientation, use hole positions as a guide.</text>
 				<images>
 					<image>img/Parts/M-P5.jpg</image>
 					<image>img/Mounting/DSC_6541.jpg</image>
@@ -1092,10 +1105,11 @@
 				<parts>
 					<part>Wedge left (M-P9)</part>
 					<part>Wedge right (M-P10)</part>
+					<part>2 M3 nuts (M-F11)</part>
 				</parts>
 			</step>
 			<step>
-				<text>Insert the laser pointer (E-9) trough the hole in the laser mount. Insert both wedges into the laser mount.</text>
+				<text>Insert the laser pointer (E-9) trough the hole in the laser mount, it must sit in the rubber. Insert both wedges into the laser mount.</text>
 				<images>
 					<image>img/Parts/E-9.jpg</image>
 					<image>img/Mounting/DSC_6135.jpg</image>
@@ -1172,53 +1186,6 @@
 					<part>SFP mount (M-P2)</part>
 					<part>Inner SFP mount (M-P14)</part>
 					<part>SFP module (E-8)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Take the 3D printed SFP mount part (M-P2).</text>
-				<images>
-					<image>img/Parts/M-P2a.jpg</image>
-					<image>img/Parts/M-P2b.jpg</image>
-					<image>img/Parts/M-P2c.jpg</image>
-					<image>img/Parts/M-P2d.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>SFP mount (M-P2)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Push 4 sliding bushings (M-O6) in holes from the bottom...</text>
-				<images>
-					<image>img/Parts/M-O6.jpg</image>
-					<image>img/SFP Mount/DSC_6152.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>4 sliding bushings (M-O6)</part>
-				</parts>
-			</step>
-			<step>
-				<text>... and two from the top. Check that the peace easily slides on the rods. If it does not slide nicely, take bushings out and ream holes again.</text>
-				<images>
-					<image>img/Parts/M-O6.jpg</image>
-					<image>img/SFP Mount/DSC_6150.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>2 sliding bushings (M-O6)</part>
-				</parts>
-			</step>
-			<step>
-				<text>Insert two M4 square nuts (M-F12) in provided slots on the SFP mount part. Nuts must go the whole way in, use screwdriver if needed.</text>
-				<images>
-					<image>img/SFP Mount/DSC_6154.jpg</image>
-					<image>img/SFP Mount/DSC_6155.jpg</image>
-					<image>img/Parts/M-F12.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>2 M4 square nuts (M-F12)</part>
 				</parts>
 			</step>
 			<step>
@@ -1332,7 +1299,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Insert the TORX M3x10 screw (M-F6) to hold the board in place. Place a M3 washer (M-F14) between board and SFP mount. Fast the screw with the M3 square nut (M-F11). Tighten the M3x10 TORX screw on inner SFP mount (M-P14) .</text>
+				<text>Place a M3 washer (M-F14) between board and SFP mount. Insert the TORX M3x10 screw (M-F6) to hold the board in place. Fast the screw with the M3 square nut (M-F11). Tighten the M3x10 TORX screw on inner SFP mount (M-P14) .</text>
 				<images>
 					<image>img/SFP Mount/DSC_6191.jpg</image>
 					<image>img/SFP Mount/DSC_6192.jpg</image>
@@ -1346,6 +1313,18 @@
 					<part>TORX M3x10 screw (M-F6)</part>
 					<part>M3 washer (M-F14)</part>
 					<part>M3 square nut (M-F11)</part>
+				</parts>
+			</step>
+			<step>
+				<text>Insert two M4 square nuts (M-F12) in provided slots on the SFP mount part. Nuts must go the whole way in, use screwdriver if needed.</text>
+				<images>
+					<image>img/SFP Mount/DSC_6154.jpg</image>
+					<image>img/SFP Mount/DSC_6155.jpg</image>
+					<image>img/Parts/M-F12.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+				<parts>
+					<part>2 M4 square nuts (M-F12)</part>
 				</parts>
 			</step>
 			<step>
@@ -1423,7 +1402,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Mount motors with two HEX socket M4x70 screws (M-F8) trough the mount. Heads must be aligned with the motor. </text>
+				<text>Mount motor with two HEX socket M4x70 screws (M-F8) trough the mount. End part of screws must be aligned with the bottom of the motor mount. </text>
 				<images>
 					<image>img/SFP Mount/DSC_6210.jpg</image>
 					<image>img/SFP Mount/DSC_6211.jpg</image>
@@ -1578,22 +1557,6 @@
 				</parts>
 			</step>
 			<step>
-				<text>Insert six M4 square nuts (M-F12) into the provided slots.</text>
-				<images>
-					<image>img/Motor Mount/DSC_6238.jpg</image>
-					<image>img/Motor Mount/DSC_6239.jpg</image>
-					<image>img/Motor Mount/DSC_6240.jpg</image>
-					<image>img/Motor Mount/DSC_6241.jpg</image>
-					<image>img/Motor Mount/DSC_6242.jpg</image>
-					<image>img/Motor Mount/DSC_6243.jpg</image>
-					<image>img/Parts/M-F12.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-				<parts>
-					<part>6 M4 square nuts (M-F12)</part>
-				</parts>
-			</step>
-			<step>
 				<text>Insert one M3 square nut (M-F11) into the slot on top. Take pin with hole (M-P18) and attach it to the part with M3x10 TORX screw.</text>
 				<images>
 					<image>img/Motor Mount/DSC_6244.jpg</image>
@@ -1611,8 +1574,9 @@
 				</parts>
 			</step>
 			<step>
-				<text>Insert two HEX socket M4x12 screws (M-F7) into provided holes.</text>
+				<text>Insert two M4 square nuts (M-F12) into the slots. Then insert two HEX socket M4x12 screws (M-F7) into provided holes.</text>
 				<images>
+					<image>img/Motor Mount/DSC_6240.jpg</image>
 					<image>img/Motor Mount/DSC_6249.jpg</image>
 					<image>img/Motor Mount/DSC_6250.jpg</image>
 					<image>img/Parts/M-F7.jpg</image>
@@ -1620,6 +1584,7 @@
 				<video>video/vid-dummy.mp4</video>
 				<parts>
 					<part>2 screws HEX socket M4x12 (M-F7)</part>
+					<part>2 M4 square nuts (M-F12)</part>
 				</parts>
 			</step>
 			<step>
@@ -1700,7 +1665,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Take two HEX socket M4x45 screws (M-F5). Insert  screws into provided holes trough the motor. Tighten screws all the way to the motor mounting tab. Repeat for the other motor.</text>
+				<text>Take two HEX socket M4x45 screws (M-F5) and two M4 square nuts (M-F12). Insert the nuts into the provided slots. Insert  screws into provided holes trough the motor. Tighten screws all the way to the motor mounting tab. Repeat for the other motor.</text>
 				<images>
 					<image>img/Motor Mount/DSC_6267.jpg</image>
 					<image>img/Motor Mount/DSC_6268.jpg</image>
@@ -1712,7 +1677,8 @@
 				</images>
 				<video>video/vid-dummy.mp4</video>
 				<parts>
-					<part>2 screws HEX socket M4x45 (M-F5)</part>
+					<part>4 screws HEX socket M4x45 (M-F5)</part>
+					<part>4 M4 square nuts (M-F12)</part>
 				</parts>
 			</step>
 			<step>
@@ -1874,6 +1840,14 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
+				<text>Take the assembled media converter mount and insert it on the rails such that it sits just below the SATA connector. Optional: you may disconnect the SATA cable during the procedure. </text>
+				<images>
+					<image>img/Mechanical/DSC_6323.jpg</image>
+					<image>img/Mechanical/DSC_6324.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
 				<text>Attach SATA cable to SFP extension socket board and plug the IDC cable to the left slot on the PCB board.</text>
 				<images>
 					<image>img/Mechanical/DSC_6326.jpg</image>
@@ -1893,14 +1867,7 @@
 					<part>IDC cable long (E-14)</part>
 				</parts>
 			</step>
-			<step>
-				<text>Take the assembled media converter mount and insert it on the rails such that it sits just below the SATA connector. Optional: you may disconnect the SATA cable during the procedure. </text>
-				<images>
-					<image>img/Mechanical/DSC_6323.jpg</image>
-					<image>img/Mechanical/DSC_6324.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
+			
 			<step>
 				<text>Prepare the Philips media converter. Take the power supply cable with the connector (E-19) and plug it in the power socket. </text>
 				<images>
@@ -1922,21 +1889,22 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Place the media converter next to the rails. Turn it so that the UTP and SFP ports are pointing upwards and and TP-link title towards the KORUZA assembly. Plug in the PCB socket. </text>
+				<text>Place the media converter next to the rails. Turn it so that the UTP and SFP ports are pointing upwards and and TP-link title towards the KORUZA assembly.</text>
 				<images>
 					<image>img/Mechanical/DSC_6337.jpg</image>
-					<image>img/Mechanical/DSC_6343.jpg</image>
-					<image>img/Mechanical/DSC_6344.jpg</image>
+					
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text> Use four TORX M3x10 screws, already inserted in holes, to attach brackets to the laser mount and media converter mount. </text>
+				<text> Use four TORX M3x10 screws, already inserted in holes, to attach brackets to the laser mount and media converter mount.  Plug in the PCB socket.  </text>
 				<images>
 					<image>img/Mechanical/DSC_6339.jpg</image>
 					<image>img/Mechanical/DSC_6340.jpg</image>
 					<image>img/Mechanical/DSC_6346.jpg</image>
 					<image>img/Mechanical/DSC_6347.jpg</image>
+					<image>img/Mechanical/DSC_6343.jpg</image>
+					<image>img/Mechanical/DSC_6344.jpg</image>
 					<image>img/Mechanical/DSC_6348.jpg</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
