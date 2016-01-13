@@ -59,7 +59,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>SFP mount: Re-drill four holes with 11mm drill or reamer.</text>
+				<text>SFP mount: Re-drill four holes with 10mm drill or reamer.</text>
 				<images>
 					<image>img/Parts/M-P2a.jpg</image>
 					<image>img/Manufacturing/DSC_5785.jpg</image>
@@ -644,7 +644,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Take the Philips media converter (E-13) and insert the SFP plug.</text>
+				<text>Take the TP-Link media converter (E-13) and insert the SFP plug.</text>
 				<images>
 						<image>img/Parts/E-13.jpg</image>
 						<image>img/Electronics-test/DSC_5965.jpg</image>
@@ -1416,7 +1416,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Prepare the Philips media converter (E-13) and four brackets (M-P16).</text>
+				<text>Prepare the TP-Link media converter (E-13) and four brackets (M-P16).</text>
 				<images>
 					<image>img/SFP Mount/DSC_6215.jpg</image>
 					<image>img/Parts/E-13.jpg</image>
@@ -1429,7 +1429,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Remove four screws from the Philips media converter.</text>
+				<text>Remove four screws from the TP-Link media converter.</text>
 				<images>
 					<image>img/SFP Mount/DSC_6216.jpg</image>
 					<image>img/SFP Mount/DSC_6217.jpg</image>
@@ -1540,7 +1540,7 @@
 				</images>
 				<video>video/vid-dummy.mp4</video>
 				<parts>
-					<part>2 screws HEX socket M4x12 (M-F7)</part>
+					<part>4 screws HEX socket M4x12 (M-F7)</part>
 				</parts>
 			</step>
 			<step>
@@ -1869,7 +1869,7 @@
 			</step>
 			
 			<step>
-				<text>Prepare the Philips media converter. Take the power supply cable with the connector (E-19) and plug it in the power socket. </text>
+				<text>Prepare the TP-Link media converter. Take the power supply cable with the connector (E-19) and plug it in the power socket. </text>
 				<images>
 					<image>img/Mechanical/DSC_6330.jpg</image>
 					<image>img/Mechanical/DSC_6331.jpg</image>
@@ -1921,7 +1921,7 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
-				<text>Connect motors to the PCB on top. Connect the z-motor (located next to the SFP module) to the first connector, the y-motor (facing the media converter) to the second and x-motor to the last connector. </text>
+				<text>Connect motors to the PCB on top. Connect the z-motor (located next to the SFP module) to the first F-connector, the y-motor (facing the media converter) to the second and x-motor to the last connector. </text>
 				<images>
 					<image>img/Mechanical/DSC_6354.jpg</image>
 					<image>img/Mechanical/DSC_6355.jpg</image>
