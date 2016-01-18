@@ -1,7 +1,9 @@
 #KORUZA User Guide
 
+- [Koruza Mounting](#Koruza-Mounting)
+- [Koruza Mounting](#Koruza-Mounting-2)
 
-##Koruza Mounting
+##Koruza Mounting <a id="Koruza-Mounting"></a>
 
 **Step 1:** Prepare KORUZA unit in the aluminium enclosure.
 
@@ -50,3 +52,4 @@
 
 ___
 
+##Koruza Mounting <a id="Koruza-Mounting-2"></a>
