@@ -43,11 +43,10 @@
 
 **Step 10:** Tighten the nuts. 
 
-![Koruza-Mounting](https://raw.githubusercontent.com/IRNAS/KORUZA-instructions/gh-pages/img/koruza-user-guide/koruza-mount-13.jpg)
+![Koruza-Mounting](https://raw.githubusercontent.com/IRNAS/KORUZA-instructions/gh-pages/img/koruza-user-guide/koruza-mount-11.jpg)
 
 **Step 11:** Similarity, you can mount the unit on a horizontal pole. 
 
-![Koruza-Mounting](https://raw.githubusercontent.com/IRNAS/KORUZA-instructions/gh-pages/img/koruza-user-guide/koruza-mount-15.jpg)
 ![Koruza-Mounting](https://raw.githubusercontent.com/IRNAS/KORUZA-instructions/gh-pages/img/koruza-user-guide/koruza-mount-14.jpg)
 
 **Step 12:** For fine alignment of Koruza in horizontal direction move nuts on both sides of L profile on 160 mm M8 bolt. 
