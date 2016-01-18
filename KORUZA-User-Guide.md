@@ -1,7 +1,6 @@
 #KORUZA User Guide
 
 - [Koruza Mounting](#Koruza-Mounting)
-- [Koruza Mounting](#Koruza-Mounting-2)
 
 ##Koruza Mounting <a id="Koruza-Mounting"></a>
 
@@ -52,4 +51,4 @@
 
 ___
 
-##Koruza Mounting <a id="Koruza-Mounting-2"></a>
+
