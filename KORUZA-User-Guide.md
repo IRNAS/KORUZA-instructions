@@ -58,6 +58,28 @@
 ![Koruza-Mounting](img/koruza-user-guide/fine-align-3.jpg)
 ![Koruza-Mounting](img/koruza-user-guide/fine-align-4.jpg)
 
+
+**Step 14:** Connect KORUZA units to the network and power. Connect management 100Mbps ethernet port (top one) to the PoE port of the PoE injector and connect LAN port to your local network. Koruza acquires a DHCP lease from the network and the management interface can be accessed via http://<name of koruza>.local or the IP address allocated of it. The default name of the unit is koruza and thus accessible via http://koruza.local.
+
+**Step 15:** Connect KORUZA data port 1Gbps (bottom one) to your network. Note once the wireless link is established, the two networks you are connecting will be bridged.
+
+**Step 16:** Make sure units are powered up by observing a blinking light on the back cover of each KORUZA unit. Now the task is to aim the two KORUZA units at eachother.
+
+**Step 17:** Access KORUZA web interface http://<name of koruza>.local or the IP address allocated to it. Note that your computer must be connected to the same network as KORUZA management interface.
+
+**Step 18:** On KORUZA web interface choose Login and use default username: `pi` and password: `raspberry`.
+
+**Step 19:** Under section *Motor status* enable `Green laser enabled` and the green pointing laser will turn on. Use the M10 nuts as shown in steps 12 and 13 to aim the green laser at the opposite unit. At 100m distance you should be able to get it within 50cm of the unit, but align as accurately as possible.
+
+**Step 20:** Repeat the process on the other unit.
+
+**Step 21:** Use the motorized alignment to fine-tune the alignment untill you see under section *SFP status* the value of `RX power` rise above 5dB, the optimal value being above 20dB. Motorized alignment is performed with *wasd* keys, *w=up , a=right, d=left, s=down*, but making sure the `Keyboard motor control enabled` is on. The slider position determines how fine the step of each keystroke is. At 100m use the slider position in the lower third.
+
+**Step 22:** Repeat the process on the opposite unit.
+
+**Step 23:** If both units receive above 20dB of RX optical power, then the process is complete. Otherwise repeat stepo 19-21.
+
+
 ___
 
 
