@@ -6,7 +6,7 @@
 
 **Step 1:** Prepare KORUZA unit in the aluminium enclosure.
 
-![Koruza-Mounting](https://raw.githubusercontent.com/IRNAS/KORUZA-instructions/gh-pages/img/koruza-user-guide/koruza-mount-1.jpg)
+![Koruza-Mounting](img/koruza-user-guide/koruza-mount-1.jpg)
 
 **Step 2:** Take the antenna holder set (M-E4) and unscrew three M8 nuts with washers.
 
