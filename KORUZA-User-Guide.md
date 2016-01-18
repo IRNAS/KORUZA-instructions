@@ -65,7 +65,7 @@
 
 **Step 16:** Make sure units are powered up by observing a blinking light on the back cover of each KORUZA unit. Now the task is to aim the two KORUZA units at eachother.
 
-**Step 17:** Access KORUZA web interface http://<name of koruza>.local or the IP address allocated to it. Note that your computer must be connected to the same network as KORUZA management interface.
+**Step 17:** Access KORUZA web interface http://name of koruza.local or the IP address allocated to it. Note that your computer must be connected to the same network as KORUZA management interface.
 
 **Step 18:** On KORUZA web interface choose Login and use default username: `pi` and password: `raspberry`.
 
