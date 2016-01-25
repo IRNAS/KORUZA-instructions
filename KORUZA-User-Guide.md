@@ -1,6 +1,8 @@
 #KORUZA User Guide
 
 - [Koruza Mounting](#Koruza-Mounting)
+- [Koruza Power up](#Power-up)
+
 
 ##Koruza Mounting <a id="Koruza-Mounting"></a>
 
@@ -58,6 +60,7 @@
 ![Koruza-Mounting](img/koruza-user-guide/fine-align-3.jpg)
 ![Koruza-Mounting](img/koruza-user-guide/fine-align-4.jpg)
 
+##Koruza Power up <a id="Power-up"></a>
 
 **Step 14:** Connect KORUZA units to the network and power. Connect management 100Mbps ethernet port (top one) to the PoE port of the PoE injector and connect LAN port to your local network. Koruza acquires a DHCP lease from the network and the management interface can be accessed via http://<name of koruza>.local or the IP address allocated of it. The default name of the unit is koruza and thus accessible via http://koruza.local.
 
