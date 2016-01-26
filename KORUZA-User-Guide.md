@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 #KORUZA User Guide
 
 - [Koruza Mounting](#Koruza-Mounting)
@@ -57,6 +61,7 @@
 ![Koruza-Mounting](img/koruza-user-guide/fine-align-2.png)
 
 **Step 13:** For fine alignment of Koruza in vertical direction move two nuts on bottom surface of L-profile.
+
 ![Koruza-Mounting](img/koruza-user-guide/fine-align-3.jpg)
 ![Koruza-Mounting](img/koruza-user-guide/fine-align-4.jpg)
 
