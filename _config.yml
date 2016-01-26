@@ -4,3 +4,5 @@ baseurl:
 
 # gems: 
 #  - jekyll-sitemap
+
+production_url : http://instructions.koruza.net
