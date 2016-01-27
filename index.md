@@ -7,7 +7,7 @@ Wireless optical system KORUZA is documented on GitHub, using best practices of 
 
 ##Assembly Instructions 
 
-[KORUZA Instructions](http://instructions.koruza.net/instructions.html) - Step by step assembly instructions on how to build KORUZA units, including photo tutorial, best to be used with a DIY KORUZA assembly kit available at [Fabrikor](http://fabrikor.eu)
+[KORUZA Instructions](http://instructions.koruza.net/instructions) - Step by step assembly instructions on how to build KORUZA units, including photo tutorial, best to be used with a DIY KORUZA assembly kit available at [Fabrikor](http://fabrikor.eu)
 
 ---
 
