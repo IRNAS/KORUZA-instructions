@@ -46,5 +46,5 @@ Should you need any help with KORUZA, get in touch with others involved in the p
 
 [CHAT](https://chat.irnas.eu/) – Join our chat group for real time collaboration with IRNAS team members and others working on Koruza system.
 
-[FORUM](http://forum.irnas.eu/) – We recommend using a forum for help, so that the information will be preserved.
+[FORUM](http://forum.irnas.eu/) – We recommend using a forum for help, so the information will be preserved.
 
