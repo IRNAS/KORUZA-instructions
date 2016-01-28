@@ -29,6 +29,9 @@ KORUZA project source documentation is available in a number of GitHub repositor
 
 [UniversalUnipolarStepperController](https://github.com/IRNAS/UniversalUnipolarStepperController) – Here you can find documentation for universal controller for unipolar stepper motors with encoders and end switches.
 
+[koruza-testing](https://github.com/IRNAS/KORUZA-testing) – Test scripts for fuse in artificial fog tunnel and generalk testing, primary useful for scientific applications.
+
+
 ---
 
 ##Nodewatcher
