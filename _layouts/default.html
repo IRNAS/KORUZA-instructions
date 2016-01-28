@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1;IE=edge">
-    <title>KORUZA Documentation{% if page.title %} :: {{ page.title }}{% endif %}</title>
+    <title>{% if page.title %} :: {{ page.title }}{% endif %}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
     <link rel="stylesheet" href="{{ ASSET_PATH }}/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="{{ ASSET_PATH }}/stylesheets/main.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
   </head>
 
   <body>

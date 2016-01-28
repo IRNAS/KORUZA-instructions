@@ -6,6 +6,10 @@ title: "Koruza Documentation"
 #KORUZA DOCUMENTATION
 Wireless optical system KORUZA is documented on GitHub, using best practices of software design to allow colaborative editing. See the [KORUZA-instructions](https://github.com/IRNAS/KORUZA-instructions) GitHub repository for proposing changes and reporting issues and see the links below for reading friendly version.
 
+##KORUZA Overview
+
+[KORUZA Overview](http://instructions.koruza.net/overview) – Read this overview to get the basic understanding of the technical operation of KORUZA 
+
 ##Assembly Instructions 
 
 [KORUZA Instructions](http://instructions.koruza.net/instructions) - Step by step assembly instructions on how to build KORUZA units, including photo tutorial, best to be used with a DIY KORUZA assembly kit available at [Fabrikor](http://fabrikor.eu)
@@ -16,7 +20,7 @@ Wireless optical system KORUZA is documented on GitHub, using best practices of 
 
 ##User Manual
 
-[User Manual](http://instructions.koruza.net/user-manual) - Instructions on how to mount, power up the KORUZA system and establish a wireless optical link.
+[User Manual](http://instructions.koruza.net/user-manual) – Instructions on how to mount, power up the KORUZA system and establish a wireless optical link.
 
 ---
 
