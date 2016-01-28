@@ -23,19 +23,19 @@
 			<div id="imgPage">
 			
 				<div id="imgWrap" tabindex=1>	
-					<img id="stepImage">
+					<img id="stepImage" onerror="imgError(this);"/>
 				</div>
 				
 				<div id="smImg">
 
-					<img id="stepImage1" onclick="changePhoto(this.id)">
-					<img id="stepImage2" onclick="changePhoto(this.id)">
-					<img id="stepImage3" onclick="changePhoto(this.id)">
-                    <img id="stepImage4" onclick="changePhoto(this.id)">
-					<img id="stepImage5" onclick="changePhoto(this.id)">
-					<img id="stepImage6" onclick="changePhoto(this.id)">
-					<img id="stepImage7" onclick="changePhoto(this.id)">
-					<img id="stepImage8" onclick="changePhoto(this.id)">
+					<img id="stepImage1" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
+					<img id="stepImage2" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
+					<img id="stepImage3" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
+                    <img id="stepImage4" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
+					<img id="stepImage5" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
+					<img id="stepImage6" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
+					<img id="stepImage7" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
+					<img id="stepImage8" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
 						
 				</div>
 				
@@ -85,6 +85,13 @@
 </div>
 
 <script>
+
+//Missing photo fallback
+function imgError(image) {
+    image.onerror = "";
+    image.src = "img/fallback.png";
+    return true;
+}
 
 // Allow movement with keyboard
 document.onkeydown = function(evt) {
