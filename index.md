@@ -44,7 +44,7 @@ KORUZA project source documentation is available in a number of GitHub repositor
 ##Support
 Should you need any help with KORUZA, get in touch with others involved in the project and Institute IRNAS team via:
 
-[CHAT](https://chat.irnas.eu/)
+[CHAT](https://chat.irnas.eu/) – Join our chat group for real time collaboration with IRNAS team members and others working on Koruza system.
 
-[FORUM](http://forum.irnas.eu/)
+[FORUM](http://forum.irnas.eu/) – We recommend using a forum for help, so that the information will be preserved.
 
