@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Koruza Overview"
 ---
 
 # Understanding the technical operation of KORUZA
