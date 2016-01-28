@@ -71,7 +71,7 @@ title: "User Manual"
 
 **Step 14:** Connect KORUZA units to the network and power. Connect management 100Mbps ethernet port (top one) to the PoE port of the PoE injector and connect LAN port to your local network. Koruza acquires a DHCP lease from the network and the management interface can be accessed via http://<name-of-koruza>.local or the IP address allocated of it. The default name of the unit is koruza and thus accessible via http://koruza.local.
 
-![Koruza-System](instructions/img/user-manual/koruza1.jpg)
+![Koruza-System](instructions/img/user-manual/koruza1.png)
 
 **Step 15:** Connect KORUZA data port 1Gbps (bottom one) to your network. Note once the wireless link is established, the two networks you are connecting will be bridged.
 
