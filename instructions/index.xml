@@ -2333,6 +2333,172 @@
 		</steps>
 	</module>
 	<module>
+		<name>Inserting in enclosure</name>
+		<steps>
+			<step>
+				<text>KORUZA internal system is assembled and tested. Enclosure is assembled. Now we will assemble the two together.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>The lid with control electronics must be disconnected from the main KORUZA unit. Disconnect the ethernet cable from the media converter. Disconnect the flat micromatch cable from the motor controller board. Disconnect the IDC cable from the RPi shield. Disconnect the power cable from the RPi shield.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>The lid with control electronics must be disconnected from the main KORUZA unit. Disconnect the ethernet cable from the media converter. Disconnect the flat micromatch cable from the motor controller board. Disconnect the IDC cable from the RPi shield. Disconnect the power cable from the RPi shield.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Remove the 4 M4 screws with washers from the inner mounting ring.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Cut the excess rubber with an utility knife, such that the knife is placed flat with the surface of the 3d printed part. Do this on all 4 sides.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Cut the excess rubber with an utility knife, such that the knife is placed flat with the surface of the 3d printed part. Do this on all 4 sides.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Sand or otherwise remove any sharp edges on the ends of the square tube of the enclosure. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Insert the maint KORUZA part into the enclosure from the curved side of the enclosure, such that the media converter is pointing towards the bottom - the attachment bracket. It is a tight fit, you may need to push it in a bit harder, help yourself with a screwdriver or sand the edges of the unit a bit.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>The 4 screws must be inserted exactly in the right order, as the unit is pressed in the enclosure such that the rubber exerts a force on the unit.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Orientate the unit such that you are looking at it from the front (looking in through the lens), such that the mounting bracket is towards you.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Insert the right top screw from this orientation, adjust the depth of the main part such that the hole aligns. Do not tighten the screw. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Insert the right bottom screw by pushing on the bottom right corner until the hole aligns. Do not tighten the screw. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Insert the left top screw by pushing on the left top corner until the hole aligns. Do not tighten the screw. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Insert the left bottom screw by pushing on the left bottom corner until the hole aligns. Do not tighten the screw. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Moderately tighten the 4 screws. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Connect the ethernet cable into the media converter.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Put the pin with triangle on the spring. Push the spring in the enclosure such that it sits on the pin inside. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Connect the micro-match cable to the  motor controller. Mind the polarity.</text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Connect the IDC and power cables to the RPi shield. Mind the polarity </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Insert lid into the enclosure, such that the waterproof ethernet connectors are pointing downwards - towards the monting bracket. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Insert two M3 TORX screws through the holes in the enclosure to hold the lis shut. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Use an electrical or other outdoor suitable tape around the edge of the enclosure to make it watertight. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+            <step>
+				<text>Tighten the 9 screws around the outer edge in the front of the unit. This pushes the rubber out and creates a seal. Should you take the unit apart, remeber to release these screws first. </text>
+				<images>
+					<image>img/Inserting/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+        </steps>
+	</module>
+	<module>
 		<name>Calibration</name>
 		<steps>
 			<step>
