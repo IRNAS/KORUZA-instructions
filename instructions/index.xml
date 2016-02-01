@@ -2333,57 +2333,6 @@
 		</steps>
 	</module>
 	<module>
-		<name>Enclosure mounting</name>
-		<steps>
-			<step>
-				<text> Once KORUZA is inserted into the aluminium enclosure, the system can be mounted. Keep in mind the mounting pole can be oriented horizontally or vertically. You can adjust the position by loosening nuts and rotating the mount in the U slot on L-profile, depending on orientation of the pole.</text>
-				<images>
-					<image>img/Enclosure-mounting/O-M-6.jpg</image>
-					<image>img/Enclosure-mounting/O-M-7.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
-				<text> Once the mount is in the desired position tighten the screws</text>
-				<images>
-					<image>img/Enclosure-mounting/O-M-8.jpg</image>
-					<image>img/Enclosure-mounting/O-M-9.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
-				<text> Now unit can be mounted on a pole (minum diameter of pole 30mm, maximum 70mm). You might find useful to remove washer and nut from each screw first.</text>
-				<images>
-					<image>img/Enclosure-mounting/O-M-10.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
-				<text> Put an M10 washer back on each screw. </text>
-				<images>
-					<image>img/Enclosure-mounting/O-M-11.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
-				<text>  Tighten the nuts.  </text>
-				<images>
-					<image>img/Enclosure-mounting/O-M-12.jpg</image>
-					<image>img/Enclosure-mounting/O-M-13.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-			<step>
-				<text>Similarly, you can mount the unit on a horizontal pole. </text>
-				<images>
-					<image>img/Enclosure-mounting/O-M-14.jpg</image>
-					<image>img/Enclosure-mounting/O-M-15.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-		</steps>
-	</module>
-		<module>
 		<name>Calibration</name>
 		<steps>
 			<step>
@@ -2460,6 +2409,57 @@
 				<text>Repeat the process of adjusting the green laser and focus if need be at 10m, 20m and 50m distances. Note that if your error of adjusting the green laser at 10m is 10mm, then at 100m it will be 100mm off, which is still managable, but you will need to run automatic algorithms to establish the optical link. </text>
 				<images>
 					<image>img/Calibration/none.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+		</steps>
+	</module>
+    <module>
+		<name>Enclosure mounting</name>
+		<steps>
+			<step>
+				<text> Once KORUZA is inserted into the aluminium enclosure, the system can be mounted. Keep in mind the mounting pole can be oriented horizontally or vertically. You can adjust the position by loosening nuts and rotating the mount in the U slot on L-profile, depending on orientation of the pole.</text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-6.jpg</image>
+					<image>img/Enclosure-mounting/O-M-7.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Once the mount is in the desired position tighten the screws</text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-8.jpg</image>
+					<image>img/Enclosure-mounting/O-M-9.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Now unit can be mounted on a pole (minum diameter of pole 30mm, maximum 70mm). You might find useful to remove washer and nut from each screw first.</text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-10.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text> Put an M10 washer back on each screw. </text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-11.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>  Tighten the nuts.  </text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-12.jpg</image>
+					<image>img/Enclosure-mounting/O-M-13.jpg</image>
+				</images>
+				<video>video/vid-dummy.mp4</video>
+			</step>
+			<step>
+				<text>Similarly, you can mount the unit on a horizontal pole. </text>
+				<images>
+					<image>img/Enclosure-mounting/O-M-14.jpg</image>
+					<image>img/Enclosure-mounting/O-M-15.jpg</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
