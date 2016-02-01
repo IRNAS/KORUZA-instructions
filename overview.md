@@ -19,7 +19,7 @@ Two KORUZA units are used such that they are a matched pair, one transmitting at
 
 To be able to install the system in real-world aplication as it uses an invisible optical beam, there is a secondary green laser in each unit, which we turn on to see where the invisible infrared beam is pointing. When the units were assembled a calibration procedure is used to make sure they both point in the same direction.
 
-#System assembly
+##System assembly
 
 The design exploits the bi-directional optical path via a single plano-convex lens, as SFP Bi-Di modules inherently have coaxial receiving and transmitting optical axes for aiming the collimated beam at a distant complementary pair, that places the focal point of the received beam sufficiently in the SFP module focal point. The infra-red collimated beam is experimentally aligned with manual theta-phi stage to be parallel with the green auxiliary laser beam, that is used as a visual aid for initial coarse manual alignment. By exploiting the SFP module digital monitoring mode, the received IR optical power is monitored by the control system, establishing the IR beam lock-in condition after initial manual aiming using the green aiming laser. Based on the real-time received optical power, the units are precisely aligned with motorized X and Y micrometer stages to maximize the optical power.
 
