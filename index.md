@@ -8,7 +8,7 @@ Wireless optical system KORUZA is documented on GitHub, using best practices of 
 
 ##KORUZA Overview
 
-[KORUZA Overview](http://instructions.koruza.net/overview) – Read this overview to get the basic understanding of the technical operation of KORUZA 
+[KORUZA Overview](http://instructions.koruza.net/overview) – Read this overview to get the basic understanding of the technical operation of KORUZA.
 
 ##Assembly Instructions 
 
