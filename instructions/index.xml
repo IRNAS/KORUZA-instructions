@@ -2363,143 +2363,143 @@
             <step>
 				<text>Cut the excess rubber with an utility knife, such that the knife is placed flat with the surface of the 3d printed part. Do this on all 4 sides.</text>
 				<images>
-					<image>img/Inserting/inserting-08.jpg</image>
-					<image>img/Inserting/inserting-09.jpg</image>
+					<image>img/Inserting/inserting-08.JPG</image>
+					<image>img/Inserting/inserting-09.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Sand or otherwise remove any sharp edges on the ends of the square tube of the enclosure. </text>
 				<images>
-					<image>img/Inserting/inserting-10.jpg</image>
-					<image>img/Inserting/inserting-11.jpg</image>
-					<image>img/Inserting/inserting-12.jpg</image>
+					<image>img/Inserting/inserting-10.JPG</image>
+					<image>img/Inserting/inserting-11.JPG</image>
+					<image>img/Inserting/inserting-12.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Insert the maint KORUZA part into the enclosure from the curved side of the enclosure, such that the media converter is pointing towards the bottom - the attachment bracket. It is a tight fit, you may need to push it in a bit harder, help yourself with a screwdriver or sand the edges of the unit a bit.</text>
 				<images>
-					<image>img/Inserting/inserting-13.jpg</image>
-					<image>img/Inserting/inserting-14.jpg</image>
-					<image>img/Inserting/inserting-15.jpg</image>
-					<image>img/Inserting/inserting-16.jpg</image>
+					<image>img/Inserting/inserting-13.JPG</image>
+					<image>img/Inserting/inserting-14.JPG</image>
+					<image>img/Inserting/inserting-15.JPG</image>
+					<image>img/Inserting/inserting-16.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>The 4 screws must be inserted exactly in the right order, as the unit is pressed in the enclosure such that the rubber exerts a force on the unit.</text>
 				<images>
-					<image>img/Inserting/inserting-17.jpg</image>
+					<image>img/Inserting/inserting-17.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Orientate the unit such that you are looking at it from the front (looking in through the lens), such that the mounting bracket is towards you.</text>
 				<images>
-					<image>img/Inserting/inserting-17.jpg</image>
+					<image>img/Inserting/inserting-17.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Insert the right top screw from this orientation, adjust the depth of the main part such that the hole aligns. Do not tighten the screw. </text>
 				<images>
-					<image>img/Inserting/inserting-18.jpg</image>7
-					<image>img/Inserting/inserting-19.jpg</image>
+					<image>img/Inserting/inserting-18.JPG</image>7
+					<image>img/Inserting/inserting-19.JPG/image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Insert the right bottom screw by pushing on the bottom right corner until the hole aligns. Do not tighten the screw. </text>
 				<images>
-					<image>img/Inserting/inserting-20.jpg</image>
-					<image>img/Inserting/inserting-21.jpg</image>
+					<image>img/Inserting/inserting-20.JPG</image>
+					<image>img/Inserting/inserting-21.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Insert the left top screw by pushing on the left top corner until the hole aligns. Do not tighten the screw. </text>
 				<images>
-					<image>img/Inserting/inserting-22.jpg</image>
+					<image>img/Inserting/inserting-22.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Insert the left bottom screw by pushing on the left bottom corner until the hole aligns. Do not tighten the screw. </text>
 				<images>
-					<image>img/Inserting/inserting-23.jpg</image>
+					<image>img/Inserting/inserting-23.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Moderately tighten the 4 screws. </text>
 				<images>
-					<image>img/Inserting/inserting-24.jpg</image>
+					<image>img/Inserting/inserting-24.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Connect the ethernet cable into the media converter.</text>
 				<images>
-					<image>img/Inserting/inserting-25.jpg</image>
-					<image>img/Inserting/inserting-26.jpg</image>
+					<image>img/Inserting/inserting-25.JPG</image>
+					<image>img/Inserting/inserting-26.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Put the pin with triangle on the spring. Push the spring in the enclosure such that it sits on the pin inside. </text>
 				<images>
-					<image>img/Inserting/inserting-27.jpg</image>
-					<image>img/Inserting/inserting-28.jpg</image>
-					<image>img/Inserting/inserting-29.jpg</image>
+					<image>img/Inserting/inserting-27.JPG</image>
+					<image>img/Inserting/inserting-28.JPG</image>
+					<image>img/Inserting/inserting-29.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Connect the micro-match cable to the  motor controller. Mind the polarity.</text>
 				<images>
-					<image>img/Inserting/inserting-30.jpg</image>
-					<image>img/Inserting/inserting-31.jpg</image>
+					<image>img/Inserting/inserting-30.JPG</image>
+					<image>img/Inserting/inserting-31.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Connect the IDC and power cables to the RPi shield. Mind the polarity </text>
 				<images>
-					<image>img/Inserting/inserting-32.jpg</image>
-					<image>img/Inserting/inserting-33.jpg</image>
-					<image>img/Inserting/inserting-34.jpg</image>
+					<image>img/Inserting/inserting-32.JPG</image>
+					<image>img/Inserting/inserting-33.JPG</image>
+					<image>img/Inserting/inserting-34.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Insert lid into the enclosure, such that the waterproof ethernet connectors are pointing downwards - towards the monting bracket. </text>
 				<images>
-					<image>img/Inserting/inserting-35.jpg</image>
-					<image>img/Inserting/inserting-36.jpg</image>
+					<image>img/Inserting/inserting-35.JPG</image>
+					<image>img/Inserting/inserting-36.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Insert two M3 TORX screws through the holes in the enclosure to hold the lid shut. </text>
 				<images>
-					<image>img/Inserting/inserting-37.jpg</image>
+					<image>img/Inserting/inserting-37.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Use an electrical or other outdoor suitable tape around the edge of the enclosure to make it watertight. </text>
 				<images>
-					<image>img/Inserting/inserting-38.jpg</image>
-					<image>img/Inserting/inserting-39.jpg</image>
+					<image>img/Inserting/inserting-38.JPG</image>
+					<image>img/Inserting/inserting-39.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Tighten the 9 screws around the outer edge in the front of the unit. This pushes the rubber out and creates a seal. Should you take the unit apart, remeber to release these screws first. </text>
 				<images>
-					<image>img/Inserting/inserting-40.jpg</image>
-					<image>img/Inserting/inserting-41.jpg</image>
+					<image>img/Inserting/inserting-40.JPG</image>
+					<image>img/Inserting/inserting-41.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
@@ -2525,7 +2525,7 @@
 			<step>
 				<text>Place KORUZA units on a desk at about 1m distance, Place them upside-down and align them with the desk edge. Power them up and access the web interface.</text>
 				<images>
-					<image>img/Calibration/calibration-1.jpg</image>
+					<image>img/Calibration/calibration-1.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
@@ -2547,34 +2547,34 @@
 			<step>
 				<text>Remove the screw from the mid calibration hole with a small allen key. Prepare a larger allen key to be able to rotate the two M3 HEX SOCKET screws in the two side calibration holes.</text>
 				<images>
-					<image>img/Calibration/calibration-2.jpg</image>
+					<image>img/Calibration/calibration-2.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Adjust the two calibration screws, such that the green laser is pointing at the green alser of the opposite unit.</text>
 				<images>
-					<image>img/Calibration/calibration-3.jpg</image>
-					<image>img/Calibration/calibration-4.jpg</image>
-					<image>img/Calibration/calibration-5.jpg</image>
-					<image>img/Calibration/calibration-6.jpg</image>
-					<image>img/Calibration/calibration-7.jpg</image>
-					<image>img/Calibration/calibration-8.jpg</image>
+					<image>img/Calibration/calibration-3.JPG</image>
+					<image>img/Calibration/calibration-4.JPG</image>
+					<image>img/Calibration/calibration-5.JPG</image>
+					<image>img/Calibration/calibration-6.JPG</image>
+					<image>img/Calibration/calibration-7.JPG</image>
+					<image>img/Calibration/calibration-8.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Repeat the process at a larger distance, for example 5m. Note that once you point green lasers of the units at eachotehr, you will likely have an optical link established, otherwise nudge them around until you do. More finely adjust the green laser.</text>
 				<images>
-					<image>img/Calibration/calibration-9.jpg</image>
-					<image>img/Calibration/calibration-11.jpg</image>
+					<image>img/Calibration/calibration-9.JPG</image>
+					<image>img/Calibration/calibration-11.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Use motorized alignment to move the units and get the maximal optical power.</text>
 				<images>
-					<image>img/Calibration/calibration-10.jpg</image>
+					<image>img/Calibration/calibration-10.JPG</image>
 					<image>img/Calibration/5m_aligned_to_max.png</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
@@ -2601,46 +2601,46 @@
 			<step>
 				<text> Once KORUZA is inserted into the aluminium enclosure, the system can be mounted. Keep in mind the mounting pole can be oriented horizontally or vertically. You can adjust the position by loosening nuts and rotating the mount in the U slot on L-profile, depending on orientation of the pole.</text>
 				<images>
-					<image>img/Enclosure-mounting/O-M-6.jpg</image>
-					<image>img/Enclosure-mounting/O-M-7.jpg</image>
+					<image>img/Enclosure-mounting/O-M-6.JPG</image>
+					<image>img/Enclosure-mounting/O-M-7.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Once the mount is in the desired position tighten the screws</text>
 				<images>
-					<image>img/Enclosure-mounting/O-M-8.jpg</image>
-					<image>img/Enclosure-mounting/O-M-9.jpg</image>
+					<image>img/Enclosure-mounting/O-M-8.JPG</image>
+					<image>img/Enclosure-mounting/O-M-9.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Now unit can be mounted on a pole (minum diameter of pole 30mm, maximum 70mm). You might find useful to remove washer and nut from each screw first.</text>
 				<images>
-					<image>img/Enclosure-mounting/O-M-10.jpg</image>
+					<image>img/Enclosure-mounting/O-M-10.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text> Put an M10 washer back on each screw. </text>
 				<images>
-					<image>img/Enclosure-mounting/O-M-11.jpg</image>
+					<image>img/Enclosure-mounting/O-M-11.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>  Tighten the nuts.  </text>
 				<images>
-					<image>img/Enclosure-mounting/O-M-12.jpg</image>
-					<image>img/Enclosure-mounting/O-M-13.jpg</image>
+					<image>img/Enclosure-mounting/O-M-12.JPG</image>
+					<image>img/Enclosure-mounting/O-M-13.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
 			<step>
 				<text>Similarly, you can mount the unit on a horizontal pole. </text>
 				<images>
-					<image>img/Enclosure-mounting/O-M-14.jpg</image>
-					<image>img/Enclosure-mounting/O-M-15.jpg</image>
+					<image>img/Enclosure-mounting/O-M-14.JPG</image>
+					<image>img/Enclosure-mounting/O-M-15.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
