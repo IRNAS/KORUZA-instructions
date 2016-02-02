@@ -2364,13 +2364,6 @@
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
-				<text>Cut the excess rubber with an utility knife, such that the knife is placed flat with the surface of the 3d printed part. Do this on all 4 sides.</text>
-				<images>
-					<image>img/Inserting/none.jpg</image>
-				</images>
-				<video>video/vid-dummy.mp4</video>
-			</step>
-            <step>
 				<text>Sand or otherwise remove any sharp edges on the ends of the square tube of the enclosure. </text>
 				<images>
 					<image>img/Inserting/none.jpg</image>
