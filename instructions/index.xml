@@ -2338,25 +2338,25 @@
 			<step>
 				<text>KORUZA internal system is assembled and tested. Enclosure is assembled. Now we will assemble the two together.</text>
 				<images>
-					<image>img/Inserting/inserting-01.jpg</image>
+					<image>img/Inserting/inserting-01.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>The lid with control electronics must be disconnected from the main KORUZA unit. Disconnect the ethernet cable from the media converter. Disconnect the flat micromatch cable from the motor controller board. Disconnect the IDC cable from the RPi shield. Disconnect the power cable from the RPi shield.</text>
 				<images>
-					<image>img/Inserting/inserting-02.jpg</image>
-					<image>img/Inserting/inserting-03.jpg</image>
-					<image>img/Inserting/inserting-04.jpg</image>
-					<image>img/Inserting/inserting-05.jpg</image>
+					<image>img/Inserting/inserting-02.JPG</image>
+					<image>img/Inserting/inserting-03.JPG</image>
+					<image>img/Inserting/inserting-04.JPG</image>
+					<image>img/Inserting/inserting-05.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
             <step>
 				<text>Remove the 4 M4 screws with washers from the inner mounting ring.</text>
 				<images>
-					<image>img/Inserting/inserting-06.jpg</image>
-					<image>img/Inserting/inserting-07.jpg</image>
+					<image>img/Inserting/inserting-06.JPG</image>
+					<image>img/Inserting/inserting-07.JPG</image>
 				</images>
 				<video>video/vid-dummy.mp4</video>
 			</step>
