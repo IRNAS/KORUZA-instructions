@@ -92,22 +92,31 @@ height: 81vh;
 
 #imgWrap{
 width:44vw;
+height:30vw;
+height:60vh;
 margin-bottom:2vh;
 float: left;
 }
 
-#imgWrap:focus{
+
+
+#stepImage{
+max-width:100%;
+max-height:100%;
+/*float:left;*/
+cursor:pointer;
+vertical-align: middle;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#stepImage:focus{
 -webkit-transform: scale(1.5); -moz-transform: scale(1.5);
 -webkit-transform: translate(25vw,4vh) scale(1.5); -moz-transform: translate(25vw,4vh) scale(1.5);
 -webkit-box-shadow:0px 0px 50px 5px #b3b3b3; -moz-box-shadow: 0px 0px 50px 5px #b3b3b3; box-shadow:0px 0px 80px 10px black;
 z-index: 9999;
 
-}
-
-#stepImage{
-width: 100%;
-float:left;
-cursor:pointer;
 }
 
 #smImg{
@@ -122,9 +131,10 @@ overflow-x: auto;
 
 
 #stepImage1, #stepImage2, #stepImage3 , #stepImage4, #stepImage5, #stepImage6, #stepImage7, #stepImage8{
-width:11vw;
+max-width:11vw;
 max-height: -webkit-calc(79vh-29vw);
 max-height: -moz-calc(79vh-29vw);
+max-height:17vh;
 cursor:pointer;
 white-space: nowrap;
 }

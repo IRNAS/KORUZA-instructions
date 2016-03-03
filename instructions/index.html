@@ -14,7 +14,7 @@
 		<div id="title">
 			<h1 id="title1"></h1>
 			<h2 id="title2"></h2>
-            <input id="bom" type="button" value="Bill Of Materials" onclick="window.open('bom.html')">
+            <input id="bom" type="button" value="Bill Of Materials" onclick="window.open('http://instructions.koruza.net/bom')">
 		</div>
 		
 		<div id="instPage">
@@ -22,20 +22,20 @@
 			
 			<div id="imgPage">
 			
-				<div id="imgWrap" tabindex=1>	
-					<img id="stepImage" onerror="imgError(this);"/>
+				<div id="imgWrap">	
+					<img id="stepImage" tabindex=1>
 				</div>
 				
 				<div id="smImg">
 
-					<img id="stepImage1" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
-					<img id="stepImage2" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
-					<img id="stepImage3" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
-                    <img id="stepImage4" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
-					<img id="stepImage5" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
-					<img id="stepImage6" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
-					<img id="stepImage7" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
-					<img id="stepImage8" onclick="changePhoto(this.id)" onerror="imgError(this);"/>
+					<img id="stepImage1" onclick="changePhoto(this.id)">
+					<img id="stepImage2" onclick="changePhoto(this.id)">
+					<img id="stepImage3" onclick="changePhoto(this.id)">
+                    <img id="stepImage4" onclick="changePhoto(this.id)">
+					<img id="stepImage5" onclick="changePhoto(this.id)">
+					<img id="stepImage6" onclick="changePhoto(this.id)">
+					<img id="stepImage7" onclick="changePhoto(this.id)">
+					<img id="stepImage8" onclick="changePhoto(this.id)">
 						
 				</div>
 				
@@ -85,13 +85,6 @@
 </div>
 
 <script>
-
-//Missing photo fallback
-function imgError(image) {
-    image.onerror = "";
-    image.src = "img/fallback.png";
-    return true;
-}
 
 // Allow movement with keyboard
 document.onkeydown = function(evt) {
