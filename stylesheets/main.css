@@ -4,6 +4,9 @@ body{
 }
 
 .current{
-background: black;
-color:green;
+background: #E7E7E7;
+}
+
+.navbar-nav{
+	margin-left:50px;
 }
