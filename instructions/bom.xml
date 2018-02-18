@@ -403,7 +403,7 @@
             <name>8mm stainless steel rod – 200mm </name>
             <id>M-O2</id>
             <q>4</q>
-            <img>img/Parts/M-O4.jpg</img>
+            <img>img/Parts/M-O2.jpg</img>
         </part>
         <part>
             <name>Lens</name>
@@ -416,7 +416,7 @@
             <name>Spring 10x20x0.7mm </name>
             <id>M-O4</id>
             <q>2</q>
-            <img>img/Parts/M-O2.jpg</img>
+            <img>img/Parts/M-O4.jpg</img>
         </part>
         <part>
             <name>Sliding bushing </name>
