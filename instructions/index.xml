@@ -404,7 +404,7 @@
 				</parts>
 			</step>
 			<step>
-				<text>Take the Micro SD card and load firmware. Follow the instructions here. </text>
+				<text>Take the Micro SD card and load firmware. <a href="https://github.com/IRNAS/koruza-pi">Follow the instructions here.</a></text>
 				<images>
 					<image>img/Electronics/DSC_5911.jpg</image>
 				</images>
